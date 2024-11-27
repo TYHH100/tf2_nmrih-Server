@@ -1,0 +1,62 @@
+"Phrases"
+{
+	"Objective Has Changed"
+	{
+		"chi"	"任务已更改，请重新打开菜单"
+	}
+
+	"Softlock Vote Success"
+	{
+		"chi"	"恢复在初始任务物品位置"
+	}
+
+	"Softlock Vote Description"
+	{
+		"chi"	"恢复丢失的任务物品"
+	}
+
+	"Hit Recovery Limit"
+	{
+		"chi"	"此物品已被恢复太多次"
+	}
+
+	"No Items"
+	{
+		"chi"	"没有可恢复的物品"
+	}
+
+	"Softlock Panel Title"
+	{
+		"chi"	"Cycle through the available objective items"
+	}
+
+	"Softlock Panel Next"
+	{
+		"chi"	"下一个"
+	}
+
+	"Softlock Panel Prev"
+	{
+		"chi"	"上一个"
+	}
+
+	"Softlock Panel Recover Hint"
+	{
+		"chi"	"找到正确的物品后，投票以恢复它"
+	}	
+
+	"Softlock Panel Recover"
+	{
+		"chi"	"投票恢复"
+	}
+
+	"Softlock Panel Exit"
+	{
+		"chi"	"退出"
+	}
+
+	"Objective Skip"
+	{
+		"chi"	"Objective skip detected, attempting to fast-forward objective chain.."
+	}
+}

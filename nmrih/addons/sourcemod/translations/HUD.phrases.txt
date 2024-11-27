@@ -1,0 +1,783 @@
+"Phrases"
+{
+	"phrase_prefix_chat"
+	{
+		"en"			"[HUD]"
+		"chi"			"[HUD]"
+		"zho"			"[HUD]"
+	}
+
+	"phrase_prefix_menu"
+	{
+		"en"			"[HUD] By F1F88"
+		"chi"			"[HUD] By F1F88"
+		"zho"			"[HUD] By F1F88"
+	}
+
+	"phrase_divider"
+	{
+		"en"			" -----------------"
+		"chi"			" -----------------"
+		"zho"			" -----------------"
+	}
+
+	"phrase_player_name"
+	{
+		"#format"		"{1:N}"
+		"en"			"Name {1}"
+		"chi"			"名称 {1}"
+		"zho"			"名稱 {1}"
+	}
+
+	"phrase_hp"
+	{
+		"#format"		"{1:d}"
+		"en"			"Health {1}"
+		"chi"			"血量 {1}"
+		"zho"			"血量 {1}"
+	}
+
+	"phrase_stamina"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Stamina {1}"
+		"chi"			"体力 {1}"
+		"zho"			"體力 {1}"
+	}
+
+	"phrase_clip"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"Ammo {1} / {2}"
+		"chi"			"弹药 {1} / {2}"
+		"zho"			"彈藥 {1} / {2}"
+	}
+
+	"phrase_inventory"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"Inventory {1} / {2}"
+		"chi"			"负重 {1} / {2}"
+		"zho"			"負重 {1} / {2}"
+	}
+
+	"phrase_status_label"
+	{
+		"en"			"Status "
+		"chi"			"状态 "
+		"zho"			"狀態 "
+	}
+
+	"phrase_status_delimiter"
+	{
+		"en"			"  |  "
+		"chi"			"  |  "
+		"zho"			"  |  "
+	}
+
+	"phrase_status_bleeding"
+	{
+		"en"			"Bleeding"
+		"chi"			"流血"
+		"zho"			"流血"
+	}
+
+	"phrase_status_infected"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"infected({1})"
+		"chi"			"感染({1})"
+		"zho"			"感染({1})"
+	}
+
+	"phrase_status_vaccinated"
+	{
+		"en"			"vaccinated"
+		"chi"			"免疫感染"
+		"zho"			"免疫感染"
+	}
+
+	"phrase_status_vaccine_effect"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Bleary({1}) "
+		"chi"			"视线模糊({1}) "
+		"zho"			"視線模糊({1}) "
+	}
+
+	"phrase_status_none"
+	{
+		"en"			"Fitness"
+		"chi"			"健康"
+		"zho"			"健康"
+	}
+
+	"phrase_speed"
+	{
+		"#format"		"{1:.0f}"
+		"en"			"Speed {1}"
+		"chi"			"速度 {1}"
+		"zho"			"速度 {1}"
+	}
+
+	"phrase_zombie_default"
+	{
+		"#format"		"{1:d}"
+		"en"			"Zombie {1}"
+		"chi"			"丧尸 {1}"
+		"zho"			"殭屍 {1}"
+	}
+
+	"npc_nmrih_shamblerzombie"
+	{
+		"#format"		"{1:d}"
+		"en"			"Zombie {1}"
+		"chi"			"行尸 {1}"
+		"zho"			"行屍 {1}"
+	}
+
+	"npc_nmrih_runnerzombie"
+	{
+		"#format"		"{1:d}"
+		"en"			"Runner Zombie {1}"
+		"chi"			"跑尸 {1}"
+		"zho"			"奔跑殭屍 {1}"
+	}
+
+	"npc_nmrih_kidzombie"
+	{
+		"#format"		"{1:d}"
+		"en"			"Kid Zombie {1}"
+		"chi"			"丧尸小孩 {1}"
+		"zho"			"孩童殭屍 {1}"
+	}
+
+	"npc_nmrih_turnedzombie"
+	{
+		"#format"		"{1:d}"
+		"en"			"Turned Zombie {1}"
+		"chi"			"丧尸队友 {1}"
+		"zho"			"轉化殭屍 {1}"
+	}
+
+	"phrase_ammo_box"
+	{
+		"#format"		"{1:T}"
+		"en"			"Ammo {1}"
+		"chi"			"弹药 {1}"
+		"zho"			"彈藥 {1}"
+	}
+
+	"phrase_ammo_box_default"
+	{
+		"#format"		"{1:s}"
+		"en"			"Ammo Box"
+		"chi"			"弹药盒"
+		"zho"			"彈藥盒"
+	}
+
+	"phrase_item_phrase"
+	{
+		"#format"		"{1:T}"
+		"en"			"Item {1}"
+		"chi"			"物品 {1}"
+		"zho"			"物品 {1}"
+	}
+
+	"phrase_item_string"
+	{
+		"#format"		"{1:s}"
+		"en"			"Item {1}"
+		"chi"			"物品 {1}"
+		"zho"			"物品 {1}"
+	}
+
+	"phrase_menu_title"
+	{
+		"en"			"* Customize HUD"
+		"chi"			"* 自定义 HUD 面板"
+		"zho"			"* 自定義 HUD 面板"
+	}
+
+	"phrase_menu_show_enabled"
+	{
+		"en"			"Enable the HUD"
+		"chi"			"启用 HUD"
+		"zho"			"啟用 HUD"
+	}
+
+	"phrase_menu_at_death"
+	{
+		"en"			"Disable after death"
+		"chi"			"死亡后暂停"
+		"zho"			"死亡後暫停"
+	}
+
+	"phrase_menu_show_self_name"
+	{
+		"en"			"Display self name"
+		"chi"			"显示自己名称"
+		"zho"			"顯示自己名称"
+	}
+
+	"phrase_menu_show_health"
+	{
+		"en"			"Display player health"
+		"chi"			"显示玩家血量"
+		"zho"			"顯示玩家血量"
+	}
+
+	"phrase_menu_show_stamina"
+	{
+		"en"			"Display player stamina"
+		"chi"			"显示玩家体力"
+		"zho"			"顯示玩家体力"
+	}
+
+	"phrase_menu_show_clip"
+	{
+		"en"			"Display player clip"
+		"chi"			"显示玩家弹药数"
+		"zho"			"顯示玩家彈藥數"
+	}
+
+	"phrase_menu_show_inventory"
+	{
+		"en"			"Display player inventory usage"
+		"chi"			"显示玩家库存占用"
+		"zho"			"顯示玩家庫存佔用"
+	}
+
+	"phrase_menu_show_status"
+	{
+		"en"			"Display player status"
+		"chi"			"显示玩家状态"
+		"zho"			"顯示玩家狀態"
+	}
+
+	"phrase_menu_show_speed"
+	{
+		"en"			"Display player move speed"
+		"chi"			"显示玩家移动速度"
+		"zho"			"顯示玩家移動速度"
+	}
+
+	"phrase_menu_speed_ignore_vertical"
+	{
+		"en"			"Ignore vertical travel speed"
+		"chi"			"忽略垂直移动速度"
+		"zho"			"忽略垂直移動速度"
+	}
+
+	"phrase_menu_show_aim"
+	{
+		"en"			"Display targeted data"
+		"chi"			"显示瞄准的目标"
+		"zho"			"顯示瞄準的目標"
+	}
+
+	"phrase_menu_show_aim_player"
+	{
+		"en"			"Display targeted player"
+		"chi"			"显示瞄准的玩家"
+		"zho"			"顯示瞄準的玩家"
+	}
+
+	"phrase_menu_show_aim_player_name"
+	{
+		"en"			"Display targeted player name"
+		"chi"			"显示瞄准的玩家名称"
+		"zho"			"顯示瞄準的玩家名称"
+	}
+
+	"phrase_menu_show_aim_zombie"
+	{
+		"en"			"Display targeted zombie"
+		"chi"			"显示瞄准的丧尸"
+		"zho"			"顯示瞄準的喪屍"
+	}
+
+	"phrase_menu_show_aim_ammo_box"
+	{
+		"en"			"Display targeted ammo box"
+		"chi"			"显示瞄准的弹药盒"
+		"zho"			"顯示瞄準的彈藥盒"
+	}
+
+	"phrase_menu_show_aim_item"
+	{
+		"en"			"Display targeted item"
+		"chi"			"显示瞄准的道具"
+		"zho"			"顯示瞄準的道具"
+	}
+
+	"phrase_menu_show_divider"
+	{
+		"en"			"Display dividers"
+		"chi"			"显示分割线"
+		"zho"			"顯示分割線"
+	}
+
+	// * By https://github.com/nmrih/nmrih-localization-files/blob/master/nmrih/resource/
+	"models/items/ammo/ammo_9mm.mdl"
+	{
+		"en"			"9mm"
+		"chi"			"9毫米手枪弹"
+		"zho"			"9mm"
+	}
+
+	"models/items/ammo/ammo_45acp.mdl"
+	{
+		"en"			".45 ACP"
+		"chi"			".45自动手枪弹"
+		"zho"			".45 ACP"
+	}
+
+	"models/items/ammo/ammo_357.mdl"
+	{
+		"en"			".357"
+		"chi"			".357马格南子弹"
+		"zho"			".357"
+	}
+
+	"models/items/ammo/ammo_12g.mdl"
+	{
+		"en"			"12 Gauge"
+		"chi"			"12号霰弹"
+		"zho"			"12 號口徑霰彈"
+	}
+
+	"models/items/ammo/ammo_22lr.mdl"
+	{
+		"en"			".22 LR"
+		"chi"			".22小口径运动弹"
+		"zho"			".22 LR"
+	}
+
+	"models/items/ammo/ammo_308.mdl"
+	{
+		"en"			".308"
+		"chi"			".308温彻斯特步枪弹"
+		"zho"			".308"
+	}
+
+	"models/items/ammo/ammo_556.mdl"
+	{
+		"en"			"5.56mm"
+		"chi"			"5.56毫米步枪弹"
+		"zho"			"5.56mm"
+	}
+
+	"models/items/ammo/ammo_762.mdl"
+	{
+		"en"			"7.62x39"
+		"chi"			"7.62x39步枪弹"
+		"zho"			"7.62x39"
+	}
+
+	"models/items/ammo/ammo_arrow_box.mdl"
+	{
+		"en"			"Arrow"
+		"chi"			"箭矢"
+		"zho"			"弓箭"
+	}
+
+	"models/items/ammo/ammo_gascan.mdl"
+	{
+		"en"			"Fuel"
+		"chi"			"燃料"
+		"zho"			"燃料"
+	}
+
+	"models/items/ammo/ammo_flares.mdl"
+	{
+		"en"			"Flares"
+		"chi"			"信号弹"
+		"zho"			"信號彈"
+	}
+
+	"models/weapons/tool_barricade/w_barricadeboard.mdl"
+	{
+		"en"			"Boards"
+		"chi"			"木板"
+		"zho"			"木板"
+	}
+
+	"projectile_arrow"
+	{
+		"en"			"Arrow"
+		"chi"			"箭"
+		"zho"			"箭"
+	}
+
+	"bow_deerhunter"
+	{
+		"en"			"PSE Deer Hunter"
+		"chi"			"PSE 猎鹿者 复合弓"
+		"zho"			"PSE 獵鹿者"
+	}
+
+	"exp_grenade"
+	{
+		"en"			"M67 Grenade"
+		"chi"			"M67 手榴弹"
+		"zho"			"M67 手榴彈"
+	}
+
+	"exp_molotov"
+	{
+		"en"			"Molotov"
+		"chi"			"莫洛托夫燃烧瓶"
+		"zho"			"莫勒托夫燃燒彈"
+	}
+
+	"exp_tnt"
+	{
+		"en"			"TNT"
+		"chi"			"TNT 炸药"
+		"zho"			"TNT 炸藥"
+	}
+
+	"fa_500a"
+	{
+		"en"			"Mossberg 500a"
+		"chi"			"莫斯伯格 500a 霰弹枪"
+		"zho"			"莫斯伯格 500a"
+	}
+
+	"fa_870"
+	{
+		"en"			"Remington 870"
+		"chi"			"雷明顿 870 霰弹枪"
+		"zho"			"雷明頓 870"
+	}
+
+	"fa_1022"
+	{
+		"en"			"Ruger 10/22"
+		"chi"			"鲁格 10/22 小口径步枪"
+		"zho"			"儒格 10/22"
+	}
+
+	"fa_1022_25mag"
+	{
+		"en"			"Ruger 10/22 w/ Extended Magazine"
+		"chi"			"鲁格 10/22 小口径步枪(扩容弹夹)"
+		"zho"			"儒格 10/22 w/擴充彈匣"
+	}
+
+	"fa_1911"
+	{
+		"en"			"Colt 1911"
+		"chi"			"柯尔特 1911 手枪"
+		"zho"			"科爾特 1911"
+	}
+
+	"fa_cz858"
+	{
+		"en"			"CZ858"
+		"chi"			"CZ858 突击步枪"
+		"zho"			"CZ858"
+	}
+
+	"fa_fnfal"
+	{
+		"en"			"FN FAL"
+		"chi"			"FN FAL 半自动步枪"
+		"zho"			"FN FAL"
+	}
+
+	"fa_glock17"
+	{
+		"en"			"Glock 17"
+		"chi"			"格洛克 17 手枪"
+		"zho"			"格洛克 17"
+	}
+
+	"fa_jae700"
+	{
+		"en"			"JAE-700"
+		"chi"			"雷明登 JAE-700 狙击步枪"
+		"zho"			"JAE-700"
+	}
+
+	"fa_m16a4"
+	{
+		"en"			"M16A4"
+		"chi"			"M16A4 自动步枪(光学瞄镜)"
+		"zho"			"M16A4 w/ACOG"
+	}
+
+	"fa_m16a4_carryhandle"
+	{
+		"en"			"M16A4 w/ Carry Handle"
+		"chi"			"M16A4 自动步枪(机械瞄具)"
+		"zho"			"M16A4 w/提把"
+	}
+
+	"fa_m92fs"
+	{
+		"en"			"Beretta M92FS"
+		"chi"			"贝雷塔 M92FS 手枪"
+		"zho"			"貝瑞塔 M92FS"
+	}
+
+	"fa_mac10"
+	{
+		"en"			"Ingram Mac-10"
+		"chi"			"英格拉姆 Mac-10 冲锋枪"
+		"zho"			"英格倫 Mac-10"
+	}
+
+	"fa_mp5a3"
+	{
+		"en"			"Heckler & Koch MP5A4"
+		"chi"			"H&K MP5A4 冲锋枪"
+		"zho"			"黑克勒 科赫 MP5A4"
+	}
+
+	"fa_mkiii"
+	{
+		"en"			"Ruger MKIII"
+		"chi"			"斯特姆-鲁格 MK3 小口径手枪"
+		"zho"			"儒格 MKIII"
+	}
+
+	"fa_sako85"
+	{
+		"en"			"Sako 85 (Scoped)"
+		"chi"			"萨科 85 狙击步枪(狙击镜)"
+		"zho"			"沙可 85 (狙擊鏡)"
+	}
+
+	"fa_sako85_ironsights"
+	{
+		"en"			"Sako 85 (Ironsights)"
+		"chi"	   		"萨科 85 狙击步枪(机械瞄具)"
+		"zho"			"沙可 85 (機械瞄具)"
+	}
+
+	"fa_sks"
+	{
+		"en"			"Simonov SKS (Bayonet)"
+		"chi"			"西蒙诺夫 SKS 半自动步枪(刺刀)"
+		"zho"			"西蒙諾夫 SKS (刺刀)"
+	}
+
+	"fa_sks_nobayo"
+	{
+		"en"			"Simonov SKS (No Bayonet)"
+		"chi"			"西蒙诺夫 SKS 半自动步枪(无刺刀)"
+		"zho"			"西蒙諾夫 SKS (無刺刀)"
+	}
+
+	"fa_superx3"
+	{
+		"en"			"Winchester Super X3"
+		"chi"			"温彻斯特 Super X3 半自动霰弹枪"
+		"zho"			"溫徹斯特 Super X3"
+	}
+
+	"fa_sv10"
+	{
+		"en"			"Beretta Perennia SV10"
+		"chi"			"贝雷塔 Perennia SV10 双管霰弹枪"
+		"zho"			"貝瑞塔裴瑞尼亞 SV10"
+	}
+
+	"fa_sw686"
+	{
+		"en"			"Smith & Wesson 686"
+		"chi"			"史密斯&威森 686 左轮手枪"
+		"zho"			"史密斯 & 威生 686"
+	}
+
+	"fa_winchester1892"
+	{
+		"en"			"Winchester 1892"
+		"chi"			"温彻斯特 1892 杠杆式步枪"
+		"zho"			"溫徹斯特 1892"
+	}
+
+	"item_bandages"
+	{
+		"en"			"Bandages"
+		"chi"			"绷带"
+		"zho"			"繃帶"
+	}
+
+	"item_maglite"
+	{
+		"en"			"Maglite"
+		"chi"			"手电筒"
+		"zho"			"手電筒"
+	}
+
+	"item_pills"
+	{
+		"en"			"Phalanx Pills"
+		"chi"			"Phalanx 药片"
+		"zho"			"斐蘭克斯膠囊"
+	}
+
+	"item_first_aid"
+	{
+		"en"			"First Aid Kit"
+		"chi"			"急救包"
+		"zho"			"醫療包"
+	}
+
+	"item_gene_therapy"
+	{
+		"en"			"Gene Therapy"
+		"chi"			"基因治疗针"
+		"zho"			"基因治療劑"
+	}
+
+	"item_walkietalkie"
+	{
+		"en"			"Walkie Talkie"
+		"chi"			"对讲机"
+		"zho"			"對講機"
+	}
+
+	"me_abrasivesaw"
+	{
+		"en"			"Abrasive Saw"
+		"chi"			"无齿锯"
+		"zho"			"砂輪機"
+	}
+
+	"me_axe_fire"
+	{
+		"en"			"Fire Axe"
+		"chi"			"消防斧"
+		"zho"			"消防斧"
+	}
+
+	"me_bat_metal"
+	{
+		"en"			"Baseball Bat"
+		"chi"			"棒球棍"
+		"zho"			"球棒"
+	}
+
+	"me_chainsaw"
+	{
+		"en"			"Chainsaw"
+		"chi"			"电锯"
+		"zho"			"電鋸"
+	}
+
+	"me_crowbar"
+	{
+		"en"			"Crowbar"
+		"chi"			"撬棍"
+		"zho"			"鐵撬"
+	}
+
+	"me_cleaver"
+	{
+		"en"			"Cleaver"
+		"chi"			"切肉刀"
+		"zho"			"切肉刀"
+	}
+
+	"me_etool"
+	{
+		"en"			"E-Tool"
+		"chi"			"折叠工兵铲"
+		"zho"			"土工器具"
+	}
+
+	"me_fubar"
+	{
+		"en"			"Fubar"
+		"chi"			"Fubar多功能消防锤"
+		"zho"			"破壞桿"
+	}
+
+	"me_hatchet"
+	{
+		"en"			"Hatchet"
+		"chi"			"手斧"
+		"zho"			"短柄斧"
+	}
+
+	"me_kitknife"
+	{
+		"en"			"Kit Knife"
+		"chi"			"小菜刀"
+		"zho"			"廚房刀"
+	}
+
+	"me_machete"
+	{
+		"en"			"Machete"
+		"chi"			"砍刀"
+		"zho"			"開山刀"
+	}
+
+	"me_pickaxe"
+	{
+		"en"			"Pickaxe"
+		"chi"			"十字镐"
+		"zho"			"十字鎬"
+	}
+
+	"me_pipe_lead"
+	{
+		"en"			"Lead Pipe"
+		"chi"			"水管"
+		"zho"			"鉛管"
+	}
+
+	"me_shovel"
+	{
+		"en"			"Shovel"
+		"chi"			"铁锹"
+		"zho"			"鐵鏟"
+	}
+
+	"me_sledge"
+	{
+		"en"			"Sledgehammer"
+		"chi"			"长柄大锤"
+		"zho"			"大槌"
+	}
+
+	"me_wrench"
+	{
+		"en"			"Wrench"
+		"chi"			"扳手"
+		"zho"			"活動板手"
+	}
+
+	"tool_barricade"
+	{
+		"en"			"Barricade Hammer"
+		"chi"			"钉板锤"
+		"zho"			"釘板榔頭"
+	}
+
+	"tool_extinguisher"
+	{
+		"en"			"Fire Extinguisher"
+		"chi"			"灭火器"
+		"zho"			"滅火器"
+	}
+
+	"tool_flare_gun"
+	{
+		"en"			"Flare Gun"
+		"chi"			"信号枪"
+		"zho"			"信號槍"
+	}
+
+	"tool_welder"
+	{
+		"en"			"Cutting Torch"
+		"chi"			"焊枪"
+		"zho"			"焊槍"
+	}
+}

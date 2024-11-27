@@ -1,0 +1,49 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands"
+{
+    "NMRIH 管理员插件菜单"
+    {
+        "武器菜单(只能刷给自己)"
+        {
+            "cmd"       "sm_guns"
+            "execute"   "player"
+        }
+        "复活菜单(这个插件有点多才多艺233)"
+        {
+            "cmd"       "sm_rsp"
+            "execute"   "player"
+        }
+        "清除物品"
+        {
+            "cmd"       "sm_clear"
+            "execute"   "player"
+        }
+        "移除僵尸"
+        {
+            "cmd"       "sm_nonpcs"
+            "execute"   "player"
+        }
+        "显示地图上的物品和僵尸数量"
+        {
+            "cmd"       "sm_count"
+            "execute"   "player"
+        }
+        "给指定玩家一个背包"
+        {
+            "cmd"       "sm_backpack #1"
+            "execute"   "player"
+			"1"
+			{
+				"type"  "player"
+				"title" "选择玩家:"
+			}
+        }
+    }
+}

@@ -1,0 +1,67 @@
+"objective"
+{
+	"Original"
+	{
+		"Objective1"		"Shit, we crashed the Truck ! Find the Key for the House !"
+		"Objective1a"		"Check upstairs for a working Radio !"
+		"Objective2"		"The Radio is broken...Find a Welder and check for Survivors at the Graveyard !"
+		"Objective3"		"There was a Fire inside the Mausoleum. Maybe u can find a extinguisher and open the way into the Subway !"
+		"Objective4"		"Enter the Subway !"
+		"Objective5"		"Call for Help !"
+		"objective5 vor a"		"The Radio is not working...Check for the Code and go to the Bang Bang Brake Jobs !"
+		"Objective5a"		"Go down with the Elevator and find a Battery. Reload it in the Garden. Dont forget the welder and some planks !"
+		"Objective6"		"The Battery is charging a bit. Wait for it and go to the Car and Repair it !"
+	}
+	"chi"
+	{
+		"Objective1"		"坏消息各位,车坏了. 我们需要找个钥匙然后再进入房屋里面(记得搜刮一下周围,说不定有一些物资)"
+		"Objective1a"		"各位上楼看一看,有没有可用的无线电?"
+		"Objective2"		"好吧,各位无线电坏了...Find a Welder and check for Survivors at the Graveyard"
+		"Objective3"		"里面发生了火灾. 我们需要找到一个灭火器,把火灭掉然后再进去"
+		"Objective4"		"进入地铁站"
+		"Objective5"		"寻找救援"
+		"objective5 vor a"		"NoData"
+		"Objective5a"		"乘坐电梯下去找电池. Reload it in the Garden. Dont forget the welder and some planks"
+		"Objective6"		"电池在充电中,等电池充好之后带上电池去汽车那边"
+		"<GameText>339269|Map Creator"		"地图作者 Homie"
+	}
+	"zho"
+	{
+		"Objective1"		"NoData"
+		"Objective1a"		"NoData"
+		"Objective2"		"NoData"
+		"Objective3"		"NoData"
+		"Objective4"		"NoData"
+		"Objective5"		"NoData"
+		"objective5 vor a"		"NoData"
+		"Objective5a"		"NoData"
+		"Objective6"		"NoData"
+		"<GameText>339269|Map Creator"		"NoData"
+	}
+	"ko"
+	{
+		"Objective1"		"NoData"
+		"Objective1a"		"NoData"
+		"Objective2"		"NoData"
+		"Objective3"		"NoData"
+		"Objective4"		"NoData"
+		"Objective5"		"NoData"
+		"objective5 vor a"		"NoData"
+		"Objective5a"		"NoData"
+		"Objective6"		"NoData"
+		"<GameText>339269|Map Creator"		"NoData"
+	}
+	"jp"
+	{
+		"Objective1"		"NoData"
+		"Objective1a"		"NoData"
+		"Objective2"		"NoData"
+		"Objective3"		"NoData"
+		"Objective4"		"NoData"
+		"Objective5"		"NoData"
+		"objective5 vor a"		"NoData"
+		"Objective5a"		"NoData"
+		"Objective6"		"NoData"
+		"<GameText>339269|Map Creator"		"NoData"
+	}
+}

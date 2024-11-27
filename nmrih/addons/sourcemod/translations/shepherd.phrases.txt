@@ -1,0 +1,105 @@
+"Phrases"
+{
+    "Disabled Trigger Preview"
+    {
+        "en"        "Trigger visualization {red}disabled"
+        "es"        "Visualización de triggers {red}desactivada"
+		"chi"	    "Trigger visualization {red}禁用"
+    }
+
+    "Enabled Trigger Preview"
+    {
+        "en"        "Trigger visualization {green}enabled"
+        "es"        "Visualización de triggers {green}activada"
+		"chi"	    "Trigger visualization {green}启用"
+    }
+
+    "Not Inside Trigger, Second Person"
+    {
+        "en"        "You are not in an area that requires other players."
+        "es"        "No te encuentras en un área que requiera a todo el equipo."
+		"chi"	    "You are not in an area that requires other players."
+    }
+
+    "Not Inside Trigger, Third Person"
+    {
+        "#format"    "{1:N}"
+        "en"         "{1} is not in an area that requires other players."
+        "es"         "{1} no está en un área que requiera a todo el equipo."
+		"chi"	     "{1} is not in an area that requires other players."
+    }
+
+    "Must be at Marked Location"
+    {
+        "#format"    "{1:s},{2:t}"
+        "en"         "{salmon}Everyone must be at the marked location in {red}{1}{salmon}. Those left behind will be {red}{2}{salmon}."
+        "es"         "{salmon}Todos deben estar en la ubicación marcada en {red}{1}{salmon}. Aquellos que no lo logren serán {red}{2}{salmon}."
+        "chi"        "{salmon}Everyone must be at the marked location in {red}{1}{salmon}. Those left behind will be {red}{2}{salmon}."
+    }
+
+    "Waiting for Players"
+    {
+        "#format"    "{1:s}"
+        "en"         "[{1}] Waiting for everyone"
+        "es"         "[{1}] Esperando al equipo"
+        "chi"        "[{1}] 等待所有人"
+    }
+
+    "Absent Players"
+    {
+        "#format"    "{1:d},{2:s}"
+        "en"         "Absent players ({1}): {2}"
+        "es"         "Jugadores ausentes ({1}): {2}"
+        "chi"        "Absent players ({1}): {2}"
+    }
+
+    "You Were Acted Upon"
+    {
+        "#format"    "{1:t}"
+        "en"         "{salmon}You've been {red}{1}{salmon} for failing to show up at the required location in time"
+        "es"         "{salmon}Has sido {red}{1}{salmon} por no ir a la ubicación requerida a tiempo"
+        "chi"        "{salmon}You've been {red}{1}{salmon} for failing to show up at the required location in time"
+    }
+
+    "Teleported and Stripped, Third Person"
+    {
+        "en"        "teleported without their inventory"
+        "es"        "teletransportados sin inventario"
+        "chi"       "队友在人物库存没有东西情况下传送"
+    }
+
+    "Teleported, Third Person"
+    {
+        "en"        "teleported"
+        "es"        "teletransportados"
+        "chi"       "传送"
+    }
+
+    "Killed, Third Person"
+    {
+        "en"        "killed"
+        "es"        "matados"
+        "chi"       "处死"
+    }
+
+    "Teleported and Stripped, Second Person"
+    {
+        "en"        "teleported without your inventory"
+        "es"        "teletransportado sin inventario"
+        "chi"       "你在人物库存没有东西情况下传送"
+    }
+
+    "Teleported, Second Person"
+    {
+        "en"        "teleported"
+        "es"        "teletransportado"
+        "chi"       "传送"
+    }
+
+    "Killed, Second Person"
+    {
+        "en"        "killed"
+        "es"        "matado"
+        "chi"       "处死"
+    }
+}

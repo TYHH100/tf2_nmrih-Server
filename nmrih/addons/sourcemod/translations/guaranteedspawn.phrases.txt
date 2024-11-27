@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Respawn At Checkpoint"
+	{
+		"en" 			"Spawn at checkpoint"
+		"chi"			"在检查点复活"
+	}
+
+	"Respawn At Teammate"
+	{
+		"#format" "{1:N}"
+		"en" 			"Spawn near {1}"
+		"chi"			"按下在 {1} 旁边复活"
+	}
+
+	"Give spawn to player"
+	{
+		"en"			"Give spawn to player"
+		"chi"			"复活玩家"
+	}
+	
+	"Remove spawn from player"
+	{
+		"en"			"Remove spawn from player"
+		"chi"			"Remove spawn from player"
+	}	
+	
+	"Gave spawn to target"
+	{
+		"#format"		"{1:t}"
+		"en"			"gave spawn to {1}."
+		"chi"			"gave spawn to {1}."
+	}	
+	
+	"Removed spawn from target"
+	{
+		"#format"		"{1:t}"
+		"en"			"removed spawn from {1}."
+		"chi"			"removed spawn from {1}."
+	}
+
+	"No targets available"
+	{
+		"en"			"There are no players you can target at this time"
+		"chi"			"无法复活因为无法选择"
+	}
+}

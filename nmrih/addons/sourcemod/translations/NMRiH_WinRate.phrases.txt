@@ -1,0 +1,94 @@
+"Phrases"
+{
+	"this_map"
+	{
+		"en"		"Win rate on this map\n "
+		"jp"		"クリア実績（このマップ）\n "
+		"chi"		"当前地图通关率\n"
+	}
+
+	"rank_you"
+	{
+		"en"		"Maps difficulty ranking (you)"
+		"jp"		"マップ難易度ランキング（あなた）"
+		"chi"		"地图难度排名 (您)"
+	}
+
+	"rank_online"
+	{
+		"en"		"Maps difficulty ranking (online players)"
+		"jp"		"マップ難易度ランキング（接続中のプレイヤー）"
+		"chi"		"地图难度排名 (在线玩家)"
+	}
+
+	"rank_all"
+	{
+		"en"		"Maps difficulty ranking (all players)"
+		"jp"		"マップ難易度ランキング（全プレイヤー）"
+		"chi"		"地图难度排名 (所有玩家)"
+	}
+
+	"delete"
+	{
+		"en"		"Delete your records\n "
+		"jp"		"あなたの記録を削除\n "
+		"chi"		"删除您的记录\n "
+	}
+
+	"this_map_Title"
+	{
+		"en"		"[ Win Rate ]\n Win rate on this map.\n \n     < name >       --       < rate > - < win / play > "
+		"jp"		"[ Win Rate ]\n クリア実績（このマップ）\n \n    < 名前 >     --     < クリア確率 > - < クリア / プレイ > "
+		"chi"		"[ Win Rate ]\n 当前地图通关率\n \n     < 名字 >       --       < 概率 > - < 通关/游玩次数 > "
+	}
+
+
+	"rank_you_Title"
+	{
+		"en"		"[ Win Rate ]\n Difficulty ranking for you.\n \n         < map >       --       < rate > - < win / play > "
+		"jp"		"[ Win Rate ]\n 難易度ランキング（あなた）\n \n        < map >      --      < 確率 > - < クリア / プレイ > "
+		"chi"		"[ Win Rate ]\n 您的难度排名.\n \n         < 地图 >       --       < 概率 > - < 通关/游玩次数 > "
+	}
+
+	"rank_online_Title"
+	{
+		"en"		"[ Win Rate ]\n Difficulty ranking for online players.\n \n         < map >       --       < rate > - < win / play > "
+		"jp"		"[ Win Rate ]\n 難易度ランキング（接続中）\n \n        < map >      --      < 確率 > - < クリア / プレイ > "
+		"chi"		"[ Win Rate ]\n 在线玩家的难度排名.\n \n         < 地图 >       --       < 概率 > - < 通关/游玩次数 > "
+	}
+
+	"rank_all_Title"
+	{
+		"en"		"[ Win Rate ]\n Difficulty ranking for all players.\n \n         < map >       --       < rate > - < win / play > "
+		"jp"		"[ Win Rate ]\n 難易度ランキング（全員）\n \n        < map >      --      < 確率 > - < クリア / プレイ > "
+		"chi"		"[ Win Rate ]\n 所有玩家的难度排名.\n \n         < 地图 >       --       < 概率 > - < 通关/游玩次数 > "
+	}
+
+	"delete_Title"
+	{
+		"en"		"[ Win Rate ]\n Delete your all records.\n Are you really sure?\n "
+		"jp"		"[ Win Rate ]\n あなたの記録を全て削除します。\n 本当によろしいですか？\n "
+		"chi"		"[ Win Rate ]\n 删除您的所有记录.\n 您真的确定吗?\n "
+	}
+
+	"delete_no"
+	{
+		"en"		"No, I go back."
+		"jp"		"いいえ、戻ります。"
+		"chi"		"No, 手滑点错了."
+	}
+
+	"delete_yes"
+	{
+		"en"		"Yes, I wish delete my all records."
+		"jp"		"はい、削除します。"
+		"chi"		"Yes,我希望删除我的所有记录."
+	}
+
+	"delete_agreement"
+	{
+		"en"		"[Win Rate] :  Your all records are deleted.\n[Win Rate] :  And, your results of now progress isn't recorded."
+		"jp"		"[Win Rate] :  あなたの記録は全て削除されました。\n[Win Rate] :  また、今進行中のプレイ結果も記録されません。"
+		"chi"		"[Win Rate] :  您的所有记录都将被删除.\n[Win Rate] :  而且,当前游玩的不会被记录."
+	}
+}

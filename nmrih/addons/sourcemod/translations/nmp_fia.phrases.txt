@@ -1,0 +1,59 @@
+"Phrases"
+{
+	"NMP FIA Enabled 2"
+	{
+		"#format"		"{1:N}"
+		"en"			"Enabled infinite ammo for {1}"
+	}
+	"NMP FIA Enabled"
+	{
+		"en"			"Enabled infinite ammo for"
+	}
+	"NMP FIA Disabled 2"
+	{
+		"#format"		"{1:N}"
+		"en"			"Disabled infinite ammo for {1}"
+	}
+	"NMP FIA Disabled"
+	{
+		"en"			"Disabled infinite ammo for"
+	}
+	"NMP Stamina Set 2"
+	{
+		"#format"		"{1:f},{2:N}"
+		"en"			"Disabled set stamina to {1} for {2}"
+	}
+	"NMP Stamina Disabled"
+	{
+		"#format"		"{1:f}"
+		"en"			"Disabled set stamina to {1} for"
+	}
+	"NMP ROF Set 2"
+	{
+		"#format"		"{1:f},{2:N}"
+		"en"			"Set rate of fire mult. to {1} for {2}"
+	}
+	"NMP ROF Set"
+	{
+		"#format"		"{1:f}"
+		"en"			"Set rate of fire mult. to {1} for"
+	}
+	"NMP No Infection Enabled 2"
+	{
+		"#format"		"{1:N}"
+		"en"			"Enabled no infection mode for {1}"
+	}
+	"NMP No Infection Enabled"
+	{
+		"en"			"Enabled no infection mode for"
+	}
+	"NMP No Infection Disabled 2"
+	{
+		"#format"		"{1:N}"
+		"en"			"Disabled no infection mode for {1}"
+	}
+	"NMP No Infection Disabled"
+	{
+		"en"			"Disabled no infection mode for"
+	}
+}
