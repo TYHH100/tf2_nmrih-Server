@@ -1,0 +1,90 @@
+"Phrases"
+{
+	// ==== PLUGIN ANNOUNCEMENTS ============================================
+	"Announce_Plugin"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"chi"		"{olive}{1} {default}当前版本 {2} - By {olive}{3}{default}"
+	}
+	"Announce_Command"
+	{
+		"chi"		"{lightgreen}[TF2] {default}装备模型请在, 聊天框输入 {olive}/equip{default} 或控制台输入 {olive}equip{default} 打开模型菜单."	
+	}
+	
+	// ==== MENUS ===========================================================
+	"Menu_Main"
+	{
+		"chi"		"模型管理器"
+	}
+	"Menu_Equip"
+	{
+		"chi"		"打开模型选择"
+	}
+	"Menu_Remove"
+	{
+		"chi"		"恢复默认模型"
+	}
+	"Menu_RemoveAll"
+	{
+		"chi"		"恢复所有默认模型"
+	}
+	"Menu_SelectItem"
+	{
+		"chi"		"选择你要装备的模型"
+	}
+	
+	// ==== MESSAGES ========================================================
+	"Message_EquippedItem"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{lightgreen}[TF2] {default}你已经装备了 \"{olive}{1}{default}\"."
+	}
+	"Message_RemovedItem"
+	{
+		"chi"		"{lightgreen}[TF2] {default}你已经取消装备当前模型."
+	}
+	"Message_RemovedAllItems"
+	{
+		"chi"		"{lightgreen}[TF2] {default}你已经取消 {olive}全部{default} 你装备的所有模型."
+	}
+	"Message_ForcedEquip"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{lightgreen}[TF2] {olive}管理员{default} 强行把该模型装配上去: {olive}\"{1}\" {default}."
+	}
+	"Message_ForcedRemove"
+	{
+		"chi"		"{lightgreen}[TF2] {olive}管理员{default} 移除了你当前装备的模型."
+	}
+	"Message_Locked"
+	{
+		"chi"		"{lightgreen}[TF2] {olive}管理员{default} 有 {olive}locked{default} 你的模型."
+	}
+	"Message_Unlocked"
+	{
+		"chi"		"{lightgreen}[TF2] {olive}管理员{default} 有 {olive}unlocked{default} 你的模型."
+	}
+	"Message_Override_On"
+	{
+		"chi"		"{lightgreen}[TF2]  {olive}管理员{default} 有 启用 {olive}限制覆盖{default} 在你身上."
+	}
+	"Message_Override_Off"
+	{
+		"chi"		"{lightgreen}[TF2] {olive}管理员{default} 有 关闭 {olive}限制覆盖{default} 在你身上."
+	}
+	
+	// ==== ERRORS ==========================================================
+	"Error_AccessLevel"
+	{
+		"chi"		"{lightgreen}[TF2] {default}你没有所需要的 {olive}访问权限{default} 要使用此命令的话."
+	}
+	"Error_EquipmentLocked"
+	{
+		"chi"		"{lightgreen}[TF2] {default}你现在不能改变你的模型: {olive}管理员已锁定您的模型{default}."
+	}
+	"Error_CantWear"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{lightgreen}[TF2] {default}* {olive}错误: {default}玩家 \"{olive}{1}{default}\" 不适合装备那个物品."
+	}
+}

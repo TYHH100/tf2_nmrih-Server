@@ -1,0 +1,7 @@
+fw_3cp_a1
+fw_bridge_a1
+fw_cube_b8
+fw_forts_a2
+fw_gas_a2
+fw_sewers_a3
+fw_war_a1

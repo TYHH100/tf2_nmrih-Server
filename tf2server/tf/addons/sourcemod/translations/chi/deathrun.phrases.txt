@@ -1,0 +1,175 @@
+"Phrases"
+{
+	"Command_Disabled"
+	{
+		"chi"		"服主已经禁止了该指令."
+	}
+	"Command_HideTeammates_Enabled"
+	{
+		"chi"		"你的队友现在 {secondary}隐藏 {default}在你的视角中."
+	}
+	"Command_HideTeammates_Disabled"
+	{
+		"chi"		"你的队友现在 {secondary}可见 {default}在你的视角中."
+	}
+	"Command_AddQueuePoints_Usage"
+	{
+		"chi"		"用法: {secondary}dr_addqueue <#userid|name> <数量>"
+	}
+	"Command_AddQueuePoints_Success"
+	{
+		"#format"	"{1:d},{2:t}"
+		"chi"		"添加 {positive}{1} {default}队列点(s) to {secondary}{2}{default}."
+	}
+	"Command_SetQueuePoints_Usage"
+	{
+		"chi"		"用法: {secondary}dr_setqueue <#userid|name> <数量>"
+	}
+	"Command_SetQueuePoints_Success"
+	{
+		"#format"	"{1:t},{2:d}"
+		"chi"		"设置队列点 {secondary}{1} {default}to {secondary}{2}{default}."
+	}
+	
+	"Target_RunnerTeam"
+	{
+		"chi"		"逃离者"
+	}
+	"Target_ActivatorTeam"
+	{
+		"chi"		"死神"
+	}
+	
+	"ChatTip_Deathrun"
+	{
+		"chi"		"{positive}小提示: {default}你可以通过以下方式获得所有功能和命令的概览 {secondary}/deathrun{default} 或 {secondary}/dr{default}."
+	}
+	"ChatTip_HideTeammates"
+	{
+		"chi"		"{positive}小提示: {default}在人多的地方看不到? 你可以用这个指令把你队友隐藏起来 {secondary}/drhide{default}."
+	}
+	"ChatTip_ActivatorWeapons"
+	{
+		"chi"		"{positive}小提示: {default}作为 {blue}死神{default}, 你可以用你的远程武器来激活开关(十字弩,火线救援,弓等其他就算了吧 有些地图只能近战武器)."
+	}
+	"ChatTip_CheckQueue"
+	{
+		"chi"		"{positive}小提示: {default}你可以查看在死神队列中你在第几个 {secondary}/drnext{default}."
+	}
+	"ChatTip_DisableChatTips"
+	{
+		"chi"		"{positive}小提示: {default}您可以通过更改偏好来禁用这些小提示 {secondary}/drsettings{default}."
+	}
+	"ChatTip_DisableActivator"
+	{
+		"chi"		"{positive}小提示: {default}什么你不想当 {blue}死神{default}? 那就更改偏好 {secondary}/drsettings{default}."
+	}
+	
+	"RoundWin_Activator"
+	{
+		"chi"		"The {blue}死神 {default}胜利((つ≧▽≦)つ!"
+	}
+	"RoundWin_Runners"
+	{
+		"chi"		"The {red}逃离者 {default}胜利((つ≧▽≦)つ!"
+	}
+	"RoundStart_NewActivator_Runners"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{1} 这货成为了 {blue}死神{default}! 逃离者们骗陷阱,快速通过,获得胜利顺便毙那货,为你去给队友报仇!"
+	}
+	"RoundStart_NewActivator_Activator"
+	{
+		"chi"		"你成为了 {blue}死神{default}! 使用陷阱,杀死那帮人 要不然就是你被干死!"
+	}
+	"RoundStart_MultipleActivators_Activator"
+	{
+		"chi"		"你成为了 {blue}死神{default}! 与你的队友(队友哪里有队友 你就一个人醒星OK?)一起杀死逃离者们!"
+	}
+	"RoundStart_MultipleActivators_Runners"
+	{
+		"chi"		"多名玩家成为 {blue}死神{default}! 逃离者们骗陷阱,快速通过,获得胜利顺便毙那帮货,为你去给队友报仇!"
+	}
+	"RoundStart_Activator_Disconnected"
+	{
+		"#format"	"{1:d}"
+		"chi"		"The {blue}死神 {default}断开连接! 回合将在 {secondary}{1} {default}秒后重启!"
+	}
+	
+	"Preferences_Enabled"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你有 {positive}启用 {default}偏好 {secondary}{1}{default}."
+	}
+	"Preferences_Disabled"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你有 {negative}禁用 {default}偏好 {secondary}{1}{default}."
+	}
+	
+	"Preference_DontBeActivator"
+	{
+		"chi"		"不要选择我作为死神"
+	}
+	"Preference_HideChatTips"
+	{
+		"chi"		"隐藏偶尔的小提示"
+	}
+	
+	"Queue_NoPointsAwarded_NotLoaded"
+	{
+		"chi"		"由于服务器未能加载你的队列点数，你尚未获得任何队列点数."
+	}
+	"Queue_NoPointsAwarded_Preferences"
+	{
+		"chi"		"根据你的偏好，你尚未获得任何队列点."
+	}
+	"Queue_PointsAwarded"
+	{
+		"#format"	"{1:d},{2:d}"
+		"chi"		"您已获得奖励 {positive}{1} {default}队列点 (共计: {positive}{2}{default})."
+	}
+	"Queue_ChosenAsRandomActivator"
+	{
+		"chi"		"你被随机选中成为 {blue}死神 {default}因为服务器中没有其他有效玩家。 你的队列点数尚未消耗."
+	}
+	
+	"Menu_Main_Title"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s}"
+		"chi"		"{1} ({2}) by {3}\n{4}"
+	}
+	"Menu_Main_Queue"
+	{
+		"chi"		"查看死神队列 (/drnext)"
+	}
+	"Menu_Main_Preferences"
+	{
+		"chi"		"更改偏好 (/drsettings)"
+	}
+	"Menu_Main_HideTeammates"
+	{
+		"chi"		"隐藏队友 (/drhide)"
+	}
+	"Menu_Queue_Title"
+	{
+		"chi"		"死神队列"
+	}
+	"Menu_Queue_Title_QueuePoints"
+	{
+		"#format"	"{1:d}"
+		"chi"		"你的队列点: {1}"
+	}
+	"Menu_Queue_NotLoaded"
+	{
+		"chi"		"你的队列点仍在加载中，请稍候."
+	}
+	"Menu_Preferences_Title"
+	{
+		"chi"		"偏好"
+	}
+	"Menu_Preferences_NotLoaded"
+	{
+		"chi"		"你的偏好仍在加载中，请稍等."
+	}
+}

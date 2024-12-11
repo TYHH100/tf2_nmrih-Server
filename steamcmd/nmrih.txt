@@ -1,0 +1,4 @@
+login anonymous
+force_install_dir "/home/nmrihserver"
+app_update 317670
+quit

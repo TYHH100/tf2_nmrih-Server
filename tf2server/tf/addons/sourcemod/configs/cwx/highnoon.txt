@@ -1,0 +1,19 @@
+"Items"
+{
+    "{427a8a64-372a-4fae-3610-c88d9e4549f6}"
+    {
+        "name"                                  "High Noon"
+        "inherits"                              "TF_WEAPON_SNIPERRIFLE"
+        "used_by_classes"
+        {
+            "sniper"                            "Primary"
+        }
+        "attributes_game"
+        {
+            "deploy time decreased"             "0.35"
+            "SRifle Charge rate decreased"      "0.2"
+            "max health additive penalty"       "-15"
+            "set weapon model"                  "models/weapons/c_models/c_highnoon/c_highnoon.mdl"
+        }
+    }
+}

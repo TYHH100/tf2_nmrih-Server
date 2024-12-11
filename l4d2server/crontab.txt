@@ -1,0 +1,6 @@
+#30 4 * * * cd /home/rcon && ./rcon -a 127.0.0.1:27030 -p rcon密码 "sm_say_se Restart Server" #发送重启消息
+#31 4 * * * cd /home/tf2server && ./4v4_off.sh #关闭服务器
+#32 4 * * * cd /home/tf2server && ./4v4_on.sh #启动服务器
+#rcon需要这个
+#https://github.com/gorcon/rcon-cli
+#当然改成跟启动和关闭服务器脚本一样也没问题

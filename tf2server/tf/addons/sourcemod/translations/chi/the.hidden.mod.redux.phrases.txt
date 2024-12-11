@@ -1,0 +1,241 @@
+"Phrases"
+{
+	"hidden_eng"
+	{
+		"chi"		"{powderblue}您无法升级补给器,金属退还."
+	}
+	"hidden_eng2"
+	{
+		"chi"		"{powderblue}您无法升级传送器,金属退还."
+	}
+	"hidden_eng3"
+	{
+		"chi"		"{powderblue}您不可以建造步哨枪,金属退还."
+	}
+	"hidden_taunts"
+	{
+		"chi"		"{powderblue}嘲讽功能被禁用!"
+	}
+	"hidden_kill"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{crimson}隐形杀手{powderblue} 击杀了 {crimson}{1}{powderblue} 并吃掉他的身体来恢复一些生命值!"
+	}
+	"hidden_kill2"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{crimson}隐形杀手{powderblue} 击杀了 {crimson}{1}{powderblue}!"
+	}
+	"hidden_win"
+	{
+		"chi"		"{crimson}隐形杀手{powderblue} 杀死了整个 {crimson}IRIS{powderblue} 团队! 下一个 {crimson}隐形杀手{powderblue} 将随机选择!"
+	}
+	"hidden_win2"
+	{
+		"chi"		"{crimson}IRIS{powderblue} 团队,杀死了 {crimson}隐形杀手{powderblue}!"
+	}
+	"hidden_win3"
+	{
+		"chi"		"{crimson}隐形杀手{powderblue} 饿死了,下一个 {crimson}隐形杀手{powderblue} 将随机选择!"
+	}
+	"hidden_win4"
+	{
+		"chi"		"{crimson}隐形杀手{powderblue} 自杀了,下一个 {crimson}隐形杀手{powderblue} 将随机选择!"
+	}
+	"hidden_winner"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{crimson}{1}{powderblue} 对 {crimson}隐形杀手{powderblue} 造成最多伤害. 将成为下一个 {crimson}隐形杀手{powderblue}!"
+	}
+	"hidden_winner2"
+	{
+		"chi"		"{powderblue}下一个 {crimson}隐形杀手{powderblue} 将随机选择."
+	}
+	"hidden_start"
+	{
+		"chi"		"{powderblue}玩家人数不足,无法开始新游戏."
+	}
+	"hidden_botkill"
+	{
+		"chi"		"{powderblue}在第一回合杀死所有机器人."
+	}
+	"hidden_command"
+	{
+		"chi"		"{powderblue}用法: {crimson}/nexthidden{powderblue} <玩家> 或者 {crimson}/hiddennext{powderblue} <玩家>"
+	}
+	"hidden_command2"
+	{
+		"chi"		"{powderblue}您所指的玩家,并不在任何一个团队里面!"
+	}
+	"hidden_command3"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{powderblue}Set {crimson}{1}{powderblue} 作为接下来的 {crimson}隐形杀手{powderblue},无论谁赢了本轮."
+	}
+	"hidden_command4"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{powderblue}管理员强制 {crimson}{1}{powderblue} 成为下一个 {crimson}隐形杀手{powderblue}."
+	}
+	"hidden_command5"
+	{
+		"chi"		"{powderblue}目标无效."
+	}
+	//no colors
+	"hidden_hud"
+	{
+		"chi"		"隐形杀手的生命值"
+	}
+	//no colors
+	"hidden_hud2"
+	{
+		"chi"		"您的生命值"
+	}
+	//no colors
+	"hidden_hud3"
+	{
+		"chi"		"耐力"
+	}
+	//no colors
+	"hidden_hud4"
+	{
+		"chi"		"集束炸弹"
+	}
+	//no colors
+	"hidden_hud5"
+	{
+		"chi"		"饥饿值"
+	}
+	"hidden_team"
+	{
+		"chi"		"{powderblue}您不能加入这个团队."
+	}
+	//no colors
+	"hidden_team2"
+	{
+		"chi"		"您不能加入那个团队! 自动加入IRIS团队."
+	}
+	//no colors
+	"hidden_class"
+	{
+		"chi"		"您不能选择那个兵种!"
+	}
+	//no colors
+	"hidden_class2"
+	{
+		"chi"		"您无法更改此团队中的兵种!"
+	}
+	"hidden_problem"
+	{
+		"chi"		"{powderblue}您离墙或类似物体太近."
+	}
+	"hidden_notify"
+	{
+		"chi"		"{powderblue}聊天框输入{crimson}/hiddenhelp{powderblue} 打开帮助菜单."
+	}
+	"hidden_notify2"
+	{
+		"chi"		"{powderblue}聊天框输入{crimson}/hiddenpref{powderblue} 打开 {crimson}隐形杀手{powderblue} 偏好菜单."
+	}
+	//no colors
+	"hidden_help"
+	{
+		"chi"		"隐形杀手模组是一个 1vsALL 模组. 隐形杀手的生命值基于 \nIRIS团队人数,来动态变化的 \n对隐形杀手,伤害最高的将成为下一个隐形杀手. \n如果他没有被 IRIS 团队杀死，则随机选择下一个隐形杀手."
+	}
+	//no colors
+	"hidden_help2"
+	{
+		"chi"		"作为隐形杀手,你永远是隐形的. 只有如下情况才会现身, \n攻击,被攻击时,使用技能,电子工兵. \n如果要使用冲刺,向上看按鼠标右键. \n站在墙边,然后准星要对着墙按鼠标右键可以贴在墙上. \n如果想要下来按一下空格或者冲刺 \n按R投掷集束炸弹,注意会伤到你自己."
+	}
+	//no colors
+	"hidden_help2b"
+	{
+		"chi"		"每次杀死都会减少你的饥饿. 如果你让饥饿值达到100%%, \n你就会饿死,非被背刺的话会恢复你的生命值,然后你没有摔落伤害. \n对了,你还有个电子工兵(AwA)."
+	}
+	//no colors
+	"hidden_help3"
+	{
+		"chi"		"你只有一个目标,把对面干死要不然就是你被干死. \n你也可以硬耗把对方饿死. 当然注意听对方脚步声 \n注意躲开集束炸弹. 他是看不见的 \n你的武器击中他可以让他暂时现形. 呆在 \n房间或者走廊不是个很好的选择(吗?),因为他有集束炸弹. \n单独或抱团,都不是明智之举(emm...跟没说一样)."
+	}
+	//no colors
+	"hidden_help3b"
+	{
+		"chi"		"背刺可以秒杀，但不能恢复隐身杀手的血量. \nButterknife[非背刺情况],击杀后能恢复隐形杀手血量."
+	}
+	//no colors
+	"hidden_menu_title"
+	{
+		"chi"		"隐形杀手模式 Redux 帮助菜单"
+	}
+	//no colors
+	"hidden_menu"
+	{
+		"chi"		"关于该模式"
+	}
+	//no colors
+	"hidden_menu2"
+	{
+		"chi"		"隐形杀手和他的能力"
+	}
+	//no colors
+	"hidden_menu3"
+	{
+		"chi"		"IRIS团队及其选择"
+	}
+	//no colors
+	"hidden_menu_control"
+	{
+		"chi"		"下一个"
+	}
+	//no colors
+	"hidden_menu_control2"
+	{
+		"chi"		"上一个"
+	}
+	//no colors
+	"hidden_menu_control3"
+	{
+		"chi"		"退出"
+	}
+	//no colors
+	"hidden_pref"
+	{
+		"chi"		"您想成为隐形杀手吗?"
+	}
+	//no colors
+	"hidden_pref_control"
+	{
+		"chi"		"Yes"
+	}
+	//no colors
+	"hidden_pref_control2"
+	{
+		"chi"		"No"
+	}
+	"hidden_pref_change_success"
+	{
+		"chi"		"{powderblue}更改您的偏好 {crimson}隐形杀手{powderblue} 成功."
+	}
+	"hidden_pref_change_failure"
+	{
+		"chi"		"{powderblue}更改您的偏好 {crimson}隐形杀手{powderblue} 失败."
+	}
+	"hidden_pref_disabled"
+	{
+		"chi"		"{powderblue}目前 {crimson}隐形杀手{powderblue} 偏好设置功能已禁用."
+	}
+	"hidden_pref_no_hidden"
+	{
+		"chi"		"{powderblue}没有玩家愿意成为{crimson}隐形杀手{powderblue}. 选择下一个 {crimson}隐形杀手{powderblue}.随机"
+	}
+	"hidden_pref_winner_no_hidden"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{crimson}{1}{powderblue} 造成最大伤害 {crimson}隐形杀手{powderblue}, 然而他们不想成为 {crimson}隐形杀手{powderblue}. 选择下一个 {crimson}隐形杀手{powderblue} 随机."
+	}
+	"hidden_pref_changed_after_winning"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{crimson}{1}{powderblue} 改变了他们的 {crimson}隐形杀手{powderblue} 获胜后的偏好. 选择下一个 {crimson}隐形杀手{powderblue} at 随机."
+	}
+}

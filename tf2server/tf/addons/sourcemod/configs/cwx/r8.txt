@@ -1,0 +1,33 @@
+"Items"
+{
+    "{8c38588c-fbe0-9f3e-4429-c82cee88753d}"
+    {
+        "name"      "R8"
+        "inherits"  "TF_WEAPON_REVOLVER"
+        "used_by_classes"
+        {
+            "spy"      "Secondary"
+        }
+        "attributes_game"
+        {
+            // +
+            "revolver use hit locations"      "1" //击中头部可产生爆击
+            "damage bonus"                    "1.2"//伤害
+
+            // -
+            "fire rate penalty"               "2.7"//开火速度
+            "maxammo primary reduced"         "-2.5"//武器弹药携带量
+            "crit mod disabled hidden"        "1"//不会出现随机爆击
+
+            // model
+            "set weapon model"      "models/weapons/c_models/c_r8/r8.mdl"
+
+            //
+            "description"           "Test"
+        }
+        "attributes_custom"
+		{
+			"replace sound"                  "r8"
+		}
+    }
+}

@@ -1,0 +1,50 @@
+/**
+ * Copyright (C) 2023  Mikusch
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+"Phrases"
+{
+	"Crate_Opening"
+	{
+		"en"		"Opening"
+	}
+	"Weapon_CannotDropFists"
+	{
+		"en"		"You cannot drop your fists!"
+	}
+	"Zone_ShrinkWarning"
+	{
+		"#format"	"{1:0.0f}"
+		"en"		"The zone will shrink in {1} seconds."
+	}
+	"Zone_Shrinking"
+	{
+		"en"		"The zone is shrinking, get moving!"
+	}
+	"BattleBus_Incoming"
+	{
+		"en"		"Incoming special supply drop from the sky!"
+	}
+	"MatchEnd_Stalemate"
+	{
+		"en"		"Stalemate! You are all losers!"
+	}
+	"MatchEnd_PlayerWin"
+	{
+		"#format"	"{1:N}"
+		"en"		"The winner of the game is {1}!"
+	}
+}

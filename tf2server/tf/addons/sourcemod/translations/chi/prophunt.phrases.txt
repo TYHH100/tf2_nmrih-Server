@@ -1,0 +1,161 @@
+/*
+ * Copyright (C) 2021  Mikusch
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+"Phrases"
+{
+	"PH_Target_Props"
+	{
+		"chi"		"道具"
+	}
+	
+	"PH_Target_Hunters"
+	{
+		"chi"		"猎人"
+	}
+	
+	"PH_Tip_Prefix"
+	{
+		"chi"		"{green}小提示: {default}"
+	}
+	
+	"PH_Tip_01"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你当前正在玩 {darkorange}PropHunt Neu {default}({1}) 由 {gold}Mikusch{default}制作."
+	}
+	
+	"PH_Tip_02"
+	{
+		"chi"		"作为一个 {blue}猎人{default}, 使用流血属性 尿瓶 牛奶的武器来防止道具改变伪装."
+	}
+	
+	"PH_Tip_03"
+	{
+		"chi"		"作为一个 {red}道具{default}, 使用道具锁™ 可以把你自己锁定到空中."
+	}
+	
+	"PH_Tip_04"
+	{
+		"chi"		"碰到控制点 可以给你自己和附近的队友恢复血量 然后击退附近的敌人."
+	}
+	
+	"PH_Tip_05"
+	{
+		"chi"		"作为一个 {blue}猎人{default}, 你可以用钩爪 在追逐道具的时候可以进入一些平常不好进入的地方."
+	}
+	
+	"PH_Tip_06"
+	{
+		"chi"		"作为一个 {red}道具{default}, 你可以一直苟在水中."
+	}
+	
+	"PH_PropLock_Enabled"
+	{
+		"chi"		"道具锁™ 启用"
+	}
+	
+	"PH_PropLock_Unavailable"
+	{
+		"chi"		"道具锁™ 关闭"
+	}
+	
+	"PH_Disguise_Changed"
+	{
+		"#format"	"{1:s}"
+		"chi"		"你现在伪装成: {lightgreen}{1}"
+	}
+	
+	"PH_Disguise_Reset"
+	{
+		"chi"		"你的伪装已被重置."
+	}
+	
+	"PH_PropSelect_CannotDisguise"
+	{
+		"#format"	"{1:s},{2:T}"
+		"chi"		"无法伪装成: {red}{1} {default}({2})"
+	}
+	
+	"PH_PropSelect_TooSmall"
+	{
+		"chi"		"道具太小( ╹▽╹ )"
+	}
+	
+	"PH_PropSelect_TooBig"
+	{
+		"chi"		"道具太大(´⊙ω⊙`)"
+	}
+	
+	"PH_PropSelect_Blacklisted"
+	{
+		"chi"		"道具被列入黑名单"
+	}
+	
+	"PH_PropSelect_NotAllowed"
+	{
+		"chi"		"{red}你在负面状态效果下，不允许切换道具."
+	}
+	
+	"PH_ConVarQuery_DisallowedValue"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"\"{1}\" 可能未设置为 \"{2}\"."
+	}
+	
+	"PH_ConVarQuery_QueryNotOkay"
+	{
+		"#format"	"{1:s}"
+		"chi"		"无法查询客户端的值 \"{1}\"."
+	}
+	
+	"PH_PropControls"
+	{
+		"chi"		"%%+attack%% 选择道具(你准心指向的) %%+attack2%% 锁定道具(锁定你当前位置) %%+attack3%% 嘲讽! %%+reload%% 1/3人称视角切换"
+	}
+	
+	"PH_Bonus_Refreshed"
+	{
+		"chi"		"控制点刷新!"
+	}
+	
+	"PH_Bonus_Received"
+	{
+		"chi"		"获得控制点效果! {lightgreen}恢复血量."
+	}
+	
+	"PH_Command_GetModel_Success"
+	{
+		"#format"	"{1:N},{2:s}"
+		"chi"		"{1}'当前模型是: {lightgreen}{2}"
+	}
+	
+	"PH_Command_GetModel_NoModelSet"
+	{
+		"chi"		"没有匹配的客户端设置自定义模型(请检查)."
+	}
+	
+	"PH_Command_SetModel_Success"
+	{
+		"#format"	"{1:s},{2:t}"
+		"chi"		"强制模型 {lightgreen}{1} {default}on {2}."
+	}
+	
+	"PH_Command_ReloadConfig_Success"
+	{
+		"chi"		"配置文件缓存已刷新."
+	}
+}

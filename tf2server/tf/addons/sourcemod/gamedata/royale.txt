@@ -1,0 +1,435 @@
+/**
+ * Copyright (C) 2023  Mikusch
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"CBaseEntity::SetMoveType"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CBaseEntity11SetMoveTypeE10MoveType_t13MoveCollide_t"
+				"windows"	"\x55\x8B\xEC\x53\x8B\x5D\x08\x56\x8B\xF1\x0F\xB6\x86\x76\x01\x00\x00"
+			}
+			"CTFDroppedWeapon::Create"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTFDroppedWeapon6CreateEP9CTFPlayerRK6VectorRK6QAnglePKcPK13CEconItemView"
+				"windows"	"\x55\x8B\xEC\x51\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x74\x2A\x33\xC0\x8B\xE5\x5D\xC3"
+			}
+			"CTFDroppedWeapon::InitDroppedWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTFDroppedWeapon17InitDroppedWeaponEP9CTFPlayerP13CTFWeaponBasebb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x56\x57\x8B\xF9\x8B\x4D\x08"
+			}
+			"CTFDroppedWeapon::InitPickedUpWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTFDroppedWeapon18InitPickedUpWeaponEP9CTFPlayerP13CTFWeaponBase"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\xD9\xEE\x53\x56\x57"
+			}
+			"CTFPlayer::CalculateAmmoPackPositionAndAngles"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer34CalculateAmmoPackPositionAndAnglesEP13CTFWeaponBaseR6VectorR6QAngle"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x56\x68\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::PickupWeaponFromOther"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer21PickupWeaponFromOtherEP16CTFDroppedWeapon"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x56\x8B\x75\x08\x57\x8B\xF9\x81\xC6\xB0\x04\x00\x00"
+			}
+			"CTFPlayer::CanPickupDroppedWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer22CanPickupDroppedWeaponEPK16CTFDroppedWeapon"
+				"windows"	"\x55\x8B\xEC\x53\x8B\x5D\x08\x56\x8B\xF1\x80\xBB\x04\x05\x00\x00\x00"
+			}
+			"CTFPlayer::TryToPickupDroppedWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer24TryToPickupDroppedWeaponEv"
+				"windows"	"\x56\x6A\x00\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x84\xC0\x75\x2A\x32\xC0"
+			}
+			"CTFPlayer::PostInventoryApplication"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer24PostInventoryApplicationEv"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\xD9\x56\x57\x8D\x8B\xE0\x1A\x00\x00"
+			}
+			"CTFPlayer::GetLoadoutItem"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer14GetLoadoutItemEiib"
+				"windows"	"\x55\x8B\xEC\x51\x53\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A\x57\x89\x75\xFC"
+			}
+			"CTFPlayer::GetMaxAmmo"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10GetMaxAmmoEii"
+				"windows"	"\x55\x8B\xEC\x8B\x45\x0C\x56\x57\x8B\xF9\x83\xF8\xFF"
+			}
+			"CTFPlayer::GiveAmmo"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer8GiveAmmoEiib11EAmmoSource"
+				"windows"	"\x55\x8B\xEC\x51\x53\x56\x8B\x75\x08\x8B\xD9\x89\x75\xFC"
+			}
+			"CBaseCombatCharacter::SwitchToNextBestWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN20CBaseCombatCharacter22SwitchToNextBestWeaponEP17CBaseCombatWeapon"
+				"windows"	"\x55\x8B\xEC\x56\xFF\x75\x08\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A\x56"
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer22GetMaxHealthForBuffingEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x53\x56\x57\x8B\xF9\xFF\xB7\xC8\x22\x00\x00"
+			}
+			"CTFPlayer::RegenThink"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10RegenThinkEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x74\x57\x8B\xF9\x8B\x07"
+			}
+			"CTFPlayer::DoClassSpecialSkill"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer19DoClassSpecialSkillEv"
+				"windows"	"\x56\x8B\xF1\x8B\x06\x8B\x80\x0C\x01\x00\x00\xFF\xD0\x84\xC0\x75\x2A\x32\xC0\x5E\xC3\xF7\x86\xB4\x1B\x00\x00\x00\x00\x04\x00"
+			}
+			"CTFPlayerShared::CanRecieveMedigunChargeEffect"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK15CTFPlayerShared29CanRecieveMedigunChargeEffectE20medigun_charge_types"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x8B\xF9\xB3\x01"
+			}
+			"CTFPlayerShared::Heal"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared4HealEP11CBaseEntityfffbP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x28\x53\x56\x8B\x75\x08\x0F\x57\xC0"
+			}
+			"CTFPowerup::DropSingleInstance"
+			{
+				"library"	"server"
+				"linux"		"@_ZN10CTFPowerup18DropSingleInstanceER6VectorP20CBaseCombatCharacterff"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x6A\x01"
+			}
+		}
+		"Offsets"
+		{
+			"CBaseCombatCharacter::TakeHealth"
+			{
+				"library"	"server"
+				"linux"		"67"
+				"windows"	"66"
+			}
+			"CBaseCombatCharacter::Weapon_CanSwitchTo"
+			{
+				"library"	"server"
+				"linux"		"277"
+				"windows"	"276"
+			}
+			"CBasePlayer::ForceRespawn"
+			{
+				"library"	"server"
+				"linux"		"337"
+				"windows"	"336"
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"library"	"server"
+				"linux"		"493"
+				"windows"	"486"
+			}
+			"CBaseCombatWeapon::SetSubType"
+			{
+				"library"	"server"
+				"linux"		"238"
+				"windows"	"232"
+			}
+			"CBaseCombatWeapon::GetWorldModel"
+			{
+				"library"	"server"
+				"linux"		"328"
+				"windows"	"322"
+			}
+			"CBaseCombatWeapon::PrimaryAttack"
+			{
+				"library"	"server"
+				"linux"		"292"
+				"windows"	"286"
+			}
+			"CBaseCombatWeapon::SecondaryAttack"
+			{
+				"library"	"server"
+				"linux"		"293"
+				"windows"	"287"
+			}
+			"CTFDroppedWeapon::m_nAmmo"
+			{
+				"linux"		"0x568"
+				"windows"	"0x554"
+			}
+		}
+		"Functions"
+		{
+			"CTFDroppedWeapon::Create"
+			{
+				"signature"	"CTFDroppedWeapon::Create"
+				"callconv"	"cdecl"
+				"return"	"cbaseentity"
+				"this"		"ignore"
+				"arguments"
+				{
+					"pLastOwner"
+					{
+						"type"	"cbaseentity"
+					}
+					"vecOrigin"
+					{
+						"type"	"vectorptr"
+					}
+					"vecAngles"
+					{
+						"type"	"vectorptr"
+					}
+					"pszModelName"
+					{
+						"type"	"charptr"
+					}
+					"pItem"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}
+			"CTFPlayer::PickupWeaponFromOther"
+			{
+				"signature"	"CTFPlayer::PickupWeaponFromOther"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pDroppedWeapon"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayer::CanPickupDroppedWeapon"
+			{
+				"signature"	"CTFPlayer::CanPickupDroppedWeapon"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pWeapon"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayer::GetMaxAmmo"
+			{
+				"signature"	"CTFPlayer::GetMaxAmmo"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"iAmmoIndex"
+					{
+						"type"	"int"
+					}
+					"iClassIndex"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::GiveAmmo"
+			{
+				"signature"	"CTFPlayer::GiveAmmo"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"iCount"
+					{
+						"type"	"int"
+					}
+					"iAmmoIndex"
+					{
+						"type"	"int"
+					}
+					"bSuppressSound"
+					{
+						"type"	"bool"
+					}
+					"eAmmoSource"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CBaseCombatCharacter::TakeHealth"
+			{
+				"offset"	"CBaseCombatCharacter::TakeHealth"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"flHealth"
+					{
+						"type"	"float"
+					}
+					"bitsDamageType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CBasePlayer::ForceRespawn"
+			{
+				"offset"	"CBasePlayer::ForceRespawn"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"signature"	"CTFPlayer::GetMaxHealthForBuffing"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CTFPlayer::RegenThink"
+			{
+				"signature"	"CTFPlayer::RegenThink"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFPlayer::DoClassSpecialSkill"
+			{
+				"signature"		"CTFPlayer::DoClassSpecialSkill"
+				"callconv"		"thiscall"
+				"return"		"bool"
+				"this"			"entity"
+			}
+			"CTFPlayerShared::CanRecieveMedigunChargeEffect"
+			{
+				"signature"		"CTFPlayerShared::CanRecieveMedigunChargeEffect"
+				"callconv"		"thiscall"
+				"return"		"bool"
+				"this"			"address"
+				"arguments"
+				{
+					"eType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayerShared::Heal"
+			{
+				"signature"		"CTFPlayerShared::Heal"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"address"
+				"arguments"
+				{
+					"pHealer"
+					{
+						"type"	"cbaseentity"
+					}
+					"flAmount"
+					{
+						"type"	"float"
+					}
+					"flOverhealBonus"
+					{
+						"type"	"float"
+					}
+					"flOverhealDecayMult"
+					{
+						"type"	"float"
+					}
+					"bDispenserHeal"
+					{
+						"type"	"bool"
+					}
+					"pHealScorer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"offset"	"CTFPlayer::GiveNamedItem"
+				"hooktype"	"entity"
+				"return"	"cbaseentity"
+				"this"		"entity"
+				"arguments"
+				{
+					"pszName"
+					{
+						"type"	"charptr"
+					}
+					"iSubType"
+					{
+						"type"	"int"
+					}
+					"pScriptItem"
+					{
+						"type"	"objectptr"
+					}
+					"bForce"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CBaseCombatWeapon::PrimaryAttack"
+			{
+				"offset"	"CBaseCombatWeapon::PrimaryAttack"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CBaseCombatWeapon::SecondaryAttack"
+			{
+				"offset"	"CBaseCombatWeapon::SecondaryAttack"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+		}
+	}
+}

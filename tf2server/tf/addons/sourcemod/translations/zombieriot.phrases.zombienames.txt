@@ -1,0 +1,2252 @@
+"Phrases"
+{
+	"nothing"
+	{
+		"en" 		"Example Text!"
+		"pt"		"HUEHUEHUE BR!"
+	}
+	"Headcrab Zombie"
+	{
+		"en" 		"Headcrab Zombie"
+		"ru" 		"Зомби"
+		"pt"		"Zumbi de Headcrab"
+		"nl"		"Hoofdkrab Zombie"
+	}
+	"Fortified Headcrab Zombie"
+	{
+		"en" 		"Fortified Headcrab Zombie"
+		"ru" 		"Крепкий зомби"
+		"pt"		"Zumbi de Headcrab Fortificado"
+		"nl"		"Versterkte Hoofdkrab Zombie"
+	}
+	"Fast Zombie"
+	{
+		"en" 		"Fast Zombie"
+		"ru" 		"Быстрый зомби"
+		"pt"		"Zumbi Rápido"
+		"nl"		"Snelle Zombie"
+	}
+	"Fortified Fast Zombie"
+	{
+		"en" 		"Fortified Fast Zombie"
+		"ru" 		"Крепкий быстрый зомби"
+		"pt"		"Zumbi Rápido Fortificado"
+		"nl"		"Versterkte Snelle Zombie"
+	}
+	"Torsoless Headcrab Zombie"
+	{
+		"en" 		"Torsoless Headcrab Zombie"
+		"ru" 		"Зомби без ног"
+		"pt"		"Zumbi de Headcrab sem pernas"
+		"nl"		"Romploze Hoofdkrab Zombie"
+	}
+	"Poison Zombie"
+	{
+		"en" 		"Poison Zombie"
+		"ru" 		"Ядовитый зомби"
+		"pt"		"Zumbi Venenoso"
+		"nl"		"Giftige Zombie"
+	}
+	"Fortified Poison Zombie"
+	{
+		"en" 		"Fortified Poison Zombie"
+		"ru" 		"Крепкий ядовитый зомби"
+		"pt"		"Zumbi Venenoso Fortifiacdo"
+		"nl"		"Versterkte Giftige Zombie"
+	}
+	"Fortified Giant Poison Zombie"
+	{
+		"en" 		"Fortified Giant Poison Zombie"
+		"ru" 		"Крепкий гигантский ядовитый зомби"
+		"pt"		"Zumbi Venenoso Gigante Fortificado"
+		"nl"		"Versterke Gigantische Giftige Zombie"
+	}
+	"Father Grigori"
+	{
+		"en" 		"Father Grigori"
+		"ru" 		"Отец Григорий"
+		"pt"		"Senhor Grigori"
+		"nl"		"Vader Grigori"
+	}
+	"Metro Cop"
+	{
+		"en" 		"Metro Cop"
+		"ru" 		"Метрокоп"
+		"pt"		"Policial"
+		"nl"		"Metro Politie"
+	}
+	"Metro Raider"
+	{
+		"en" 		"Metro Raider"
+		"ru" 		"Метрорейдер"
+		"pt"		"Policial Invasor"
+		"nl"		"Metro Aanvaller"
+	}
+	"Combine Rifler"
+	{
+		"en" 		"Combine Rifler"
+		"ru" 		"Комбайн с винтовкой"
+		"pt"		"Fuzileiro da Combine"
+		"nl"		"Combine Scherpschutter"
+	}
+	"Combine Shotgunner"
+	{
+		"en" 		"Combine Shotgunner"
+		"ru" 		"Комбайн с дробовиком"
+		"pt"		"Artilheiro da Combine"
+		"nl"		"Combine Jachtgeweerder"
+	}
+	"Combine Swordsman"
+	{
+		"en" 		"Combine Swordsman"
+		"ru" 		"Комбайн-мечник"
+		"pt"		"Espadachim da Combine"
+		"nl"		"Combine Zwaardvechter"
+	}
+	"Combine Elite"
+	{
+		"en" 		"Combine Elite"
+		"ru" 		"Элитный комбайн"
+		"pt"		"Elite da Combine"
+		"nl"		"Combine Elite"
+	}
+	"Combine Giant Swordsman"
+	{
+		"en" 		"Combine Giant Swordsman"
+		"ru" 		"Гигантский комбайн-мечник"
+		"pt"		"Espadachim Gigante da Combine"
+		"nl"		"Combine Gigantische Zwaardvechter"
+	}
+	"Combine DDT"
+	{
+		"en" 		"Combine DDT"
+		"ru" 		"Комбайн DDT"
+		"pt"		"Combine DDT"
+		"nl"		"Combine DDT"
+	}
+	"Combine Golden Collos"
+	{
+		"en" 		"Combine Golden Collos"
+		"ru" 		"Золотой комбайн-коллос"
+		"pt"		"Soldado do Coliseu Doudado da Combine"
+		"nl"		"Combine Gouden Colossus"
+	}
+	"Combine Overlord"
+	{
+		"en" 		"Combine Overlord"
+		"ru" 		"Комбайн-владыка"
+		"pt"		"SobreLorde Combine"
+		"nl"		"Combine Opperheer"
+	}
+	"Scout Assulter"
+	{
+		"en" 		"Scout Assaulter"
+		"ru" 		"Разведчик-нападающий"
+		"pt"		"Scout Atacante"
+		"nl"		"Verkennersaanvaller"
+	}
+	"Engineer Deconstructor"
+	{
+		"en" 		"Engineer Deconstructor"
+		"ru" 		"Инженер-разрушитель"
+		"pt"		"Engineer Desconstrutor"
+		"nl"		"Ingenieur Deconstructor"
+	}
+	"Heavy Brawler"
+	{
+		"en" 		"Heavy Brawler"
+		"ru" 		"Пулемётчик-боец"
+		"pt"		"Heavy Lutador"
+		"nl"		"Heavy Vechter"
+	}
+	"Flying Armor"
+	{
+		"en" 		"Flying Armor"
+		"ru" 		"Летающая броня"
+		"pt"		"Armadura Flutuante"
+		"nl"		"Vliegend Harnas"
+	}
+	"Tiny Flying Armor"
+	{
+		"en" 		"Tiny Flying Armor"
+		"ru" 		"Крошечная летающая броня"
+		"pt"		"Pequena Armadura Flutuante"
+		"nl"		"Klein Vliegend Harnas"
+	}
+	"Kamikaze Demo"
+	{
+		"en" 		"Kamikaze Demo"
+		"ru" 		"Подрывник-камикадзе"
+		"pt"		"Demoman Suicidá"
+		"nl"		"Kamikazi Demo"
+	}
+	"Medic Supporter"
+	{
+		"en" 		"Medic Supporter"
+		"ru" 		"Медик поддержки"
+		"pt"		"Médico Ajudante"
+		"nl"		"Medicus Supporter"
+	}
+	"Giant Heavy Brawler"
+	{
+		"en" 		"Giant Heavy Brawler"
+		"ru" 		"Гигантский пулемётчик-боец"
+		"pt"		"Heavy Gigante Lutador"
+		"nl"		"Gigantische Heavy Vechter"
+	}
+	"Spy Facestabber"
+	{
+		"en" 		"Spy Facestabber"
+		"ru" 		"Шпион-лицезакалыватель"
+		"pt"		"Spy Facestabber"
+		"nl"		"Spion Gezichtsteker"
+	}
+	"Soldier Rocketeer"
+	{
+		"en" 		"Soldier Rocketeer"
+		"ru" 		"Солдат-ракетчик"
+		"pt"		"Soldado Bombardeiro"
+		"nl"		"Soldaat Raketjager"
+	}
+	"Soldier Minion"
+	{
+		"en" 		"Soldier Minion"
+		"ru" 		"Солдат-приспешник"
+		"pt"		"Soldado Lacaio"
+		"nl"		"Soldaten Minion"
+	}
+	"Soldier Giant Summoner"
+	{
+		"en" 		"Soldier Giant Summoner"
+		"ru" 		"Гигантский солдат-призыватель"
+		"pt"		"Soldado Gigante Invocador"
+		"nl"		"Gigantisch Soldatenoproeper"
+	}
+	"Spy Thief"
+	{
+		"en" 		"Spy Thief"
+		"ru" 		"Вор-шпион"
+		"pt"		"Spy Ladrão"
+		"nl"		"Spion Dief"
+	}
+	"Spy Trickstabber"
+	{
+		"en" 		"Spy Trickstabber"
+		"ru" 		"Шпион-трюкач"
+		"pt"		"Spy Trickstabber"
+		"nl"		"Spion Trucsteker"
+	}
+	"Half Cloaked Spy"
+	{
+		"en" 		"Half Cloaked Spy"
+		"ru" 		"Полуневидимый шпион"
+		"pt"		"Espião Parcialmente Invisível"
+		"nl"		"Half Bemanteld Spion"
+	}
+	"Sniper Main"
+	{
+		"en" 		"Sniper Main"
+		"ru" 		"Снайпер-классасин"
+		"pt"		"Sniper Main"
+		"nl"		"Sluipschutter Main"
+	}
+	"Demoknight Main"
+	{
+		"en" 		"Demoknight Main"
+		"ru" 		"Рыцарь-подрывник-классасин"
+		"pt"		"Demoknight Main"
+		"nl"		"Demoridder Main"
+	}
+	"Battle Medic Main"
+	{
+		"en" 		"Battle Medic Main"
+		"ru" 		"Боевой медик-классасин"
+		"pt"		"Medic Main de Combate"
+		"nl"		"Strijd Medicus Main"
+	}	
+	"Giant Pyro Main"
+	{
+		"en" 		"Giant Pyro Main"
+		"ru" 		"Гигантский поджигатель-классасин"
+		"pt"		"Pyro Main Gigante"
+		"nl"		"Gigantische Pyro Main"
+	}
+	"Combine Deutsch Ritter"
+	{
+		"en" 		"Combine Deutsch Ritter"
+		"ru" 		"Немецкий комбайн-рыцарь"
+		"pt"		"Deutsch Ritter da Combine"
+		"nl"		"Combine Duitse Ridder"
+	}
+	"X10 Spy Main"
+	{
+		"en" 		"X10 Spy Main"
+		"ru" 		"Шпион-классасин сервера X10"
+		"pt"		"Spy Main do X10"
+		"nl"		"X10 Spion Main"
+	}
+		
+	//XENO
+
+	"Xeno Headcrab Zombie"
+	{
+		"en" 		"Xeno Headcrab Zombie"
+		"ru" 		"Ксенозомби"
+		"pt"		"Xeno Zumbi de Headcrab"
+		"nl"		"Xeno Hoofdkrab Zombie"
+	}
+	"Xeno Fortified Headcrab Zombie"
+	{
+		"en" 		"Xeno Fortified Headcrab Zombie"
+		"ru" 		"Крепкий ксенозомби"
+		"pt"		"Xeno Zumbi de Headcrab Fortificado"
+		"nl"		"Xeno Versterkte Hoofdkrab Zombie"
+	}
+	"Xeno Fast Zombie"
+	{
+		"en" 		"Xeno Fast Zombie"
+		"ru" 		"Быстрый ксенозомби"
+		"pt"		"Xeno Zumbi Rápido"
+		"nl"		"Xeno Snelle Zombie"
+	}
+	"Xeno Fortified Fast Zombie"
+	{
+		"en" 		"Xeno Fortified Fast Zombie"
+		"ru" 		"Крепкий быстрый ксенозомби"
+		"pt"		"Xeno Zumbi Rápido Fortificado"
+		"nl"		"Xeno Versterkte Snelle Zombie"
+	}
+	"Xeno Torsoless Headcrab Zombie"
+	{
+		"en" 		"Xeno Torsoless Headcrab Zombie"
+		"pt"		"Xeno Zumbi Headcrab Sem Pernas"
+		"ru" 		"Ксенозомби без ног"
+		"nl"		"Xeno Romploze Hoofdkrab Zombie"
+	}
+	"Xeno Poison Zombie"
+	{
+		"en" 		"Xeno Poison Zombie"
+		"ru" 		"Ядовитый ксенозомби"
+		"pt"		"Xeno Zumbi Venenoso"
+		"nl"		"Xeno Giftige Zombie"
+	}
+	"Xeno Fortified Poison Zombie"
+	{
+	    "en" 		"Xeno Fortified Poison Zombie"
+		"ru" 		"Крепкий ядовитый ксенозомби"
+		"pt"		"Xeno Zumbi Venenoso Fortificado"
+		"nl"		"Xeno Versterkte Giftige Zombie"
+	}
+	"Xeno Fortified Giant Poison Zombie"
+	{
+		"en" 		"Xeno Fortified Giant Poison Zombie"
+		"ru" 		"Крепкий гигантский ядовитый ксенозомби"
+		"pt"		"Xeno Zumbi Venenoso Gigante Fortificado"
+		"nl"		"Xeno Versterkte Gigantisch Giftige Zombie"
+	}
+	"Xeno Father Grigori"
+	{
+		"en" 		"Xeno Father Grigori"
+		"ru" 		"Ксеноотец Григорий"
+		"pt"		"Xeno Senhor Grigori"
+		"nl"		"Xeno Vader Grigori"
+	}
+	"Xeno Metro Cop"
+	{
+		"en" 		"Xeno Metro Cop"
+		"ru" 		"Ксенометрокоп"
+		"pt"		"Xeno Policial"
+		"nl"		"Xeno Metro Politie"
+	}
+	"Xeno Metro Raider"
+	{
+		"en" 		"Xeno Metro Raider"
+		"ru" 		"Ксенометрорейдер"
+		"pt"		"Xeno Policial Invasor"
+		"nl"		"Xeno Metro Aanvaller"
+	}
+	"Xeno Combine Rifler"
+	{
+		"en" 		"Xeno Combine Rifler"
+		"ru" 		"Ксенокомбайн с винтовкой"
+		"pt"		"Xeno Fuzileiro da Combine"
+		"nl"		"Xeno Combine Scherpschutter"
+	}
+	"Xeno Combine Shotgunner"
+	{
+		"en" 		"Xeno Combine Shotgunner"
+		"ru" 		"Ксенокомбайн с дробовиком"
+		"pt"		"Xeno Artilheiro da Combine"
+		"nl"		"Xeno Combine Jachtgeweerder"
+	}
+	"Xeno Combine Swordsman"
+	{
+		"en" 		"Xeno Combine Swordsman"
+		"ru" 		"Ксенокомбайн мечник"
+		"pt"		"Xeno Espadachim da Combine"
+		"nl"		"Xeno Combine Zwaardvechter"
+	}
+	"Xeno Combine Elite"
+	{
+		"en" 		"Xeno Combine Elite"
+		"ru" 		"Элитный ксенокомбайн"
+		"pt"		"Xeno Combine Elite"
+		"nl"		"Xeno Combine Elite"
+	}
+	"Xeno Combine Giant Swordsman"
+	{
+		"en" 		"Xeno Combine Giant Swordsman"
+		"ru" 		"Гигантский ксенокомбайн мечник"
+		"pt"		"Xeno Combine Gigante Espadachim"
+		"nl"		"Xeno Combine Gigantische Zwaardvechter"
+	}
+	"Xeno Combine DDT"
+	{
+		"en" 		"Xeno Combine DDT"
+		"ru" 		"Ксенокомбайн DDT"
+		"pt"		"Xeno Combine DDT"
+		"nl"		"Xeno Combine DDT"
+	}
+	"Xeno Combine Golden Collos"
+	{
+		"en" 		"Xeno Combine Golden Collos"
+		"ru" 		"Золотой ксенокомбайн-коллос"
+		"pt"		"Xeno Combine Colossus Dourado"
+		"nl"		"Xeno Combine Gouden Colossus"
+	}
+	"Xeno Combine Overlord"
+	{
+		"en" 		"Xeno Combine Overlord"
+		"ru" 		"Ксенокомбайн владыка"
+		"pt"		"Xeno Combine Senhor Supremo"
+		"nl"		"Xeno Combine Opperheer"
+	}
+	"Xeno Scout Assulter"
+	{
+		"en" 		"Xeno Scout Assaulter"
+		"ru" 		"Ксеноразведчик-нападающий"
+		"pt"		"Xeno Scout Atacante"
+		"nl"		"Xeno Verkennersaanvaller"
+	}
+	"Xeno Engineer Deconstructor"
+	{
+		"en" 		"Xeno Engineer Deconstructor"
+		"ru" 		"Ксеноинженер-разрушитель"
+		"pt"		"Xeno Engineer Desconstrutor"
+		"nl"		"Xeno Ingenieur Deconstructor"
+	}
+	"Xeno Heavy Brawler"
+	{
+		"en" 		"Xeno Heavy Brawler"
+		"ru" 		"Ксенопулемётчик-боец"
+		"pt"		"Xeno Heavy Lutador"
+		"nl"		"Xeno Heavy Vechter"
+	}
+	"Xeno Flying Armor"
+	{
+		"en" 		"Xeno Flying Armor"
+		"ru" 		"Летающая ксеноброня"
+		"pt"		"Xeno Armadura Voadora"
+		"nl"		"Xeno Vliegend Harnas"
+	}
+	"Xeno Tiny Flying Armor"
+	{
+		"en" 		"Xeno Tiny Flying Armor"
+		"ru" 		"Крошечная летающая ксеноброня"
+		"pt"		"Xeno Armadura Voadora Pequena"
+		"nl"		"Xeno Klein Vliegend Harnas"
+	}
+	"Xeno Kamikaze Demo"
+	{
+		"en" 		"Xeno Kamikaze Demo"
+		"ru" 		"Ксеноподрывник-камикадзе"
+		"pt"		"Xeno Demoman Suicida"
+		"nl"		"Xeno Kamikazi Demo"
+	}
+	"Xeno Medic Supporter"
+	{
+		"en" 		"Xeno Medic Supporter"
+		"ru" 		"Ксеномедик поддержки"
+		"pt"		"Xeno Médico Ajudante"
+		"nl"		"Xeno Medicus Supporter"
+	}
+	"Xeno Giant Heavy Brawler"
+	{
+		"en" 		"Xeno Giant Heavy Brawler"
+		"ru" 		"Гигантский ксенопулемётчик-боец"
+		"pt"		"Xeno Heavy Gigante Lutador"
+		"nl"		"Xeno Heavy Gigantische Vechter"
+	}
+	"Xeno Spy Facestabber"
+	{
+		"en" 		"Xeno Spy Facestabber"
+		"ru" 		"Ксеношпион-лицезакалыватель"
+		"pt"		"Xeno Spy Facestabber"
+		"nl"		"Xeno Spion Gezichtssteker"
+	}
+	"Xeno Soldier Rocketeer"
+	{
+		"en" 		"Xeno Soldier Rocketeer"
+		"ru" 		"Ксеносолдат-ракетчик"
+		"pt"		"Xeno Soldado Bombardeiro"
+		"nl"		"Xeno Soldaten Raketjager"
+	}
+	"Xeno Soldier Minion"
+	{
+		"en" 		"Xeno Soldier Minion"
+		"ru" 		"Ксеносолдат-приспешник"
+		"pt"		"Xeno Soldado Lacaio"
+		"nl"		"Xeno Soldaten Minion"
+	}
+	"Xeno Soldier Giant Summoner"
+	{
+		"en" 		"Xeno Soldier Giant Summoner"
+		"ru" 		"Гигантский ксеносолдат-призыватель"
+		"pt"		"Xeno Soldado Gigante Invocador"
+		"nl"		"Xeno Gigantische Soldatenoproeper" 
+	}
+	"Xeno Spy Thief"
+	{
+		"en" 		"Xeno Spy Thief"
+		"ru" 		"Вор-ксеношпион"
+		"pt"		"Xeno Spy Ladrão"
+		"nl"		"Xeno Spion Dief"
+	}
+	"Xeno Spy Trickstabber"
+	{
+		"en" 		"Xeno Spy Trickstabber"
+		"ru" 		"Ксеношпион-трюкач"
+		"pt"		"Xeno Spy Trickstabber"
+		"nl"		"Xeno Spion Trucsteker"
+	}
+	"Xeno Half Cloaked Spy"
+	{
+		"en" 		"Xeno Half Cloaked Spy"
+		"ru" 		"Полуневидимый ксеношпион"
+		"pt"		"Xeno Spy Parcialmente Invisivel"
+		"nl"		"Xeno Half Bemanteld Spion"
+	}
+	"Xeno Sniper Main"
+	{
+		"en" 		"Xeno Sniper Main"
+		"ru" 		"Ксеноснайпер-классасин"
+		"pt"		"Xeno Sniper Main"
+		"nl"		"Xeno Scherpschutter Main"
+	}
+	"Xeno Demoknight Main"
+	{
+		"en" 		"Xeno Demoknight Main"
+		"ru" 		"Рыцарь-ксеноподрывник-классасин"
+		"pt"		"Xeno Demoknight Main"
+		"nl"		"Xeno Demoridder Main"
+	}
+	"Xeno Battle Medic Main"
+	{
+		"en" 		"Xeno Battle Medic Main"
+		"ru" 		"Боевой ксеномедик-классасин"
+		"pt"		"Xeno Medic Main de Combate"
+		"nl"		"Xeno Strijd Medicus Main"
+	}
+	"Xeno Giant Pyro Main"
+	{
+		"en" 		"Xeno Giant Pyro Main"
+		"ru" 		"Гигантский ксеноподжигатель-классасин"
+		"pt"		"Xeno Pyro Main Gigante"
+		"nl"		"Xeno Gigantische Pyro Main"
+	}
+	"Xeno Combine Deutsch Ritter"
+	{
+		"en" 		"Xeno Combine Deutsch Ritter"
+		"ru" 		"Немецкий ксенокомбайн-рыцарь"
+		"pt"		"Xeno Deutsch Ritter da Combine"
+		"nl"		"Xeno Combine Duitse Ridder"
+	}
+	"Xeno X10 Spy Main"
+	{
+		"en" 		"Xeno X10 Spy Main"
+		"ru" 		"Ксеношпион-классасин сервера X10"
+		"pt"		"Xeno Spy Main do X10"
+		"nl"		"Xeno X10 Spion Main"
+	}
+
+	"Nazi Panzer"
+	{
+		"en" 		"Nazi Panzer"
+		"ru" 		"Нацистский панцер"
+		"pt"		"Tanque Nazista"
+		"nl"		"Nazi Tank"
+	}
+	"Bob the Overgod of gods and destroyer of multiverses"
+	{
+		"en" 		"Bob the Overgod of gods and destroyer of multiverses"
+		"ru" 		"Боб верховный бог богов и разрушитель мультивселенных"
+		"pt"		"Bob o todo poderoso destruidor de multiversos"
+		"nl"		"Bob the Oppergod van Goden en vernietigaar van Multiversums"
+	}
+	"Revived Combine DDT"
+	{
+		"en" 		"Revived Combine DDT"
+		"ru" 		"Оживлённый комбайн DDT"
+		"pt"		"Combine DDT Revivido"
+		"nl"		"Nieuw Leven Ingeblazen Combine DDT"
+	}
+	"Spookmaster Boner"
+	{
+		"en" 		"Spookmaster Boner"
+		"ru" 		"Костяной мастер-призрак"
+		"pt"		"Esqueleto Mestre dos Sustos"
+		"nl"		"SpookMeester Boner"
+	}
+	"Cured Father Grigori"
+	{
+		"en" 		"Cured Father Grigori"
+		"ru" 		"Исцелённый отец Григорий"
+		"pt"		"Senhor Grigori Curado"
+		"nl"		"Genezen Vader Grigori"
+	}
+	"Combine Mage"
+	{
+		"en" 		"Combine Mage"
+		"ru" 		"Комбайн-маг"
+		"pt"		"Mago da Combine"
+		"nl"		"Combine Magier"
+	}
+	"Bloon"
+	{
+		"en" 		"Bloon"
+		"ru" 		"Шар"
+		"pt"		"Balão"
+		"nl"		"Ballon"
+	}
+	"Massive Ornery Air Blimp"
+	{
+		"en" 		"Massive Ornery Air Blimp"
+		"ru" 		"Массивный злобный дирижабль"
+		"pt"		"Dirigível Massivamente Grande"
+		"nl"		"Massieve Ordinaire Luchtballon"
+	}
+	"Brutal Floating Behemoth"
+	{
+		"en" 		"Brutal Floating Behemoth"
+		"ru" 		"Жесточайший летающий бегемот"
+		"pt"		"Brutamontes Flutuante"
+		"nl"		"Brutale Zwevende Kolos"
+	}
+	"Zeppelin of Mighty Gargantuaness"
+	{
+		"en" 		"Zeppelin of Mighty Gargantuaness"
+		"ru" 		"Цеппелин могучей громадины"
+		"pt"		"Corajoso Gigante de Zeppelin"
+		"nl"		"Zeppelin van Machtige Grootsheid"
+	}
+	"Dark Dirigible Titan"
+	{
+		"en" 		"Dark Dirigible Titan"
+		"ru" 		"Тёмный дирижабль «Титан»"
+		"pt"		"Dirigivel Titan Escuro"
+		"nl"		"Duistere Titanisch Luchtship"
+	}
+	"Big Airship of Doom"
+	{
+		"en" 		"Big Airship of Doom"
+		"ru" 		"Большой дирижабль гибели"
+		"pt"		"Grande Aeronave do Fim"
+		"nl"		"Grote Luchtballon van Ondergang"
+	}
+	"Golden Bloon"
+	{
+		"en" 		"Golden Bloon"
+		"pt"		"Balão Dourado"
+		"ru" 		"Золотой шар"
+	}
+	"Bloonarius"
+	{
+		"en" 		"Bloonarius"
+		"pt"		"Balãorista"
+		"ru" 		"Шариус"
+	}
+	"Medic Apprentice Mage"
+	{
+		"en" 		"Medic Apprentice Mage"
+		"ru" 		"Ученик маг-медик"
+		"pt"		"Medico Mago Aprendiz"
+		"nl"		"Leerling Medicus Magier"
+	}
+	"Sawrunner"
+	{
+		"en" 		"Sawrunner"
+		"ru" 		"Бегун с бензопилой"
+		"pt"		"Corredor de Serras"
+		"nl"		"Zaagloper"
+	}
+	"True Fusion Warrior"
+	{
+		"en" 		"True Fusion Warrior"
+		"ru" 		"Истинный воин фьюжна"
+		"pt"		"Verdadeiro Guerreiro de Fusão"
+		"nl"		"Ware Fuzie Krijger"
+	}
+	"Medic Charger"
+	{
+		"en" 		"Medic Charger"
+		"ru" 		"Медик-громила"
+		"pt"		"Médico Investidor"
+		"nl"		"Medicus Strijdros"
+	}
+	"Medic Berserker"
+	{
+		"en" 		"Medic Berserker"
+		"ru" 		"Медик-берсерк"
+		"pt"		"Médico Insano"
+		"nl"		"Medicus Berserker"
+	}
+	"Militia"
+	{
+		"en" 		"Militia"
+		"ru" 		"Ополченец"
+		"pt"		"Milícia"
+		"nl"		"Militie"
+	}
+	"Barracks Militia"
+	{
+		"en" 		"Militia"
+	}
+	"Barracks Militia Desc"
+	{
+		"en"		"Basic unit of basic melee needs."
+	}
+	"Archer"
+	{
+		"en" 		"Archer"
+		"ru" 		"Лучник"
+		"pt"		"Arqueiro"
+		"nl"		"Boogschutter"
+	}
+	"Man-At-Arms"
+	{
+		"en" 		"Man-At-Arms"
+		"ru" 		"Гвардеец"
+		"pt"		"Homem de armas"
+		"nl"		"Krijgsman te paard"
+	}
+	"Skirmisher"
+	{
+		"en" 		"Skirmisher"
+		"ru" 		"Разбойник"
+		"pt"		"Escaramuça"
+		"nl"		"Tirailleur"
+	}
+	"Long Swordsman"
+	{
+		"en" 		"Long Swordsman"
+		"ru" 		"Длинномечник"
+		"pt"		"Espadachim com Espada longa"
+		"nl"		"Lange Zwaardvechter"
+	}
+	"Twohanded Swordsman"
+	{
+		"en" 		"Twohanded Swordsman"
+		"ru" 		"Двуручный мечник"
+		"pt"		"Espadachim de 2 espadas"
+		"nl"		"Twee Handige Zwaardvechter"
+	}
+	"Crossbow Man"
+	{
+		"en" 		"Crossbow Man"
+		"ru" 		"Арбалетчик"
+		"pt"		"Cara da Besta"
+		"nl"		"Kruisboogman"
+	}
+	"Spearman"
+	{
+		"en" 		"Spearman"
+		"ru" 		"Копьеносец"
+		"pt"		"Lanceiro"
+		"nl"		"Speerman"
+	}
+	"Hand Cannoneer"
+	{
+		"en" 		"Hand Cannoneer"
+		"ru" 		"Пушечник"
+		"pt"		"Canhoneiro de mão"
+		"nl"		"Hand Kanonnier"
+	}
+	"Elite Skirmisher"
+	{
+		"en" 		"Elite Skirmisher"
+		"ru" 		"Элитный разбойник"
+		"pt"		"Escaramuça de Elite"
+		"nl"		"Elite Tirailleur"
+	}
+	"Blitzkrieg"
+	{
+		"en" 		"Blitzkrieg"
+		"ru" 		"Блицкриг"
+		"pt"		"Blitzkrieg"
+		"nl"		"Blitzkrieg"
+	}
+	"Pikeman"
+	{
+		"en" 		"Pikeman"
+		"ru" 		"Пикинёр"
+		"pt"		"Piqueiro"
+		"nl"		"Piekerman"
+	}
+	"Medic Supperior Mage"
+	{
+		"en" 		"Medic Superior Mage"
+		"ru" 		"Высший маг-медик"
+		"pt"		"Médico Mago Superior"
+		"nl"		"Superieure Medicus Magier"
+	}
+	"Rebel"
+	{
+		"en" 		"Rebel"
+		"ru" 		"Повстанец"
+		"pt"		"Rebelde"
+		"nl"		"Rebel"
+	}
+	"Eagle Scout"
+	{
+		"en" 		"Eagle Scout"
+		"ru" 		"Орлиный разведчик"
+		"pt"		"Scout Aguia"
+		"nl"		"Adelaarsverkenner"
+	}
+	"Samurai"
+	{
+		"en" 		"Samurai"
+		"ru" 		"Самурай"
+		"pt"		"Samurai"
+		"nl"		"Samurai"
+	}
+	"The Addiction"
+	{
+		"en" 		"The Addiction"
+		"ru" 		"Зависимость"
+		"pt"		"O Viciado"
+		"nl"		"De Verslaving"
+	}
+	"The Doctor"
+	{
+		"en" 		"The Doctor"
+		"ru" 		"Доктор"
+		"pt"		"O Doutor"
+		"nl"		"De Dokter"
+	}
+	"Book Simon"
+	{
+		"en" 		"Book Simon"
+		"ru" 		"Книжный Саймон"
+		"pt"		"Simon do Livro"
+		"nl"		"Boek Simon"
+	}
+	"Kahmlstein"
+	{
+		"en"		"Kahmlstein"
+		"ru"		"Кахмльштайн"
+		"pt"		"Kahmlstein" 
+		"nl"		"Kahmlstein"
+	}
+	"Chaos Kahmlstein"
+	{
+		"en"		"Chaos Kahmlstein"
+	}
+	"L4D2 Tank"
+	{
+		"en"		"Tank"
+		"ru"		"Танк"
+		"pt"		"Tanque"
+		"nl"		"Tank"
+	}
+	"Holy Knight"
+	{
+		"en"		"Holy Knight"
+		"ru"		"Священный рыцарь"
+		"pt"		"Cavaleiro Santo"
+		"nl"		"Heilige Ridder"
+	}
+	"Sniper Railgunner"
+	{
+		"en"		"Sniper Railgunner"
+		"ru"		"Снайпер с рельсотроном"
+		"pt"		"Sniper com Rifle Laser"
+		"nl"		"Scherpe Railschutter"
+	}
+	"Soldier Barrager"
+	{
+		"en"		"Soldier Barrager"
+		"ru"		"Солдат-бомбардир"
+		"pt"		"Soldado de Barragem"
+		"nl"		"Soldaten spervuurder"
+	}
+	"Capped Ram"
+	{
+		"en"		"Capped Ram"
+		"ru"		"Таран"
+		"pt"		"Aríete"
+		"nl"		"Afgetopte Ram"
+	}
+	"The Shit Slapper"
+	{
+		"en"		"The Shit Slapper"
+		"pt"		"Batedor de Merda"
+		"ru"		"Дерьмошлёп"
+		"nl"		"De Strontontspanner"
+	}
+	"Basic Bones"
+	{
+		"en"		"Basic Bones"
+		"pt"		"Ossos Básicos"
+		"ru"		"Кости"
+		"nl"		"Basis Botten"
+	}
+	"Beefy Bones"
+	{
+		"en"		"Beefy Bones"
+		"pt"		"Ossos Carnudos"
+	}
+	"Brittle Bones"
+	{
+		"en"		"Brittle Bones"
+		"pt"		"Ossos Quebradiços"
+	}
+	"Big Bones"
+	{
+		"en"		"Big Bones"
+		"pt"		"Ossos Grandes"
+	}
+	"Buffed Basic Bones"
+	{
+		"en"		"Buffed Basic Bones"
+		"pt"		"Ossos Básicos Polidos"
+	}
+	"Buffed Beefy Bones"
+	{
+		"en"		"Buffed Beefy Bones"
+		"pt"		"Ossos Carnudos Polidos"		
+	}
+	"Buffed Brittle Bones"
+	{
+		"en"		"Buffed Brittle Bones"
+		"pt"		"Ossos Quebradiços Polidos"
+	}
+	"Buffed Big Bones"
+	{
+		"en"		"Buffed Big Bones"
+		"pt"		"Ossos Grandes Polidos"
+	}
+	"Mecha Engineer"
+	{
+		"en"		"Mecha Engineer"
+		"pt"		"Engineer Mecha"
+		"ru"		"Меха-инженер"
+		"nl"		"Mecha Ingenieur"
+	}
+	"Mecha Heavy"
+	{
+		"en"		"Mecha Heavy"
+		"pt"		"Heavy Mecha"
+		"ru"		"Меха-пулемётчик"
+		"nl"		"Mecha Heavy"
+	}
+	"Mecha Giant Heavy"
+	{
+		"en"		"Mecha Giant Heavy"
+		"pt"		"Heavy Gigante Mecha"
+		"ru"		"Гигантский меха-пулемётчик"
+		"nl"		"Mecha Gigantische Heavy"
+	}
+	"Mecha Giant Pyro"
+	{
+		"en"		"Mecha Giant Pyro"
+		"pt"		"Pyro Gigante Mecha"
+		"ru"		"Гигантский меха-поджигатель"
+		"nl"		"Mecha Gigantische Pyro"
+	}
+	"Mecha Scout"
+	{
+		"en"		"Mecha Scout"
+		"pt"		"Scout Mecha"
+		"ru"		"Меха-разведчик"
+		"nl"		"Mecha Verkenner"
+	}
+	"Donnerkrieg"
+	{
+		"en"		"Donnerkrieg"
+		"pt"		"Donnerkrieg"
+		"ru"		"Доннеркриг"
+		"nl"		"Donnerkrieg"
+	}
+	"Schwertkrieg"
+	{
+		"en"		"Schwertkrieg"
+		"pt"		"Schwertkrieg"
+		"ru"		"Шверткриг"
+		"nl"		"Schwertkrieg"
+	}
+	"Phantom Knight"
+	{
+		"en"		"Lucian, ''Blood Diamond''"
+		"pt"		"Lucian, ''Diamante de Sangue''"
+		"ru"		"Люциан, «Кровавый алмаз»"
+	}
+	"Medic Constructor"
+	{
+		"en"		"Medic Constructor"
+		"pt"		"Medic Construtor"
+		"ru"		"Медик-строитель"
+	}
+	"Gambler"
+	{
+		"en"	"Gambler"
+		"pt"	"Apostador"
+		"de"	"Gambler" //Not Really needed i just added them just in case others want their lang
+		"ru"	"Азартный игрок"
+	}
+	"Pablo Gonzales"
+	{
+		"en"	"Pablo Gonzales"
+		"pt"	"Pablo Gonzales"
+		"de"	"Pablo Gonzales"
+		"ru"	"Пабло Гонсалес"
+	}
+	"Doktor Medick"
+	{
+		"en"	"Doktor Medick"
+		"pt"	"Doktor Medick"
+		"de"	"Doktor Medick"
+		"ru"	"Доктор Мэдик"
+	}
+	"Eternal Kaptain Heavy"
+	{
+		"en"	"Eternal Kaptain Heavy"
+		"pt"	"Eterno Kapitão Heavy"
+		"de"	"Eternal Kaptain Heavy"
+		"ru"	"Вечный капитан Пулемётчик"
+	}
+	"Booty Executioner"
+	{
+		"en"	"Booty Executioner"
+		"pt"	"Executor de Bundas"
+		"de"	"Booty Executioner"
+		"ru"	"Ягодичный Палач"
+	}
+	"Sandvich Slayer"
+	{
+		"en"	"Sandvich Slayer"
+		"pt"	"Caçador de Sanduíches"
+		"de"	"Sandvich Slayer"
+		"ru"	"Палач Бутербродов"
+	}
+	"Payday Cloaker"
+	{
+		"en"	"Payday Cloaker"
+		"pt"	"Payday Cloaker"
+		"de"	"Payday Cloaker"
+		"ru"	"Клокер из Payday"
+	}
+	"Bunker Kahmlstein"
+	{
+		"en"		"Bunker Kahmlstein"
+		"pt"		"Bunker Kahmlstein"
+		"ru"		"Бункерный Кахмльштайн"
+	}
+	"Zerofuse"
+	{
+		"en"		"Zerofuse"
+		"pt"		"Zerofuse"
+		"ru"		"Зерофуз"
+	}
+	"Bunker Bot Soldier"
+	{
+		"en"		"Bunker Bot Soldier"
+		"pt"		"Soldier Bot do Bunker"
+		"ru"		"Бункерный бот-солдат"
+	}
+	"Bunker Bot Sniper"
+	{
+		"en"		"Bunker Bot Sniper"
+		"pt"		"Sniper Bot do Bunker"
+		"ru"		"Бункерный бот-снайпер"
+	}
+	"Bunker Skeleton"
+	{
+		"en"		"Bunker Skeleton"
+		"pt"		"Esqueleto do Bunker"
+		"ru"		"Бункерный скелет"
+	}
+	"Bunker Small Skeleton"
+	{
+		"en"		"Bunker Small Skeleton"
+		"pt"		"Esqueleto Pequeno do Bunker"
+		"ru"		"Бункерный маленький скелет"
+	}
+	"Bunker Skeleton King"
+	{
+		"en"		"Bunker Skeleton King"
+		"pt"		"Esqueleto Rei do Bunker"
+		"ru"		"Бункерный король скелетов"
+	}
+	"Bunker Headless Horseman"
+	{
+		"en"		"Bunker Headless Horseman"
+		"pt"		"Cavaleiro sem cabeça do Bunker"
+		"ru"		"Бункерный Пеший всадник без головы"
+	}
+	"Gold Bloon"
+	{
+		"en"		"Gold Bloon"
+		"pt"		"Balão de Ouro"
+		"ru"		"Золотой шар"
+	}
+	"Medival Scout"
+	{
+		"en"		"Ridden Scout"
+		"pt"		"Scout Montado"
+		"ru"		"Ездовой разведчик"
+	}
+	"Medival Villager"
+	{
+		"en"		"Villager"
+		"pt"		"Aldeão"
+		"ru"		"Житель"
+	}
+	"Building"
+	{
+		"en"		"Building"
+		"pt"		"Edifício"
+		"ru"		"Постройка"
+	}
+	"Medival Construct"
+	{
+		"en"		"Construct"
+		"pt"		"Construção"
+		"ru"		"Строение"
+	}
+	"Champion"
+	{
+		"en"		"Champion"
+		"pt"		"Campeão"
+		"ru"		"Чемпион"
+	}
+	"Light Cavalry"
+	{
+		"en"		"Light Cavalry"
+		"pt"		"Cavalaria Leve"
+		"ru"		"Лёгкий кавалерист"
+	}
+	"Hussar"
+	{
+		"en"		"Hussar"
+		"pt"		"Hussardo"
+		"ru"		"Гусар"
+	}
+	"Knight"
+	{
+		"en"		"Knight"
+		"pt"		"Cavaleiro"
+		"ru"		"Рыцарь"
+	}
+	"Obuch"
+	{
+		"en"		"Obuch"
+		"pt"		"Obuch"
+		"ru"		"Обух"
+	}
+	"Monk"
+	{
+		"en"		"Monk"
+		"pt"		"Monge"
+		"ru"		"Монах"
+	}
+	"Cavalary"
+	{
+		"en"		"Cavalary"
+		"pt"		"Cavalaria"
+		"ru"		"Кавалерист"
+	}
+	"Paladin"
+	{
+		"en"		"Paladin"
+		"pt"		"Paladino"
+		"ru"		"Паладин"
+	}
+	"Crossbow Giant"
+	{
+		"en"		"Crossbow Giant"
+		"pt"		"Besta Gigante"
+		"ru"		"Гигантский арбалетчик"
+	}
+	"Swordsman Giant"
+	{
+		"en"		"Swordsman Giant"
+		"pt"		"Espadachim Gigante"
+		"ru"		"Гигантский мечник"
+	}
+	"Mounted Archer"
+	{
+		"en"		"Mounted Archer"
+		"pt"		"Arqueiro Montado"
+		"ru"		"Конный лучник"
+	}
+	"Eagle Warrior"
+	{
+		"en"		"Eagle Warrior"
+		"pt"		"Guerreiro da Aguia"
+		"ru"		"Орёл-воин"
+	}
+	"Giant Eagle Warrior"
+	{
+		"en"		"Giant Eagle Warrior"
+		"pt"		"Guerreiro da Aguia Gigante"
+		"ru"		"Гигантский орёл-воин"
+	}
+	"Son Of Osiris"
+	{
+		"en"		"Son Of Osiris"
+		"pt"		"Filho de Osiris"
+		"ru"		"Сын Осириса"
+	}
+	"Achilles"
+	{
+		"en"		"Achilles"
+		"pt"		"Aquiles"
+		"ru"		"Ахилл"
+	}
+	"Medival Arbalest"
+	{
+		"en"		"Medieval Arbalest"
+		"pt"		"Arbalest Medieval"
+		"ru"		"Арбалетчик средневековья"
+	}
+	"Medival Brawler"
+	{
+		"en"		"Medieval Brawler"
+		"pt"		"Lutador Medieval"
+		"ru"		"Боец средневековья"
+	}
+	"Medival Longbowmen"
+	{
+		"en"		"Medieval Longbowmen"
+		"pt"		"Arqueiro Medieval"
+		"ru"		"Лучник средневековья"
+	}
+	"Medival Halberdier"
+	{
+		"en"		"Medieval Halberdier"
+		"pt"		"Alabardeiro Medieval"
+		"ru"		"Алебардист средневековья"
+	}
+	"Medival Elite Longbowmen"
+	{
+		"en"		"Medieval Elite Longbowmen"
+		"pt"		"Arqueiro Elite Medieval"
+		"ru"		"Элитный лучник средневековья"
+	}
+	"Trebuchet"
+	{
+		"en"		"Trebuchet"
+		"pt"		"Catapulta"
+		"ru"		"Требушет"
+	}
+	"Ikunagae"
+	{
+		"en"		"Iku Nagae"
+		"pt"		"Iku Nagae"
+		"de"		"Iku Nagae"
+		"ru"		"Ику Нагаэ"
+	}
+	"Mecha Soldier Barrager"
+	{
+		"en"		"Mecha Soldier Barrager"
+		"de"		"Machine Soldat Spammer"
+		"ru"		"Меха-солдат-бомбардир"
+	}
+	"Nearl Radiant Sword"
+	{
+		"en"		"Nearl Radiant Sword"
+		"pt"		"Espada Quase Radiante"
+		"ru"		"Лучезарный меч Нерл"
+	}
+	"Spawned Combine"
+	{
+		"en"		"Spawned Combine"
+		"pt"		"Combine Gerado"
+		"ru"		"Созданный комбайн"
+	}
+	"Spawned Father Grigori"
+	{
+		"en"		"Spawned Father Grigori"
+		"pt"		"Pai Grigori Gerado"
+		"ru"		"Созданный отец Григорий"
+	}
+	"Spawned Blue Goggles"
+	{
+		"en"		"Spawned Blue Goggles"
+		"pt"		"Blue Goggles Gerado"
+		"ru"		"Созданный Блу Гогглз"
+	}
+	"Silvester"
+	{
+		"en"		"Silvester"
+		"pt"		"Silvester"
+		"ru"		"Сильвестр"
+	}
+	"Blue Goggles"
+	{
+		"en"		"Blue Goggles"
+		"pt"		"Blue Goggles"
+		"ru"		"Блу Гогглз"
+	}
+	"Angeled Silvester"
+	{
+		"en"		"Angeled Silvester"
+		"pt"		"Silvester Angelical"
+		"ru"		"Угловатый Сильвестр"
+	}
+	"Nemesis"
+	{
+		"en"		"Nemesis"
+		"pt"		"Nemesis"
+		"ru"		"Немезид"
+	}
+	"Enraged Nemesis"
+	{
+		"en"		"Enraged Nemesis"
+		"pt"		"Nemesis Enfurecido"
+	}
+	"Shell Sea Runner"
+	{
+		"en"		"Shell Sea Runner"
+		"pt"		"Corredor da Concha do Mar"
+		"ru"		"Морской бегун из ракушек"
+		"chi"		"壳海狂奔者"
+	}
+	"Nourished Runner"
+	{
+		"en"		"Nourished Runner"
+		"pt"		"Corredor Nutrido"
+		"ru"		"Сытый бегун"
+		"chi"		"富营养的狂奔者"
+	}
+	"Deep Sea Slider"
+	{
+		"en"		"Deep Sea Slider"
+		"pt"		"Deslizador do Mar Profundo"
+		"ru"		"Глубоководный ползун"
+		"chi"		"底海滑动者"
+	}
+	"Nourished Slider"
+	{
+		"en"		"Nourished Slider"
+		"pt"		"Deslizador Nutrido"
+		"ru"		"Сытый ползун"
+		"chi"		"富营养的滑动者"
+	}
+	"Ridge Sea Spitter"
+	{
+		"en"		"Ridge Sea Spitter"
+		"pt"		"Cuspidor do Mar da Crista"
+		"ru"		"Хребтовый морской плевальщик"
+		"chi"		"脊海喷吐者"
+	}
+	"Nourished Spitter"
+	{
+		"en"		"Nourished Spitter"
+		"pt"		"Cuspidor Nutrido"
+		"ru"		"Сытый плевальщик"
+		"chi"		"富营养的喷吐者"
+	}
+	"Basin Sea Reaper"
+	{
+		"en"		"Basin Sea Reaper"
+		"pt"		"Ceifador da Bacia do Mar"
+		"ru"		"Бассейновый жнец"
+		"chi"		"钵海收割者"
+	}
+	"Nourished Reaper"
+	{
+		"en"		"Nourished Reaper"
+		"pt"		"Ceifador Nutrido"
+		"ru"		"Сытый жнец"
+		"chi"		"富营养的收割者"
+	}
+	"Pocket Sea Crawler"
+	{
+		"en"		"Pocket Sea Crawler"
+		"pt"		"Rastejante do Mar de Bolso"
+		"ru"		"Карманный морской краулер"
+		"chi"		"囊海爬行者"
+	}
+	"Nourished Crawler"
+	{
+		"en"		"Nourished Crawler"
+		"pt"		"Rastejante Nutrido"
+		"ru"		"Сытый краулер"
+		"chi"		"富营养的爬行者"
+	}
+	"Primal Sea Piercer"
+	{
+		"en"		"Primal Sea Piercer"
+		"pt"		"Perfurador Marítimo Primordial"
+		"ru"		"Первобытный морской пронзатель"
+		"chi"		"始海穿刺者"
+	}
+	"Nourished Piercer"
+	{
+		"en"		"Nourished Piercer"
+		"pt"		"Perfurador Nutrido"
+		"ru"		"Сытый пронзатель"
+		"chi"		"富营养的穿刺者"
+	}
+	"The First To Talk"
+	{
+		"en"		"The First To Talk"
+		"pt"		"Primeiro a Falar"
+		"ru"		"Первый говорящий"
+		"chi"		"首言者"
+	}
+	"Sal Viento Bishop Quintus"
+	{
+		"en"		"Sal Viento Bishop Quintus"
+		"pt"		"Sal Viento Quinto Bispo"
+		"ru"		"Сал Вьенто Епископ Квинт"
+		"chi"		"盐风主教昆图斯"
+	}
+	"Armorless Union Knight"
+	{
+		"en"		"Armorless Union Knight"
+		"pt"		"Cavaleiro da União dos Sem Armadura"
+		"ru"		"Рыцарь из «Союза без брони»"
+		"chi"		"无名独立骑士"
+	}
+	"Roar Knightclub Trainee"
+	{
+		"en"		"Roar Knightclub Trainee"
+		"pt"		"Estagiário Roar do Knightclub"
+		"ru"		"Ученик из «Рыцарского клуба \"Рев\"»"
+		"chi"		"呼啸骑士团学徒"
+	}
+	"Bloodboil Knightclub Trainee"
+	{
+		"en"		"Bloodboil Knightclub Trainee"
+		"pt"		"Estagiário Bloodboil do Knightclub"
+		"ru"		"Ученик из «Рыцарского клуба \"Кровавый котёл\"»"
+		"chi"		"沸血骑士团学徒"
+	}
+	"Armorless Union Cleanup Squad"
+	{
+		"en"		"Armorless Union Cleanup Squad"
+		"pt"		"Esquadrão de Limpeza da União dos Sem Armadura"
+		"ru"		"Отряд зачистки из «Союза без брони»"
+		"chi"		"无胄盟清扫小队"
+	}
+	"Consumable Remains"
+	{
+		"en"		"Consumable Remains"
+		"pt"		"Consumível Restante"
+		"ru"		"Потребляемые остатки"
+	}
+	"The Endspeaker, Will of We Many"
+	{
+		"en"		"The Endspeaker, Will of We Many"
+		"pt"		"O Último Falante, A Vontade de Muitos"
+		"ru"		"Говорящий с концом, воля многих из нас"
+		"chi"		"屠谕者，大群意志"
+	}
+	"Nethersea Founder"
+	{
+		"en"		"Nethersea Founder"
+		"pt"		"Fundador do Nethersea"
+		"ru"		"Основатель низинного моря"
+		"chi"		"深溟奠基者"
+	}
+	"Nourished Founder"
+	{
+		"en"		"Nourished Founder"
+		"pt"		"Fundador Nutrido"
+		"ru"		"Сытый основатель"
+		"chi"		"富营养的奠基者"
+	}
+	"Regressed Founder"
+	{
+		"en"		"Regressed Founder"
+		"pt"		"Fundador Regredido"
+		"ru"		"Откатывающийся основатель"
+		"chi"		"退行的奠基者"
+	}
+	"Nethersea Predator"
+	{
+		"en"		"Nethersea Predator"
+		"ru"		"Хищник низинного моря"
+		"chi"		"深溟猎食者"
+	}
+	"Nourished Predator"
+	{
+		"en"		"Nourished Predator"
+		"ru"		"Сытый хищник"
+		"chi"		"富营养的猎食者"
+	}
+	"Regressed Predator"
+	{
+		"en"		"Regressed Predator"
+		"ru"		"Откатывающийся хищник"
+		"chi"		"退行的猎食者"
+	}
+	"Nethersea Brandguider"
+	{
+		"en"		"Nethersea Brandguider"
+		"ru"		"Наводчик головёшек низинного моря"
+		"chi"		"深溟引痕者"
+	}
+	"Nourished Brandguider"
+	{
+		"en"		"Nourished Brandguider"
+		"ru"		"Сытый наводчик головёшек"
+		"chi"		"富营养的引痕者"
+	}
+	"Regressed Brandguider"
+	{
+		"en"		"Regressed Brandguider"
+		"ru"		"Откатывающийся наводчик головёшек"
+		"chi"		"退行的引痕者"
+	}
+	"Armorless Union Assassin"
+	{
+		"en"		"Armorless Union Assassin"
+		"ru"		"Убийца из «Союза без брони»"
+		"chi"		"无胄盟刺客"
+	}
+	"Nethersea Spewer"
+	{
+		"en"		"Nethersea Spewer"
+		"ru"		"Изрыгатель низинного моря"
+		"chi"		"深溟喷溅者"
+	}
+	"Nourished Spewer"
+	{
+		"en"		"Nourished Spewer"
+		"ru"		"Сытый изрыгатель"
+		"chi"		"富营养的喷溅者"
+	}
+	"Regressed Spewer"
+	{
+		"en"		"Regressed Spewer"
+		"ru"		"Откатывающийся изрыгатель"
+		"chi"		"退行的喷溅者"
+	}
+	"Nethersea Swarmcaller"
+	{
+		"en"		"Nethersea Swarmcaller"
+		"ru"		"Вызыватель роя низинного моря"
+		"chi"		"深溟巢涌者"
+	}
+	"Nourished Swarmcaller"
+	{
+		"en"		"Nourished Swarmcaller"
+		"ru"		"Сытый вызыватель роя"
+		"chi"		"富营养的巢涌者"
+	}
+	"Regressed Swarmcaller"
+	{
+		"en"		"Regressed Swarmcaller"
+		"ru"		"Откатывающийся вызыватель роя"
+		"chi"		"退行的巢涌者"
+	}
+	"Nethersea Reefbreaker"
+	{
+		"en"		"Nethersea Reefbreaker"
+		"ru"		"Рифоразрушитель низинного моря"
+		"chi"		"深溟裂礁者"
+	}
+	"Nourished Reefbreaker"
+	{
+		"en"		"Nourished Reefbreaker"
+		"ru"		"Сытый рифоразрушитель"
+		"chi"		"富营养的裂礁者"
+	}
+	"Regressed Reefbreaker"
+	{
+		"en"		"Regressed Reefbreaker"
+		"ru"		"Откатывающийся рифоразрушитель"
+		"chi"		"退行的裂礁者"
+	}
+	"Thorns"
+	{
+		"en"		"Thorns"
+		"ru"		"Шипы"
+		"chi"		"棘刺"
+	}
+	"God Arkantos"
+	{
+		"en"		"God Arkantos"
+		"ru"		"Бог Аркантос"
+	}
+	"Seaborn Scout"
+	{
+		"en"		"Seaborn Scout"
+		"ru"		"Разведчик Seaborn"
+	}
+	"Seaborn Soldier"
+	{
+		"en"		"Seaborn Soldier"
+		"ru"		"Солдат Seaborn"
+	}
+	"Seaborn Pyro"
+	{
+		"en"		"Seaborn Pyro"
+		"ru"		"Поджигатель Seaborn"
+	}
+	"Seaborn Demoman"
+	{
+		"en"		"Seaborn Demoman"
+		"ru"		"Подрывник Seaborn"
+	}
+	"Seaborn Heavy"
+	{
+		"en"		"Seaborn Heavy"
+		"ru"		"Пулемётчик Seaborn"
+	}
+	"Seaborn Engineer"
+	{
+		"en"		"Seaborn Engineer"
+		"ru"		"Инженер Seaborn"
+	}
+	"Seaborn Medic"
+	{
+		"en"		"Seaborn Medic"
+		"ru"		"Медик Seaborn"
+	}
+	"Seaborn Sniper"
+	{
+		"en"		"Seaborn Sniper"
+		"ru"		"Снайпер Seaborn"
+	}
+	"Seaborn Spy"
+	{
+		"en"		"Seaborn Spy"
+		"ru"		"Шпион Seaborn"
+	}
+	"Citizen"
+	{
+		"en"		"Citizen"
+		"ru"		"Горожанин"
+	}
+	"Barracks Railgunner"
+	{
+		"en"		"Railgunner"
+		"ru"		"Рельсотроновик"
+	}
+	"Barracks Basic Mage"
+	{
+		"en"		"Basic Medic Mage"
+		"ru"		"Базовый маг-медик"
+	}
+	"Barracks Intermediate Mage"
+	{
+		"en"		"Intermediate Medic Mage"
+		"ru"		"Средний маг-медик"
+	}
+	"Barracks Ikunagae"
+	{
+		"en"		"Iku Nagae"
+		"de"		"Iku Nagae"
+		"ru"		"Ику Нагаэ"
+	}
+	"Barracks SchwertKrieg"
+	{
+		"en"		"Schwertkrieg"
+		"ru"		"Шверткриг"
+		"nl"		"Schwertkrieg"
+	}
+	"Barracks Donnerkrieg"
+	{
+		"en"		"Donnerkrieg"
+		"ru"		"Доннеркриг"
+		"nl"		"Donnerkrieg"
+	}
+	"Barracks Holy Knight"
+	{
+		"en"		"Holy Knight"
+		"ru"		"Священный рыцарь"
+		"pt"		"Cavaleiro Santo"
+		"nl"		"Heilige Ridder"
+	}
+	"Barracks Mecha Barrager"
+	{
+		"en"		"Mecha Soldier Barrager"
+		"de"		"Machine Soldat Spammer"
+		"ru"		"Меха-солдат-бомбардир"
+	}
+	"Barracks Barrager"
+	{
+		"en"		"Barrager"
+		"ru"		"Бомбардир"
+	}
+	"Barracks Berserker"
+	{
+		"en"		"Berserker"
+		"ru"		"Берсерк"
+	}
+	"Barracks Crossbow Medic"
+	{
+		"en"		"Medic Crossbowman"
+		"ru"		"Медик-арбалетчик"
+	}
+	"The Last Knight"
+	{
+		"en"		"The Last Knight"
+		"ru"		"Последний рыцарь"
+		"chi"		"最后的骑士"
+	}
+	"Tide-Hunt Knight"
+	{
+		"en"		"Tide-Hunt Knight"
+		"ru"		"Рыцарь приливной охоты"
+		"chi"		"猎潮的骑士"
+	}
+	"Saint Carmen"
+	{
+		"en"		"Saint Carmen"
+		"ru"		"Святая Кармен"
+		"chi"		"圣徒卡门"
+	}
+	"Pathshaper"
+	{
+		"en"		"Pathshaper"
+		"chi"		"塑路者"
+	}
+	"Pathshaper"
+	{
+		"en"		"Pathshaper"
+		"chi"		"塑路者"
+	}
+	"Pathshaper Fractal"
+	{
+		"en"		"Pathshaper Fractal"
+		"chi"		"塑路者分形"
+	}
+	"Barracks Teutonic Knight"
+	{
+		"en"		"Teutonic Knight"
+		"ru"		"Тевтонский рыцарь"
+	}
+	"Barracks Villager"
+	{
+		"en"		"Villager"
+		"ru"		"Житель"
+	}
+	"Barracks Building"
+	{
+		"en"		"Tower"
+		"ru"		"Башня"
+	}
+	"Tidelinked Bishop"
+	{
+		"en"		"Tidelinked Bishop"
+		"chi"		"接潮主教"
+	}
+	"Tidelinked Archon"
+	{
+		"en"		"Tidelinked Archon"
+		"chi"		"接潮蔑死体"
+	}
+	"Scientific Witchery"
+	{
+		"en"	"Scientific Witchery"
+	}
+	"Ishar'mla, Heart of Corruption"
+	{
+		"en"		"Ishar'mla, Heart of Corruption"
+		"chi"		"伊莎玛拉，腐化之心"
+	}
+	"Seaborn Guard"
+	{
+		"en"		"Seaborn Guard"
+	}
+	"Seaborn Defender"
+	{
+		"en"		"Seaborn Defender"
+	}
+	"Seaborn Vanguard"
+	{
+		"en"		"Seaborn Vanguard"
+	}
+	"Seaborn Caster"
+	{
+		"en"		"Seaborn Caster"
+	}
+	"Seaborn Specialist"
+	{
+		"en"		"Seaborn Specialist"
+	}
+	"Seaborn Supporter"
+	{
+		"en"		"Seaborn Supporter"
+	}
+	"Theocracy"
+	{
+		"en"		"Theocracy"
+	}
+	"Benera"
+	{
+		"en" 		"Benera"
+	}
+	"Pental"
+	{
+		"en" 		"Pental"
+	}
+	"Defanda"
+	{
+		"en" 		"Defanda"
+	}
+	"Selfam Ire"
+	{
+		"en" 		"Selfam Ire"
+	}
+	"Vaus Magica"
+	{
+		"en" 		"Vaus Magica"
+	}
+	"Pistoleer"
+	{
+		"en" 		"Pistoleer"
+	}
+	"Diversionistico"
+	{
+		"en" 		"Diversionistico"
+	}
+	"Adiantum"
+	{
+		"en"	"Adiantum"
+	}
+	"Lanius"
+	{
+		"en"	"Lanius"
+	}
+	"Magia"
+	{
+		"en"	"Magia"
+	}
+	"Heavy Punuel"
+	{
+		"en"	"Heavy Punuel"
+	}
+	"Seargent Ideal"
+	{
+		"en"	"Seargent Ideal"
+	}
+	"VIP Building, The Objective"
+	{
+		"en"	"VIP Building, The Objective"
+	}
+	"Rifal Manu"
+	{
+		"en"	"Rifal Manu"
+	}
+	"Siccerino"
+	{
+		"en"	"Siccerino"
+	}
+	"Soldine Prototype"
+	{
+		"en"	"Soldine Prototype"
+	}
+	"Soldine"
+	{
+		"en"	"Soldine"
+	}
+	"Protecta"
+	{
+		"en"	"Protecta"
+	}
+	"Sniponeer"
+	{
+		"en"	"Sniponeer"
+	}
+	"Ega Bunar"
+	{
+		"en"	"Ega Bunar"
+	}
+	"Enega Kapus"
+	{
+		"en"	"Enega Kapus"
+	}
+	"Captino Agentus"
+	{
+		"en"	"Captino Agentus"
+	}
+	"Sensal"
+	{
+		"en"	"Sensal"
+	}
+	"Dual Rea"
+	{
+		"en"	"Dual Rea"
+	}
+	"Guardus"
+	{
+		"en"	"Guardus"
+	}
+	"Vaus Techicus"
+	{
+		"en"	"Vaus Techicus"
+	}
+	"Minigun Assisa"
+	{
+		"en"	"Minigun Assisa"
+	}
+	"Ignitus"
+	{
+		"en"	"Ignitus"
+	}
+	"Helena"
+	{
+		"en"	"Helena"
+	}
+	"Erasus"
+	{
+		"en"	"Erasus"
+	}
+	"Giant Tankus"
+	{
+		"en"	"Giant Tankus"
+	}
+	"Anfuhrer Eisenhard"
+	{
+		"en"	"Anfuhrer Eisenhard"
+	}
+	"Speedus Adivus"
+	{
+		"en"	"Speedus Adivus"
+	}
+	"Allied Sensal Afterimage"
+	{
+		"en"	"Allied Sensal Afterimage"
+	}
+	"Overlord The Last"
+	{
+		"en"	"Overlord The Last"
+	}
+	"Bladedance The Combine"
+	{
+		"en"	"Bladedance The Combine"
+	}
+	"Allied Leper Afterimage"
+	{
+		"en"	"Allied Leper Afterimage"
+	}
+	"Stella"
+	{
+		"en"	"Stella"
+	}
+	"Astria"
+	{
+		"en"	"Astria"
+	}
+	"Aether"
+	{
+		"en"	"Aether"
+	}
+	"Europa"
+	{
+		"en"	"Europa"
+	}
+	"Ruina Drone"	
+	{
+		"en"	"Drone"
+	}
+	"Ruriana"
+	{
+		"en"	"Ruriana"
+	}
+	"Valiant"
+	{
+		"en"	"Valiant"
+	}
+	"Magia Anchor"
+	{
+		"en"	"Magia Anchor"
+	}
+	"Stellar Weaver"
+	{
+		"en"	"Stellar Weaver"
+	}
+	"Daedalus"
+	{
+		"en"	"Daedalus"
+	}
+	"Malius"
+	{
+		"en"	"Malius"
+	}
+	"Laz"
+	{
+		"en"	"Laz"
+	}
+	"Laniun"
+	{
+		"en"	"Laniun"
+	}
+	"Magnium"
+	{
+		"en"	"Magnium"
+	}
+	"Stellaria"
+	{
+		"en"	"Stellaria"
+	}
+	"Astriana"
+	{
+		"en"	"Astriana"
+	}
+	"Europis"
+	{
+		"en"	"Europis"
+	}
+	"Draedon"
+	{
+		"en"	"Draedon"
+	}
+	"Aetheria"
+	{
+		"en"	"Aetheria"
+	}
+	"Maliana"
+	{
+		"en"	"Maliana"
+	}
+	"Ruianus"
+	{
+		"en"	"Ruianus"
+	}
+	"Lazius"
+	{
+		"en"	"Lazius"
+	}
+	"Dronian"
+	{
+		"en"	"Dronian"
+	}
+	"Beheaded Kamikaze"
+	{
+		"en"	"Beheaded Kamikaze"
+	}
+	"?????????????"
+	{
+		"en"	"?????????????"
+	}
+	"??????? First"
+	{
+		"en"	"??????? First"
+	}
+	"??? the First"
+	{
+		"en"	"??? the First"
+	}
+	"Bob the First"
+	{
+		"en"	"Bob the First"
+	}
+	"Ahim"
+	{
+		"en"	"Ahim"
+	}
+	"Inabdil"
+	{
+		"en"	"Inabdil"
+	}
+	"Khazaan"
+	{
+		"en"	"Khazaan"
+	}
+	"Sakratan"
+	{
+		"en"	"Sakratan"
+	}
+	"Yadeam"
+	{
+		"en"	"Yadeam"
+	}
+	"Rajul"
+	{
+		"en"	"Rajul"
+	}
+	"Qanaas"
+	{
+		"en"	"Qanaas"
+	}
+	"Atilla"
+	{
+		"en"	"Atilla"
+	}
+	"Ancient Demon"
+	{
+		"en"	"Ancient Demon"
+	}
+	"Winter Sniper"
+	{
+		"en"	"Winter Sniper"
+	}
+	"Ziberian Miner"
+	{
+		"en"	"Ziberian Miner"
+	}
+	"Snowey Gunner"
+	{
+		"en"	"Snowey Gunner"
+	}
+	"Freezing Cleaner"
+	{
+		"en"	"Freezing Cleaner"
+	}
+	"Airborn Explorer"
+	{
+		"en"	"Airborn Explorer"
+	}
+	"Arctic Mage"
+	{
+		"en"	"Arctic Mage"
+	}
+	"Frost Hunter"
+	{
+		"en"	"Frost Hunter"
+	}
+	"Skin Hunter"
+	{
+		"en"	"Skin Hunter"
+	}
+	"Irritated Person"
+	{
+		"en"	"Irritated Person"
+	}
+	"Archosauria"
+	{
+		"en"	"Archosauria"
+	}
+	"Aslan"
+	{
+		"en"	"Aslan"
+	}
+	"Perro"
+	{
+		"en"	"Perro"
+	}
+	"Caprinae"
+	{
+		"en"	"Caprinae"
+	}
+	"Liberi"
+	{
+		"en"	"Liberi"
+	}
+	"Ursus"
+	{
+		"en"	"Ursus"
+	}
+	"Ransacker"
+	{
+		"en"	"Ransacker"
+	}
+	"Stellar Weaver"
+	{
+		"en"	"Stellar Weaver"
+	}
+	"Runover"
+	{
+		"en"	"Runover"
+	}
+	"Hitman"
+	{
+		"en"	"Hitman"
+	}
+	"Mad Doctor"
+	{
+		"en"	"Mad Doctor"
+	}
+	"Abomination"
+	{
+		"en"	"Abomination"
+	}
+	"Anarchist Enforcer"
+	{
+		"en"	"Anarchist Enforcer"
+	}
+	"Braindead"
+	{
+		"en"	"Braindead"
+	}
+	"Behemonth"
+	{
+		"en"	"Behemonth"
+	}
+	"Absolute Incinirator"
+	{
+		"en"	"Absolute Incinirator"
+	}
+	"Aegir"
+	{
+		"en"	"Aegir"
+	}
+	"Ursus"
+	{
+		"en"	"Ursus"
+	}
+	"Cautus"
+	{
+		"en"	"Cautus"
+	}
+	"Vulpo"
+	{
+		"en"	"Vulpo"
+	}
+	"Major Steam"
+	{
+		"en"	"Major Steam"
+	}
+	"The Messenger"
+	{
+		"en"	"The Messenger"
+	}
+	"The Purge"
+	{
+		"en"	"The Purge"
+	}
+	"Rouge Expidonsan Doctor"
+	{
+		"en"	"Rouge Expidonsan Doctor"
+	}
+	"Laniun"
+	{
+		"en"	"Laniun"
+	}
+	"Bob the Second"
+	{
+		"en"	"Bob the Second"
+	}
+	"Wildingen Hitman"
+	{
+		"en"	"Wildingen Hitman"
+	}
+	"Mr.X"
+	{
+		"en"	"Mr.X"
+	}
+	"Xeno Acclaimed Swordsman"
+	{
+		"en"	"Xeno Acclaimed Swordsman"
+	}
+	"Xeno Early Infected"
+	{
+		"en"	"Xeno Early Infected"
+	}
+	"Xeno Patient Few"
+	{
+		"en"	"Xeno Patient Few"
+	}
+	"Ouroboros Ekas"
+	{
+		"en"	"Ouroboros Ekas"
+	}
+}

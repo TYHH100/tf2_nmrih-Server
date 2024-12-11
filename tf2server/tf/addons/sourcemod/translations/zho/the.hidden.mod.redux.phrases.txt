@@ -1,0 +1,242 @@
+"Phrases"
+{
+    // 文本翻译by MP40小曼
+    "hidden_eng"	
+    {		
+        "zho"		"{powderblue}您無法升級級補給器，金屬已經退還."	
+    }	
+    "hidden_eng2"	
+    {		
+        "zho"		"{powderblue}您无無法升級傳送器，金屬已經退還."	
+    }	
+    "hidden_eng3"	
+    {		
+        "zho"		"{powderblue}您您不可以建造步槍哨，金屬已經退還."	
+    }	
+    "hidden_taunts"	
+    {		
+        "zho"		"{powderblue}嘲諷功能被禁用!"	
+    }	
+    "hidden_kill"	
+    {		
+        "#format"	"{1:N}"
+        "zho"		"{crimson}隱身殺手{powderblue} 擊殺了 {crimson}{1}{powderblue} 並且吃掉了他身體的一部分來回復生命值!"	
+    }
+    "hidden_kill2"
+    {		
+        "#format"	"{1:N}"
+        "zho"		"{crimson}隱形殺手{powderblue} 擊殺了 {crimson}{1}{powderblue}!"
+    }
+    "hidden_win"
+    {		
+        "zho"		"{crimson}隱形殺手{powderblue} 殺死了整個 {crimson}IRIS{powderblue} 團隊! 下一個 {crimson}隱形殺手{powderblue} 將隨機選擇!"
+    }
+    "hidden_win2"
+    {		
+        "zho"		"{crimson}IRIS{powderblue} 團隊,殺死了 {crimson}隱形殺手{powderblue}!"
+    }
+    "hidden_win3"
+    {
+        "zho"		"{crimson}隱形殺手{powderblue} 餓死了,下一個 {crimson}隱形殺手{powderblue} 將隨機選擇!"
+    }
+    "hidden_win4"
+    {		
+        "zho"		"{crimson}隱形殺手{powderblue} 自殺了,下一個 {crimson}隱形殺手{powderblue} 將隨機選擇!"
+    }
+    "hidden_winner"
+    {		
+        "#format"	"{1:N}"
+        "zho"		"{crimson}{1}{powderblue} 對 {crimson}隱形殺手{powderblue} 造成最多傷害. 將成為下一個 {crimson}隱形殺手{powderblue}!"
+    }
+    "hidden_winner2"
+    {		
+        "zho"		"{powderblue}下一个 {crimson}隱形殺手{powderblue} 將隨機選擇."	
+    }
+    "hidden_start"
+    {
+        "zho"		"{powderblue}玩家人數不足，無法開啟遊戲."
+    }
+    "hidden_botkill"
+    {		
+        "zho"		"{powderblue}在第一回合撅死所有機器人."
+    }	
+    "hidden_command"
+    {		
+        "zho"		"{powderblue}用法: {crimson}/nexthidden{powderblue} <玩家> 或者 {crimson}/hiddennext{powderblue} <玩家>"
+    }
+    "hidden_command2"
+    {		
+        "zho"		"{powderblue}您您所指的玩家，並不在任何一個團隊裏面!"
+    }
+    "hidden_command3"
+    {		
+        "#format"	"{1:N}"
+        "zho"		"{powderblue}Set {crimson}{1}{powderblue} 作為接下來的{crimson}隱形殺手{powderblue},無論誰贏了本輪."
+    }
+    "hidden_command4"
+    {
+        "#format"	"{1:N}"
+    	"zho"		"{powderblue}管理員強制 {crimson}{1}{powderblue} 成為下一個 {crimson}隱形殺手{powderblue}."
+    }
+    "hidden_command5"
+    {		
+        "zho"		"{powderblue}目標無效."	
+    }	
+    //no colors	
+    "hidden_hud"
+    {		
+        "zho"		"隱形殺手生命值"	
+    }	
+    //no colors	
+    "hidden_hud2"
+    {		
+        "zho"		"您的生命值"	
+    }	
+    //no colors	
+    "hidden_hud3"	
+    {		
+        "zho"		"耐力"
+    }	
+    //no colors	
+    "hidden_hud4"
+    {		
+        "zho"		"集束炸彈"
+    }	
+    //no colors	
+    "hidden_hud5"	
+    {		
+        "zho"		"飢餓值"
+    }	
+    "hidden_team"
+    {		
+        "zho"		"{powderblue}您不能加入這個團隊."	
+    }	
+    //no colors	
+    "hidden_team2"
+    {		
+        "zho"		"您不能加入那個團隊! 自動加入IRIS團隊."
+    }	
+    //no colors	
+    "hidden_class"
+    {		
+        "zho"		"您不能選擇那個兵種!"
+    }	
+    //no colors	
+    "hidden_class2"	
+    {		
+        "zho"		"您無法更改此團隊中的兵種!"
+    }	
+    "hidden_problem"	
+    {		
+        "zho"		"{powderblue}您離牆或者類似物體太近了."
+    }	
+    "hidden_notify"	
+    {		
+        "zho"		"{powderblue}聊天框輸入{crimson}/hiddenhelp{powderblue} 打開幫助彩蛋qwq."
+    }	
+    "hidden_notify2"
+    {		
+        "zho"		"{powderblue}聊天框輸入{crimson}/hiddenpref{powderblue} 打開 {crimson}隱形殺手{powderblue} 偏好菜單."
+    }	
+    //no colors
+    "hidden_help"	
+    {		
+        "zho"		"隱形殺手模組是一個 1vALL 模組. 隱形殺手的生命值基於 \nIRIS團隊人數,來動態變化的 \n对隱形殺手,傷害最高的將成為下一個隱形殺手. \n如果他沒有被 IRIS 團隊殺死，則隨機算則一個人成為隱形殺手."
+    }	
+    //no colors	
+    "hidden_help2"	
+    {		
+        "zho"		"最為隱形殺手,你永遠是隱形的. 只有在如下情況纔會現身, \n攻擊（撅人）,被攻擊時（被人撅）,使用技能,電子工兵. \n如果要使用衝刺,向上看並按下鼠標右鍵. \n站在牆邊,然後準星要對著牆按下鼠標右鍵可以貼在牆上. \n如果要下來就按一下空格鍵或者衝刺 \n按R投擲集束炸彈，別炸到你自己了雜魚."
+    }	
+    //no colors	
+    "hidden_help2b"	
+    {		
+        "zho"		"每次殺死都會減少你的飢餓值. 如果你讓飢餓值達到100%%, \n你就會餓死,非背刺的話會回復你的飢餓值,並且你沒有摔落傷害. \n對了，你好像還有個電子工兵(AwA)."
+    }	
+    //no colors	
+    "hidden_help3"	
+    {		
+        "zho"		"你只有一個目標，撅死在座的各位會被在座的各位撅死. \n你也可以硬耗把對面餓死. 當然，注意聽對面的腳步聲 \n注意躲開集束炸彈，他是看不見的 \n你的武器集中他可以讓他暫時現形  \n呆在房間或者走廊是一個明智的選擇(麽？),因為他有集束炸彈. \n單獨或者報團都不是明智的選擇(emm...這是一句廢話)."
+    }	
+    //no colors	
+    "hidden_help3b"	
+    {		
+        "zho"		"背刺可以秒殺但是不可以回復隱身殺手的血量. \nButterknife[非背刺情況],擊殺就可以回復隱身殺手的血量."
+    }	
+    //no colors	
+    "hidden_menu_title"	
+    {		
+        "zho"		"隱身殺手模式 Redux 幫助菜單"
+    }	
+    //no colors	
+    "hidden_menu"	
+    {		
+        "zho"		"關於該模組"
+    }	
+    //no colors	
+    "hidden_menu2"	
+    {		
+        "zho"		"隱身殺手和他的能力"
+    }	
+    //no colors	
+    "hidden_menu3"	
+    {		
+        "zho"		"IRIS團隊以及他的作用"
+    }	
+    //no colors	
+    "hidden_menu_control"
+    {		
+        "zho"		"下一個"
+    }	
+    //no colors	
+    "hidden_menu_control2"
+    {		
+        "zho"		"上一個"
+    }	
+    //no colors	
+    "hidden_menu_control3"
+    {		
+        "zho"		"退出"
+    }	
+    //no colors	
+    "hidden_pref"
+    {		
+        "zho"		"你想成為隱身殺手麽（我不做人啦JOJO）?"
+    }	
+    //no colors	
+    "hidden_pref_control"	
+    {		
+        "zho"		"Yes"
+    }	
+    //no colors	
+    "hidden_pref_control2"	
+    {		
+        "zho"		"No"	
+    }	
+    "hidden_pref_change_success"	
+    {		
+        "zho"		"{powderblue}更改您的偏好 {crimson}隱身殺手{powderblue} 成功."	
+    }	
+    "hidden_pref_change_failure"	
+    {		
+        "zho"		"{powderblue}更改您的偏好 {crimson}隱身殺手{powderblue} 失敗."
+    }	
+    "hidden_pref_disabled"	
+    {		
+        "zho"		"{powderblue}目前 {crimson}隱身殺手{powderblue} 偏好設置功能已被禁用."
+    }	
+    "hidden_pref_no_hidden"	
+    {		
+        "zho"		"{powderblue}沒有玩家願意成為{crimson}隱身殺手{powderblue}. 選擇下一個 {crimson}隱身殺手{powderblue}.隨機"
+    }	
+    "hidden_pref_winner_no_hidden"	
+    {		
+        "#format"	"{1:N}"		
+        "zho"		"{crimson}{1}{powderblue} 造成最大傷害{crimson}隱身殺手{powderblue}, 然而他不想成為 {crimson}隱身殺手{powderblue}. 選擇下一個 {crimson}隱身殺手{powderblue} 隨機."
+    }	
+    "hidden_pref_changed_after_winning"	
+    {		
+        "#format"	"{1:N}"		
+        "zho"		"{crimson}{1}{powderblue} 改變了他們的 {crimson}隱身殺手{powderblue} 獲勝後的偏好. 選擇下一個 {crimson}隱身殺手{powderblue} at 隨機."
+    }
+}

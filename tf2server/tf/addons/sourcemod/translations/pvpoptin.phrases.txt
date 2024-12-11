@@ -1,0 +1,265 @@
+"Phrases"
+{
+	"Plugin now active"
+	{
+		"en"	"{darkviolet}[PvP]{default} Plugin now active! Have a safe game"
+	}
+	"Plugin now inactive"
+	{
+		"en"	"{darkviolet}[PvP]{default} Plugin now inactive! Enjoy regular killing"
+	}
+	"SettingsMenuTitle"
+	{
+		//will break the menu if too long (currently 356 chars ignoring changes in labels)
+		"en"	"Opt In PvP\n \n'Ignore Pair PvP' prevents other players from requesting PvP with you.\n'Mirror Damage' will hurt yourself if target is not in PvP.\n'Taunt Kill Me' allows other players to taunt kill you reguardless of PvP state.\n'Allow some conditions' will re-enable some conditions while not in PvP.\n  (Jarated, Milked, ...)\n "
+	}
+	"SettingsMenuGlobal"
+	{
+		"en"	"Global PvP"
+	}
+	"SettingsMenuIgnorePair"
+	{
+		"en"	"Ignore Pair PvP"
+	}
+	"SettingsMenuMirrorDamage"
+	{
+		"en"	"Mirror Damage"
+	}
+	"SettingsMenuTauntKills"
+	{
+		"en"	"Taunt Kill Me"
+	}
+	"SettingsMenuConditions"
+	{
+		"en"	"Allow some conditions"
+	}
+	"Pick player for pvp"
+	{
+		"en"	"Pick a player for PvP"
+	}
+	"Bots can not use pair pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} Sorry, bots can not use {azure}Pair PvP{default}!"
+	}
+	"Requester is Requestee"
+	{
+		"en"	"Requester and requestee cannot be the same"
+	}
+	"Someone disengaged pair pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} disengaged PvP with you"
+	}
+	"You disengaged pair pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've disengaged PvP with {1}"
+	}
+	"You disengaged all pair pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You disengaged from all {azure}Pair PvP{default}."
+	}
+	"You engaged pair pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've entered PvP with {1}"
+	}
+	"You are both global pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You're currently both in {goldenrod}Global PvP{default}"
+	}
+	"Already requested pvp with"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've already requested PvP with {1}"
+	}
+	"There is a pending request with menus"
+	{
+		"en"	"{darkviolet}[PvP]{default} This player already has a pending PvP request"
+	}
+	"Someone cancelled pvp request for another"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} cancelled the request to ask someone else"
+	}
+	"You cancelled pvp request"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've cancelled your previous request with {1}"
+	}
+	"Someone requested pvp, confirm"
+	{
+		"#format" "{1:N},{2:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} wants to PvP with you, use {darkgray}/pvp {2}{default} to confirm"
+	}
+	"You requested pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've requested PvP with {1}."
+	}
+	"Vote Title PvP Request"
+	{
+		"#format" "{1:N}"
+		"en"	"{1} requested pair PvP\nDo you Accept?"
+	}
+	"Your pvp request was declined"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} Your {azure}Pair PvP{default} request with {1} was declined."
+	}
+	"You declined multiple pvp requests"
+	{
+		"#format" "{1:d}"
+		"en"	"{darkviolet}[PvP]{default} You've declined {1} requests for {azure}Pair PvP{default}."
+	}
+	"You declined single pvp request"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} You've declined {1}'s request for {azure}Pair PvP{default}."
+	}
+	"Last pair pvp request too recent"
+	{
+		"#format" "{1:d}"
+		"en"	"{darkviolet}[PvP]{default} Please wait {1} more seconds before sending more {azure}Pair PvP{default} requests."
+	}
+	"You have been banned from pvp"
+	{
+		"#format" "{1:i},{2:s}"
+		"en"	"{darkviolet}[PvP]{default} You have been banned from PvP for {1} minutes (Reason: {2})"
+	}
+	"Spawn Killing is not allowed"
+	{
+		"en"	"{darkviolet}[PvP]{default} Spawn-camping is not allowed, stop it!"
+	}
+	"Entered global pvp too recently"
+	{
+		"#format" "{1:d}"
+		"en"	"{darkviolet}[PvP]{default} You have to wait {1} more seconds to leave {goldenrod}Global PvP{default}."
+	}
+	"Global pvp state on line1"
+	{
+		"en"	"{darkviolet}[PvP]{default} You turned {goldenrod}Global PvP {limegreen}ON{default}"
+	}
+	"Global pvp state on line2"
+	{
+		"en"	"{darkviolet}[PvP]{default} Other players with {goldenrod}Global PvP{default} can hit you and be hit by you."
+	}
+	"Global pvp state off line1"
+	{
+		"en"	"{darkviolet}[PvP]{default} You turned {goldenrod}Global PvP {crimson}OFF{default}"
+	}
+	"Global pvp state off line2"
+	{
+		"en"	"{darkviolet}[PvP]{default} Enjoy the peace, you can only take damage through {azure}Pair PvP{default}."
+	}
+	"Hey there's also pair pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You can request {azure}Pair PvP{default} with {darkgray}/pvp player{default}."
+	}
+	"You are ignoring pair pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} Players can no longer request {azure}Pair PvP{default} with you."
+	}
+	"You are allowing pair pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} Players can request {azure}Pair PvP{default} with you again."
+	}
+	"Use command again to toggle ignore"
+	{
+		"en"	"{darkviolet}[PvP]{default} Use the command again to ignore further requests"
+	}
+	"Mirror Damage Enabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} Damage you deal to non-PvP players is now mirrored"
+	}
+	"Mirror Damage not Disabled, Forced"
+	{
+		"en"	"{darkviolet}[PvP]{default} Something is forcing mirror damage. Mirror damage will remain active during this condition."
+	}
+	"Mirror Damage Disabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} Damage to non-PvP players is no longer mirrored"
+	}
+	"Taunt Kills Enabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} Other players can now taunt-kill you"
+	}
+	"Taunt Kills Disabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} You can no longer be taunt-killed"
+	}
+	"Limited Conditions Enabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} Players can now inflict minor conditions on you"
+	}
+	"Limited Conditions Disabled"
+	{
+		"en"	"{darkviolet}[PvP]{default} Minor conditions are blocked outside of PvP"
+	}
+	"Someone forced map pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} forced {goldenrod}Global PvP{default} for the map"
+	}
+	"You forced map pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You forced {goldenrod}Global PvP{default} for the map"
+	}
+	"Someone reset map pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} has reset {goldenrod}Global PvP{default} back to personal settings"
+	}
+	"You reset map pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You've reset {goldenrod}Global PvP{default} for everyone"
+	}
+	"Someone forced your global pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} forced you into {goldenrod}Global PvP{default}"
+	}
+	"You forced someones global pvp"
+	{
+		"#format" "{1:s}"
+		"en"	"{darkviolet}[PvP]{default} You forced {1} to {goldenrod}Global PvP{default}"
+	}
+	"Someone reset your global pvp"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} has reset your {goldenrod}Global PvP{default} to personal settings"
+	}
+	"You reset someones global pvp"
+	{
+		"#format" "{1:s}"
+		"en"	"{darkviolet}[PvP]{default} You've reset {1}'s {goldenrod}Global PvP{default}"
+	}
+	"Someone forced your mirror damage"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} forced you to mirror damage"
+	}
+	"You forced someones mirror damage"
+	{
+		"#format" "{1:s}"
+		"en"	"{darkviolet}[PvP]{default} You forced {1} to mirror damage"
+	}
+	"Someone reset your mirror damage"
+	{
+		"#format" "{1:N}"
+		"en"	"{darkviolet}[PvP]{default} {1} has reset your mirror damage to personal settings"
+	}
+	"You reset someones mirror damage"
+	{
+		"#format" "{1:s}"
+		"en"	"{darkviolet}[PvP]{default} You've reset {1}'s mirror damage"
+	}
+	"Healing only allowed in global PvP"
+	{
+		"en"	"{darkviolet}[PvP]{default} Healing players is only allowed if both are in {goldenrod}Global PvP{default}!"
+	}
+	"Model invalid for global pvp"
+	{
+		"en"	"{darkviolet}[PvP]{default} You {crimson}can not{default} participate in {goldenrod}Global PvP{default} using a vanity model"
+	}
+}

@@ -1,0 +1,36 @@
+// Do not delete this line! format: <Mission Name(see txt files in missions.cache folder)>
+L4D2C1
+L4D2C2
+L4D2C3
+L4D2C4
+L4D2C5
+L4D2C6
+L4D2C7
+L4D2C8
+L4D2C9
+L4D2C10
+L4D2C11
+L4D2C12
+L4D2C13
+// 3-rd maps(Do not delete/modify this line!)
+L4D2C14
+bts
+upward
+City17l4d2
+coldfront
+GuangXiNanning
+hauntedforest
+Diescraper362VS
+MissionImprobable
+precinct84l4d2
+snowden
+suicideblitz2
+wanli
+warcelona
+WhiteForest
+Zengchengone
+TUMTaRA
+TUMTaRAL4D1
+yomimario2
+L4D2CSTHNL
+pesaro

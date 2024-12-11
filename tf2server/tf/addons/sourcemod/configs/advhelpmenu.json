@@ -1,0 +1,659 @@
+{
+	"advhelpmenu": 
+	[
+		{
+			"帮助菜单|Help Menu": 
+			{
+				"exit": "true",
+				"type": "menu",
+				"shortcut": "!h|/h|!H|/H|!help|/help",
+				"maplist_name": "List of Maps|地图列表",
+				"@type": "text 文本,menu 菜单,motd,maplist 地图列表",
+				"@exit": "true,false",
+				"@shortcut": "触发指令|作为隔开",
+				"@flags": "权限等级https://wiki.alliedmods.net/Adding_Admins_(SourceMod)/zh#.E6.9D.83.E9.99.90.E7.AD.89.E7.BA.A7",
+				"@cmd": "指令",
+				"@url": "网址",
+				"data": 
+				[				
+					{
+						"指令|Commands":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"全模式|All mode":
+									{
+										"exit": "true",
+										"type": "menu",
+										"data":
+										[
+											{
+												"servers 跳转到其他社区服":
+												{
+													"type": "text",
+													"cmd":	"sm_servers"
+												}
+											},
+											{
+												"report 提交报告":
+												{
+													"type": "text",
+													"cmd":	"say /report"
+												}
+											},
+											{
+												"modenominate 预订指定模式地图":
+												{
+													"type": "text",
+													"cmd":	"say modenominate"
+												}
+											},
+											{
+												"modertv 更换模式":
+												{
+													"type": "text",
+													"cmd":	"say modertv"
+												}
+											},
+											{
+												"votemenu 打开自定义投票菜单|Open Custom Votes Menu":
+												{
+													"type": "text",
+													"cmd":	"say /votemenu"
+												}
+											},
+											{
+												"tp 第三人称|Thirdperson":
+												{
+													"type": "text",
+													"cmd":	"say /tp"
+												}
+											},
+											{
+												"fp 第一人称|Firstperson":
+												{
+													"type": "text",
+													"cmd":	"say /fp"
+												}
+											},
+											{
+												"taunt 打开嘲讽菜单|Open taunt Menu":
+												{
+													"type": "text",
+													"cmd":	"say /taunt"
+												}
+											},
+											{
+												"shop 打开商店菜单|Open shop Menu":
+												{
+													"type": "text",
+													"cmd":	"say /shop"
+												}
+											},
+											{
+												"inv 打开已购买物品菜单|Open Items Purchased Menu":
+												{
+													"type": "text",
+													"cmd":	"say /inv"
+												}
+											},
+											{
+												"smug 时光之帽|Smug Dance":
+												{
+													"type": "text",
+													"cmd":	"say /smug"
+												}
+											}
+										]
+									}					
+								},
+								{
+									"部分模式通用|Partial Mode General":
+									{
+										"exit": "true",
+										"type": "menu",
+										"data":
+										[
+											{
+												"cwx 可用模式|Available Mode: wait,upve,vsh,":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"mm 可用模式|Available Mode: wait,upve,vsh,zi,zf,szf,sf,evz":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"插件有问题,暂时不可用 cwx 打开自定义武器菜单|Open Custom weapon Menu":
+												{
+													"type": "text",
+													"@cmd":	"say /cwx"
+												}
+											},
+											{
+												"mm 打开模型管理器菜单|Open Model Manager Menu":
+												{
+													"type": "text",
+													"cmd":	"say /mm"
+												}
+											}
+										]	
+									}
+								}
+							]
+						}
+					},
+					{
+						"服务器网站|Server Web":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"博客|blog":
+									{
+										"type": "motd",
+										"url": "https://blog.tyhh10.xyz/archives/"
+									}
+								},
+								{
+									"SourceBans Web":
+									{
+										"type": "motd",
+										"url": "https://bans.tyhh10.xyz/index.php?p=home"
+									}
+								},
+								{
+									"HLX:CE Web":
+									{
+										"type": "motd",
+										"url": "https://stats.tyhh10.xyz/hlstats.php"
+									}
+								}
+							]
+						}
+					},
+					{
+						"捐赠":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"爱发电":
+									{
+										"type": "motd",
+										"url": "https://afdian.com/a/download-server"
+									}
+								},
+								{
+									"记得留下自己的,steam个人主页网址:)":
+									{
+										"type": "text"
+									}
+								}
+							]
+						}
+					},
+					{
+						"模式帮助":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"彩虹":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"大部分都是随机的,随机内容如下":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"人物、音效、控制点、饰品、门、武器、炸弹车等":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"第一人称是不会受到影响":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"整个游戏会表现出来非常的抽象":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"Chaos":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"这个模式在你的屏幕正上方会有一个紫色的进度条":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"当100%之后所有人会获得一个随机的效果":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"然后这些效果会在你屏幕右边,显示出来":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"分别是一次性的和限时的":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"这些效果会叠加在一起":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"有两个需要注意的效果":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"第一个假崩溃,随机到这个效果的游戏就会冻结屏幕上出现经典的红文":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"不过也有可能是服务器真崩溃 就看这个时间,基本上假崩溃很快就会结束":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"如果是真崩溃,那个时到了10秒钟，那就是真崩了":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"第二个高延迟.当然这个也是假的,通过更改net_fakelag指令来模拟":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"有这个效果之后,你会看到你的延迟几百多,操作有回弹":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"TF2x10":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"物品的属性都会被放大十倍":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"当然原配武器也会得到增强":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"随机武器":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"所有人手中的主武器副武器近战武器":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"将全部随机,自杀不会随机武器":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"只有被敌人击杀才能随机":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"随机属性":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"你身上装备的武器,属性完全随机":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"每把武器会有五个属性":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"打开开发者控制台就可以看到,你的属性":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"暗鬼[未写完]":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"这个...可能有点废话":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"常规地图":
+												{
+													"type": "menu",
+													"exit": "true",
+													"data":
+													[
+														{
+															"就是找东西":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"找到要求的物品,达到数量之后,找到出口逃出去就可以了":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"部分地图,出口就是出生点这边":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"有些地图他不能立刻逃出去,需要等待一分钟或者十几秒门才会开":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"还有些地图出口是多个,然后随机开一个":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"那种延迟开门的地图是会有提示,记得注意看提示就行了":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"有一张地图比较特殊(名字忘了)就是一个scp的地图找卡":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"所有卡找到时候需要去找旧电脑,然后去旁边插上钥匙卡":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"接下来就仔细听他的话,只要听关键词B或者A门":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"然后就直奔他说的那个门就行了":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"逃生地图":
+												{
+													"type": "menu",
+													"exit": "true",
+													"data":
+													[
+														{
+															"找到一个指定物品,然后开始向出口跑":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"找到要求的物品,达到数量之后,找到出口逃出去就可以了":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"特殊地图":
+															{
+																"type": "menu",
+																"exit": "true",
+																"data":
+																[
+																	{
+																		"slender_scp_087_b_v3b":
+																		{
+																			"type": "menu",
+																			"exit": "true",
+																			"data":
+																			[
+																				{
+																					"跟常规逃生地图一样":
+																					{
+																						"type": "text"
+																					}
+																				},
+																				{
+																					"在出生点捡起地上的东西之后":
+																					{
+																						"type": "text"
+																					}
+																				},
+																				{
+																					"在一面墙上就会出现一个通道":
+																					{
+																						"type": "text"
+																					}
+																				},
+																				{
+																					"但是会有岔路":
+																					{
+																						"type": "text"
+																					}
+																				},
+																				{
+																					"当你走进错误的路走到中段部分,会出现一面墙壁把你回去的路封起来!":
+																					{
+																						"type": "text"
+																					}
+																				},
+																				{
+																					"路的尽头只是一个深坑...":
+																					{
+																						"type": "text"
+																					}
+																				}
+																			]
+																		}
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"死跑":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"根据排队点来选择一个人当死神,操作机关":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"当然,如果你不想当输入!dr在偏好设置中更改":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"逃跑者,这个目标很明确没什么可说的就是逃到终点,选择最终的奖励":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"当然大部分图都是有彩蛋的,你们可以一起寻找一下彩蛋awa":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"当死神在聊天框发出这个free,那么代表他不会开启任何机关了":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"除了自动机关":
+												{
+													"type": "text"
+												}
+											}
+										]
+									}
+								},
+								{
+									"SCP:秘密要塞":
+									{
+										"type": "menu",
+										"exit": "true",
+										"data":
+										[
+											{
+												"不过目前服务器没有这个模式":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"你可以去可可那边进行游玩":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"连接指令connect 218.93.208.192:33863":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"而且文本量太多了,放不下点击下面选项访问网页查看":
+												{
+													"type": "text"
+												}
+											},
+											{
+												"SCP秘密要塞的基本游戏思路":
+												{
+													"type": "motd",
+													"url": 	"https://blog.tyhh10.xyz/post/scpmi-mi-yao-sai-ji-ben-wan-fa/"
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+"Items"
+{
+    "{94b45e56-1b3a-9534-7378-54d7bce81781}"
+    {
+        "name"                  "Viewfinder"
+        "inherits"              "TF_WEAPON_SNIPERRIFLE"
+        "used_by_classes"
+        {
+            "sniper"            "Primary"
+        }
+        "attributes_game"
+        {
+            "sniper fires tracer"                "1"
+            "SRifle Charge rate increased"       "1.5"
+            "minicrits become crits"             "1"
+            "dmg taken from fire increased"      "1.5"
+            "set weapon model"                   "models/weapons/c_models/c_viewfinder/c_viewfinder.mdl"
+        }
+		"attributes_custom"
+		{
+			"replace sound"                       "Viewfinder"
+		}
+    }
+}

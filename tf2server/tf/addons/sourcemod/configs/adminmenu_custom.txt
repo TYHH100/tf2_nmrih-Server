@@ -1,0 +1,408 @@
+// Custom admin menu commands.
+// For more information:
+//
+// http://wiki.alliedmods.net/Custom_Admin_Menu_%28SourceMod%29
+//
+// Note: This file must be in Valve KeyValues format (no multiline comments)
+//
+
+"Commands" //Commands
+{
+	"ServerCommands"
+	{
+    	"模式切换"
+    	{
+    	    "等待中"
+    	    {
+    	        "cmd"       "sm_map trade_minecraft_2014_v3"
+    	        "execute"   "server"
+    	    }
+    	    "兵种战争"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_ClassWarfare.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "死跑"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Deathrun.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_dr.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "决战萨克斯顿·霍尔"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Versus_Saxton_Hale.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_vsh.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "躲避球"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Dodgeball.cf"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_db.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "工程师大战僵尸"
+    	    {
+            	"cmd"       "sm_map #1;sm_execcfg Gameplay_engiesVSzombies.cfg"
+           	 	"execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_evz.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "炮塔大战"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_EngyBattles.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "要塞战争"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_FortWars.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_fw.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "曼恩vs曼恩"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Mann_vs_Mann.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "TF2Ware"
+    	    {
+    	        "cmd"       "sm_map warioware_redux_v5c;sm_execcfg Gameplay_microtf2.cfg"
+    	        "execute"   "server"
+    	    }
+    	    "躲猫猫"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_PropHunt.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_ph.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "随机属性"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_RandomAttributes.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+			}
+    	    "随机武器"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Randomizer.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "UncleDanePVE"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_TF2_UncleDanePVE.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_UncleDanePVE.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "TF2x10"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_TF2x10.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_Universal.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "僵尸感染"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Zombie_Infection.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_zi.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "开船"
+    	    {
+    	        "cmd"       "sm_execcfg #1;sm_map workshop/454135984"
+    	        "execute"   "server"
+				"1"
+				{
+					"type"		"list"
+					"title"		"选择额外或者原版玩法"
+					"1"			"Gameplay_Balloon_Race.cfg"
+					"1."		"原版"
+					"2"			"Gameplay_ClassWarfare+br.cfg"
+					"2."		"兵种战争"
+					"3"			"Gameplay_EngyBattles+br.cfg"
+					"3."		"炮台大战"
+					"4"			"Gameplay_Mann_vs_Mann+br.cfg"
+					"4."		"曼恩vs曼恩"
+					"5"			"Gameplay_Randomizer+br.cfg"
+					"5."		"随机武器"
+					"6"			"Gameplay_TF2x10+br.cfg"
+					"6."		"x10"
+					"7"			"Gameplay_RandomAttributes+br.cfg"
+					"7."		"随机属性"
+				}
+    	    }
+    	    "要塞大乱斗"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_TF2_Super-Smash-Bros.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_sb.txt"
+					"title"		"选择地图"
+				}
+    	    }
+    	    "隐形杀手"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_The_Hidden_Mod.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_th.txt"
+					"title"		"选择地图"
+				}
+        	}
+    	    "大逃杀要塞"
+    	    {
+    	        "cmd"       "sm_map #1;sm_execcfg Gameplay_Fortress_Royale.cfg"
+    	        "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_fr.txt"
+					"title"		"选择地图"
+				}
+        	}
+        	"暗鬼"
+        	{
+        	    "cmd"       "sm_map #1;sm_execcfg Gameplay_Slender-Fortress.cfg"
+        	    "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_slender.txt"
+					"title"		"选择地图"
+				}
+        	}
+			"Freak-Fortress-2-Rewrite"
+        	{
+        	    "cmd"       "sm_map #1;sm_execcfg Gameplay_Freak-Fortress-2-Rewrite.cfg"
+        	    "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_ff2r.txt"
+					"title"		"选择地图"
+				}
+        	}
+			"超级僵尸要塞"
+        	{
+        	    "cmd"       "sm_map #1;sm_execcfg Gameplay_SuperZombieFortress.cfg"
+        	    "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_szf.txt"
+					"title"		"选择地图"
+				}
+        	}
+			"ze"
+        	{
+        	    "cmd"       "sm_map #1;sm_execcfg Gameplay_Zombie-Escape.cfg"
+        	    "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_ze.txt"
+					"title"		"选择地图"
+				}
+        	}
+			"手球"
+        	{
+        	    "cmd"       "sm_map #1"
+        	    "execute"   "server"
+				"1"
+				{
+					"type" 		"mapcycle"
+					"path"		"cfg/mapcycle_Gameplay_pass.txt"
+					"title"		"选择地图"
+				}
+        	}
+			"SCP"
+        	{
+        	    "cmd"       "sm_map scp_secretlaboratory_omicron;sm_execcfg Gameplay_SCP_Secret_Fortress.cfg"
+        	    "execute"   "server"
+        	}
+			"僵尸暴动"
+        	{
+        	    "cmd"       "sm_map zr_evil_pumpkin_farm_v16;sm_execcfg Gameplay_Zombie_Riot.cfg"
+        	    "execute"   "server"
+        	}
+			"弹幕要塞"
+        	{
+        	    "cmd"       "sm_map touhou_duel_a6;sm_execcfg Gameplay_Danmaku_Fortress.cfg"
+        	    "execute"   "server"
+        	}
+    	}
+	}
+
+	"团队管理"
+	{
+		"强制玩家加入团队"
+        {
+            "cmd"       "sm_changeteam #1 #2"
+            "execute"   "player"
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"选择玩家"
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"选择团队"
+				"1"			"red"
+				"1."		"红队"
+				"2"			"blue"
+				"2."		"蓝队"
+				"3"			"spectate"
+				"3."		"观察者"
+			}
+	    }
+		"锁定玩家切换团队[应该能用]"
+        {
+            "cmd"       "sm_changeteam_block #1 #2"
+            "execute"   "player"
+			"1"
+			{
+				"type" 		"player"
+				"method"	"name"
+				"title"		"选择玩家"
+			}
+		"2"
+		{
+				"type" 		"list"
+				"title"		"启用或关闭"
+				"1"			"1"
+				"1."		"启用"
+				"2"			"0"
+				"2."		"禁用"
+			}
+        }
+	}
+	"所有模式的插件管理员指令"
+	{
+		"指定兵种战争的双方兵种"
+		{
+			"cmd"		"sm_cw_change #1 #2"
+			"execute"	"player"
+			"1"
+			{
+				"type"		"list"
+				"title"		"红队兵种"
+				"1"			"Scout"
+				"1."		"侦察兵"
+				"2"			"Soldier"
+				"2."		"士兵"
+				"3"			"Pyro"
+				"3."		"火焰兵"
+				"4"			"Demoman"
+				"4."		"爆破手"
+				"5"			"Heavy"
+				"5."		"机枪手"
+				"6"			"Engineer"
+				"6."		"工程师"
+				"7"			"Medic"
+				"7."		"医生"
+				"8"			"Sniper"
+				"8."		"狙击手"
+				"9"			"Spy"
+				"9."		"间谍"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"蓝队兵种"
+				"1"			"Scout"
+				"1."		"侦察兵"
+				"2"			"Soldier"
+				"2."		"士兵"
+				"3"			"Pyro"
+				"3."		"火焰兵"
+				"4"			"Demoman"
+				"4."		"爆破手"
+				"5"			"Heavy"
+				"5."		"机枪手"
+				"6"			"Engineer"
+				"6."		"工程师"
+				"7"			"Medic"
+				"7."		"医生"
+				"8"			"Sniper"
+				"8."		"狙击手"
+				"9"			"Spy"
+				"9."		"间谍"
+			}
+		}
+	}
+}

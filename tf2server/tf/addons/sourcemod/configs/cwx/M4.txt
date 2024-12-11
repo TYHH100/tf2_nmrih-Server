@@ -1,0 +1,23 @@
+"Items"
+{
+    "{a4d1db2f-f60a-00c2-ceb3-235b07951e68}"
+    {
+        "name"                     "M4"
+        "inherits"                 "TF_WEAPON_SMG"
+        "used_by_classes"
+        {
+            "sniper"      "Secondary"
+        }
+        "attributes_game"
+        {
+            // +
+            "clip size bonus"               "2"// 弹匣容量
+            "maxammo secondary increased"   "2"// 穿戴时副弹药上限
+			"revolver use hit locations"	"1"//击中头部可产生爆击
+            // -
+            
+            // model
+            "set weapon model"      "models/weapons/c_models/c_m4/c_smg.mdl"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+"Items"
+{
+    "{7a18b2de-c4da-605c-969c-0acba6475a4f}"
+    {
+        "name"              "Air Strike"
+        "inherits"          "The Air Strike"
+        "used_by_classes"
+        {
+            "soldier"       "Primary"
+        }
+        "attributes_game"
+        {
+            "maxammo primary increased"      "3"
+        }
+    }
+}

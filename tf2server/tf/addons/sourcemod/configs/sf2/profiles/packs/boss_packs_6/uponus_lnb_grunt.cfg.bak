@@ -1,0 +1,800 @@
+"uponus_lnb_grunt"
+{
+	"name" "LNB Soldier"
+	"type" "2"
+	
+	"acceleration" "7000.0"
+	"speed" "300.0"
+	"speed_max" "305.0"
+	"walkspeed" "85.0"
+	"walkspeed_max" "90.0"
+	"model" "models/the_gaben/xenoblade/def_soldier_reyn.mdl"
+	"model_scale" "0.94"
+	
+	"copy" "1"
+	"copy_max" "2"
+	
+	"enable_random_selection" "0"
+	
+	"customizable_outlines" "1"
+	
+	"outline_color_r" "219"
+	"outline_color_g" "115"
+	"outline_color_b" "18"
+	"outline_color_transparency" "230"
+	
+	"fov" "100"
+	
+	"teleport_time_min" "4.0"
+	"teleport_time_max" "8.0"
+	
+	"teleport_type" "2"
+	
+	"teleport_range_min" "350.0"
+	"teleport_range_max" "2500.0"
+	
+	"teleport_target_rest_period" "15.0"
+	"teleport_target_persistency_period" "6.0"
+	"teleport_distance_between_copies" "470.0"
+	
+	"static_on_look" "0"
+	"static_on_look_gracetime" "3.0"
+	"static_on_radius" "1"
+	"static_radius" "180.0"
+	"static_rate" "0.9"
+	"static_rate_decay" "0.3"
+	
+	"scare_radius" "600.0"
+	"scare_cooldown" "8.0"
+	
+	"search_view_distance" "1000.0"
+	"hearing_range" "1200.0"
+	
+	"alert_gracetime" "1.5"
+	
+	"chase_duration" "9.0"
+	
+	"chase_persistency_time_init" "5.0"
+	"chase_persistency_time_add_newtarget" "1.0"
+	"chase_persistency_time_add_visible_min" "1.0"
+	"chase_persistency_time_add_visible_max" "3.0"
+	"chase_persistency_time_add_attack" "3.0"
+	
+	"auto_chase_enabled" "1"
+	"auto_chase_sound_threshold" "150"
+	"auto_chase_sound_add_footsteps" "0"
+	"auto_chase_sound_add_voice" "90"
+	"auto_chase_sound_add_weapon" "20"
+	
+	"wake_radius" "250.0"
+	
+	"idle_lifetime" "15.0"
+	"sound_attackenemy_cooldown_min" "2.0"
+	"sound_attackenemy_cooldown_max" "3.0"
+	"sound_attackenemy_channel" "3"
+	"stun_enabled" "1"
+	"stun_health" "200"
+	"disappear_on_stun" "1"
+	
+	"resistances"
+	{
+		"1" "1048576"
+	}
+	
+	"attributes"
+	{
+		"always look at target while attacking"
+		{
+			"value" "1"
+		}
+	}
+	
+	"mat_download"
+	{
+		"1" "materials/models/the_gaben/xc1/def_soldier/kuti"
+		"2" "materials/models/the_gaben/xc1/def_soldier/np020301_arm"
+		"3" "materials/models/the_gaben/xc1/def_soldier/np020301_body"
+		"4" "materials/models/the_gaben/xc1/def_soldier/np020301_face"
+		"5" "materials/models/the_gaben/xc1/def_soldier/np020301_foot"
+		"6" "materials/models/the_gaben/xc1/def_soldier/np020301_head"
+		"7" "materials/models/the_gaben/xc1/def_soldier/np020301_leg"
+		"8" "materials/models/the_gaben/xc1/def_soldier/wp2101_01"
+	}
+	
+	"download"
+	{
+		"1" "materials/models/the_gaben/xc1/def_soldier/wp2101_01_n.vtf"
+		"2" "materials/models/the_gaben/xc1/shared/color_exp.vtf"
+	}
+	
+	"sound_idle_music"
+	{
+		"paths"
+		{
+			"1" "slender/wtf/music/ohio_ahh_idle.wav"
+		}
+	}
+	
+	"sound_alert_music"
+	{
+		"paths"
+		{
+			"1" "slender/wtf/music/funky_trousers.wav"
+		}
+	}
+	"sound_chase_music"
+	{
+		"paths"
+		{
+			"1" "slender/wtf/music/murder.wav"
+			"2" "slender/wtf/music/euphoriosion.wav"
+		}
+	}
+	"sound_idle"
+	{
+		"channel" "2"
+		"cooldown_min" "8.0"
+		"cooldown_max" "10.0"
+		
+		"paths"
+		{
+			"1" "slender/wtf/lnbsoldier/idle_01.wav"
+			"2" "slender/wtf/lnbsoldier/idle_02.wav"
+			"3" "slender/wtf/lnbsoldier/idle_03.wav"
+			"4" "slender/wtf/lnbsoldier/idle_04.wav"
+			"5" "slender/wtf/lnbsoldier/idle_05.wav"
+			"6" "slender/wtf/lnbsoldier/idle_06.wav"
+			"7" "slender/wtf/lnbsoldier/idle_07.wav"
+			"8" "slender/wtf/lnbsoldier/idle_08.wav"
+			"9" "slender/wtf/lnbsoldier/idle_09.wav"
+			"10" "slender/wtf/lnbsoldier/idle_10.wav"
+			"11" "slender/wtf/lnbsoldier/idle_11.wav"
+		}
+	}
+	
+	"sound_alertofenemy"
+	{
+		"channel" "2"
+		"cooldown_min" "7.0"
+		"cooldown_max" "8.0"
+		
+		"paths"
+		{
+			"1" "slender/wtf/lnbsoldier/alert_01.wav"
+			"2" "slender/wtf/lnbsoldier/alert_02.wav"
+			"3" "slender/wtf/lnbsoldier/alert_03.wav"
+			"4" "slender/wtf/lnbsoldier/alert_04.wav"
+			"5" "slender/wtf/lnbsoldier/alert_05.wav"
+			"6" "slender/wtf/lnbsoldier/alert_06.wav"
+			"7" "slender/wtf/lnbsoldier/alert_07.wav"
+		}
+	}
+	
+	"sound_chasingenemy"
+	{
+		"channel" "2"
+		"cooldown_min" "10.0"
+		"cooldown_max" "12.0"
+		
+		"paths"
+		{
+			"1" "slender/wtf/lnbsoldier/alert_01.wav"
+			"2" "slender/wtf/lnbsoldier/alert_02.wav"
+			"3" "slender/wtf/lnbsoldier/alert_03.wav"
+			"4" "slender/wtf/lnbsoldier/alert_04.wav"
+			"5" "slender/wtf/lnbsoldier/alert_05.wav"
+			"6" "slender/wtf/lnbsoldier/alert_06.wav"
+			"7" "slender/wtf/lnbsoldier/alert_07.wav"
+		}
+	}
+	
+	"sound_stun"
+	{
+		"channel" "2"
+		
+		"paths"
+		{
+			"1" "slender/wtf/lnbsoldier/die_01.wav"
+			"2" "slender/wtf/lnbsoldier/die_02.wav"
+			"3" "slender/wtf/lnbsoldier/die_03.wav"
+			"4" "slender/wtf/lnbsoldier/die_04.wav"
+		}
+	}
+	
+	"sound_chaseenemyinitial"
+	{
+		"volume" "0.9"
+		
+		"paths"
+		{
+			"1" "slender/the_gaben/sfx/blade_summon.wav"
+		}
+	}
+	
+	"sound_attackenemy"
+	{
+		
+		"2"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			"pitch" "74"
+			
+			"paths"
+			{
+				"1" "player/cyoa_pda_swipe.wav"
+			}
+		}
+		
+		"3"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			
+			"paths"
+			{
+				"1" "player/cyoa_pda_equipment.wav"
+			}
+		}
+		
+		"4"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			"channel" "3"
+			"volume" "0.8"
+			
+			"paths"
+			{
+				"1" "player/taunt_bunnyhopper_discard.wav"
+			}
+		}
+		
+		"5"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			"channel" "3"
+			"volume" "0.8"
+			"pitch" "80"
+			
+			"paths"
+			{
+				"1" "player/taunt_jackhammer_down_movement.wav"
+			}
+		}
+		
+		"6"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			
+			"paths"
+			{
+				"1" "slender/wtf/lnbsoldier/arts_aura_burst.wav"
+			}
+		}
+		
+		"7"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			"channel" "3"
+			"volume" "0.8"
+			
+			"paths"
+			{
+				"1" "player/taunt_soviet_strongarm_roll.wav"
+			}
+		}
+		
+		"8"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			
+			"paths"
+			{
+				"1" "player/taunt_soviet_strongarm_roll_catch_done.wav"
+			}
+		}
+		
+		"9"
+		{
+			"cooldown_min" "5.0"
+			"cooldown_max" "6.0"
+			"channel" "2"
+			
+			"paths"
+			{
+				"1" "slender/wtf/lnbsoldier/arts_rage1.wav"
+				"2" "slender/wtf/lnbsoldier/arts_rage2.wav"
+				"3" "slender/wtf/lnbsoldier/arts_rage3.wav"
+			}
+		}
+		
+		"10"
+		{
+			"cooldown_min" "2.0"
+			"cooldown_max" "3.0"
+			"channel" "3"
+			"volume" "0.8"
+			"pitch" "94"
+			
+			"paths"
+			{
+				"1" "player/taunt_tank_appear.wav"
+			}
+		}
+	}
+	
+	"sound_hitenemy"
+	{
+		
+		"1"
+		{
+			"paths"
+			{
+				"1" "weapons/blade_slice_2.wav"
+				"2" "weapons/blade_slice_3.wav"
+				"3" "weapons/blade_slice_4.wav"
+			}
+		}
+		
+		"2"
+		{
+			"paths"
+			{
+				"1" "weapons/cbar_hitbod1.wav"
+				"2" "weapons/cbar_hitbod2.wav"
+				"3" "weapons/cbar_hitbod3.wav"
+			}
+		}
+		
+		"3"
+		{
+			"paths"
+			{
+				"1" "weapons/blade_slice_2.wav"
+				"2" "weapons/blade_slice_3.wav"
+				"3" "weapons/blade_slice_4.wav"
+			}
+		}
+		
+		"4"
+		{
+			"paths"
+			{
+				"1" "slender/wtf/lnbsoldier/sword_drive_hit1.wav"
+				"2" "slender/wtf/lnbsoldier/sword_drive_hit2.wav"
+			}
+		}
+		
+		"5"
+		{
+			"paths"
+			{
+				"1" "slender/wtf/lnbsoldier/thunder_hit.wav"
+			}
+		}
+		
+		"6"
+		{
+			"paths"
+			{
+				"1" "slender/wtf/lnbsoldier/thunder_hit2.wav"
+			}
+		}
+		
+		"7"
+		{
+			"paths"
+			{
+				"1" "weapons/blade_slice_2.wav"
+				"2" "weapons/blade_slice_3.wav"
+				"3" "weapons/blade_slice_4.wav"
+			}
+		}
+	}
+	
+	"sound_power_charge"
+	{
+		"1" "slender/wtf/sfx/power_charge.wav"
+	}
+	
+	"sound_power_charge_hit"
+	{
+		"1" "slender/wtf/sfx/power_charge_hit.wav"
+	}
+	
+	"sound_speed_boost"
+	{
+		"1" "slender/wtf/sfx/smirk.wav"
+	}
+	
+	"sound_self_heal"
+	{
+		"1" "weapons/fx/rics/arrow_impact_crossbow_heal.wav"
+	}
+	
+	"use_chase_initial_animation" "1"
+	
+	"animations"
+	{
+		"idle"
+		{
+			"1"
+			{
+				"name" "idle"
+			}
+			
+			"2"
+			{
+				"name" "idle_ex"
+			}
+			
+			"3"
+			{
+				"name" "idle_ex2"
+			}
+			
+			"4"
+			{
+				"name" "idle_ex3"
+			}
+			
+			"5"
+			{
+				"name" "idle_ex4"
+			}
+			
+			"6"
+			{
+				"name" "idle_ex5"
+			}
+			
+			"7"
+			{
+				"name" "idle_ex6"
+			}
+		}
+		
+		"walk"
+		{
+			"1"
+			{
+				"name" "walk"
+			}
+		}
+		
+		"chaseinitial"
+		{
+			"1"
+			{
+				"name" "battle_start"
+				"playbackrate" "1.1"
+				"duration" "1.25"
+			}
+		}
+		"run"
+		{
+			"1"
+			{
+				"name" "battle_run"
+			}
+		}
+		
+		"stun"
+		{
+			"1"
+			{
+				"name" "death"
+				"duration" "3.0"
+			}
+		}
+		
+		"attack"
+		{
+			"1"
+			{
+				"name" "run"
+				"gesture_name" "auto_attack_gesture"
+			}
+			
+			"2"
+			{
+				"name" "arts_bone_upper"
+			}
+			
+			"3"
+			{
+				"name" "arts_war_swing"
+			}
+			
+			"4"
+			{
+				"name" "arts_sword_drive"
+			}
+			
+			"5"
+			{
+				"name" "arts_hammer_beat"
+			}
+			
+			"6"
+			{
+				"name" "arts_aura_burst"
+			}
+			
+			"7"
+			{
+				"name" "arts_wild_down"
+			}
+			
+			"8"
+			{
+				"name" "arts_engage"
+			}
+			
+			"9"
+			{
+				"name" "arts_rage"
+			}
+			
+			"10"
+			{
+				"name" "arts_guard_shift"
+			}
+		}
+	}
+	
+	"attack_weaponsenable" "1"
+	
+	"player_damage_effects" "1"
+	
+	"player_mark_on_hit" "1"
+	"player_mark_attack_indexs" "2"
+	"player_mark_duration" "7.0"
+	
+	"player_silent_mark_on_hit" "1"
+	"player_silent_mark_attack_indexs" "7"
+	"player_silent_mark_duration" "15.0"
+	
+	"player_stun_on_hit" "1"
+	"player_stun_attack_indexs" "6"
+	"player_stun_type" "1"
+	
+	"player_stun_particle" "drg_cow_explosioncore_charged"
+	"player_stun_sound" "misc/null.wav"
+	
+	"player_stun_duration" "3.5"
+	"player_stun_slowdown" "0.75"
+	
+	"shockwave" "1"
+	"shockwave_attack_index" "6"
+	
+	"shockwave_height" "120.0"
+	"shockwave_range" "600.0"
+	"shockwave_drain" "0.0"
+	"shockwave_force" "500.0"
+	
+	"shockwave_color_1" "110 71 31"
+	"shockwave_color_2" "224 78 52"
+	
+	"shockwave_amplitude" "7.0"
+	"shockwave_width_1" "120.0"
+	"shockwave_width_2" "90.0"
+	
+	"player_smite_on_hit" "1"
+	"player_smite_attack_indexs" "6"
+	"player_smite_damage" "0.1"
+	"player_smite_damage_type" "256"
+	"player_smite_color_r" "196"
+	"player_smite_color_g" "36"
+	"player_smite_color_b" "82"
+	"player_smite_transparency" "255"
+	"player_smite_sound" "misc/null.wav"
+	
+	"attacks"
+	{
+		"1"//Auto Attack
+		{
+			"delay" "0.55"
+			"range" "200.0"
+			"begin_range" "90"
+			"damage" "30.0"
+			"damagetype" "132"
+			"punchvel" "0 5 0"
+			"duration" "1.15"
+			"spread" "90"
+			"cooldown" "2.0"
+			
+			"gestures" "1"
+			
+			"run_enabled" "1"
+			"run_speed" "305.0"
+		}
+		
+		"2"//Bone Upper
+		{
+			"delay" "0.5"
+			"range" "220.0"
+			"begin_range" "85"
+			"damage" "45.0"
+			"damagetype" "128"
+			"punchvel" "0 5 0"
+			"duration" "1.1"
+			"spread" "90"
+			"cooldown" "8.0"
+			
+			"weapontype" "fists"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"3"//War Swing
+		{
+			"delay" "0.5"
+			"range" "200.0"
+			"begin_range" "90"
+			"damage" "20.0"
+			"damagetype" "132"
+			"punchvel" "0 5 0"
+			"duration" "2.0"
+			"spread" "270"
+			"cooldown" "14.0"
+			
+			"repeat" "2"
+			"max_repeats" "3"
+			"repeat_1_delay" "0.2"
+			"repeat_2_delay" "0.2"
+			"repeat_3_delay" "0.2"
+			
+			"run_enabled" "1"
+			"run_delay" "0.4"
+			"run_duration" "1.1"
+			"run_speed" "370.0"
+			
+			"weapontype" "southern_comfort_kill"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"4"//Sword Drive
+		{
+			"delay" "0.6"
+			"range" "250.0"
+			"begin_range" "95"
+			"damage" "80.0"
+			"damagetype" "128"
+			"punchvel" "0 5 0"
+			"duration" "1.28"
+			"spread" "90"
+			"cooldown" "25.0"
+			
+			"weapontype" "southern_comfort_kill"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"5"//Hammer Beat
+		{
+			"delay" "1.1"
+			"range" "280.0"
+			"begin_range" "95"
+			"damage" "50.0"
+			"damagetype" "128"
+			"punchvel" "0 5 15"
+			"duration" "2.08"
+			"spread" "95"
+			"cooldown" "12.0"
+			
+			"weapontype" "southern_comfort_kill"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"6"//Aura Burst
+		{
+			"delay" "0.6"
+			"range" "350.0"
+			"begin_range" "90"
+			"damage" "65.0"
+			"damagetype" "256"
+			"punchvel" "0 20 5"
+			"duration" "1.5"
+			"spread" "180"
+			"cooldown" "20.0"
+			"use_on_difficulty" "2"
+			
+			"weapontype" "spellbook_lightning"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"7"//Wild Down
+		{
+			"delay" "0.7"
+			"range" "250.0"
+			"begin_range" "95"
+			"damage" "55.0"
+			"damagetype" "132"
+			"punchvel" "0 5 0"
+			"duration" "1.3"
+			"spread" "90"
+			"cooldown" "25.0"
+			
+			"weapontype" "southern_comfort_kill"
+			"dont_interrupt_chaseinitial" "1"
+		}
+		
+		"8"//Engage
+		{
+			"type" "5"
+			
+			"delay" "0.55"
+			"range" "0.0"
+			"begin_range" "300"
+			"damage" "0.0"
+			"damagetype" "0"
+			"punchvel" "0 0 0"
+			"duration" "1.35"
+			"spread" "0"
+			"cooldown" "30.0"
+			
+			"power_charge" "1"
+		}
+		
+		"9"//Rage
+		{
+			"type" "5"
+			
+			"delay" "0.5"
+			"range" "0.0"
+			"begin_range" "250"
+			"damage" "0.0"
+			"damagetype" "0"
+			"punchvel" "0 0 0"
+			"duration" "1.1"
+			"spread" "0"
+			"cooldown" "30.0"
+			
+			"temp_speed_buff" "1"
+			"temp_speed_duration" "10.0"
+			"temp_speed_multiplier" "1.4"
+			"temp_speed_particle" "powerup_supernova_explode_red_spiral"
+		}
+		
+		"10"//Guard Shift
+		{
+			"type" "5"
+			
+			"delay" "1.27"
+			"range" "0.0"
+			"begin_range" "100"
+			"damage" "0.0"
+			"damagetype" "0"
+			"punchvel" "0 0 0"
+			"duration" "4.30"
+			"spread" "0"
+			"cooldown" "40.0"
+			"use_on_difficulty" "2"
+			
+			"self_heal" "1"
+			"self_heal_amount" "175.0"
+			"dont_interrupt_chaseinitial" "1"
+		}
+	}
+	
+	"effects"
+	{
+		"solly_light"
+		{
+			"type" "dynamiclight"
+			"event" "constant"
+			"origin" "20 0 65"
+			"angles" "0 -90 0"
+			
+			"rendercolor" "209 131 102 200"
+			"distance" "330.0"
+			"brightness" "2"
+			"cone" "-1"
+			"spawnflags" "1"
+		}
+	}
+}

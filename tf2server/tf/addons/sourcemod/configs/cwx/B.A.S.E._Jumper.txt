@@ -1,0 +1,16 @@
+"Items"
+{
+    "{ca8a4c5c-2183-9734-3365-2ef8d2d416be}"
+    {
+        "name"                               "B.A.S.E. Jumper"
+        "inherits"                           "The B.A.S.E. Jumper"
+        "used_by_classes"
+        {
+            "soldier"                        "Secondary"
+        }
+        "attributes_game"
+        {
+            "cancel falling damage"          "1"
+        }
+    }
+}

@@ -1,0 +1,404 @@
+// Mapcycle definition for Ultimate Mapchooser v3.1 by Steell
+// For more information on UMC, please see the wiki: https://github.com/Silenci0/UMC/wiki
+///////////////////////////////////////////////////////////////////////////////
+//***************************************************************************//
+//**                           ULTIMATE MAPCHOOSER                         **//
+//***************************************************************************//
+// The format of this file is as specified in the following example:         //
+//                                                                           //
+// "umc_mapcycle"                                                            //
+// {                                                                         //
+//      "GROUPNAME-1" //Name of the group, used by group votes.              //
+//      {                                                                    //
+//          //Text to display for maps from this group in the vote. If left  //
+//          //blank or omitted, the map's name will be used as the default.  //
+//          //The following string will be replaced when parsed:             //
+//          //  {MAP}           =   The map's name                           //
+//          //  {NOMINATED}     =   If nominated, a string determined by the //
+//          //                      "sm_umc_nomination_display" cvar in      //
+//          //                      "ultimate-mapchooser.cfg;tf_bot_quota 0"                //
+//          //  {MIN_PLAYERS}                                                //
+//          //  {MAX_PLATERS}   =   The "min_players" and "max_players"      //
+//          //                      settings for the map.                    //
+//          //  {MIN_TIME}                                                   //
+//          //  {MAX_TIME}      =   The "min_time" and "max_time" settings   //
+//          //                      for the map.                             //
+//          // (Default value: "{MAP}")                                      //
+//          "display-template"      "any value"                              //
+//            //Defined in "umc-core.smx"                                    //
+//                                                                           //
+//          //Number of maps to include from this group in a vote.           //
+//          // (Default value: 1)                                            //
+//          "maps_invote"           "int >= 0"                               //
+//            //Defined in "umc-core.smx"                                    //
+//                                                                           //
+//          //The weight of this group for random picking. Higher numbers    //
+//          //mean the group is more likely to be picked. 0 means the group  //
+//          //can never be picked randomly.                                  //
+//          // (Default value: 1)                                            //
+//          "group_weight"          "float > 0"                              //
+//            //Defined in "umc-weight.smx"                                  //
+//                                                                           //
+//          //If a map from this group is picked randomly or via vote, the   //
+//          //next time a map is chosen randomly, it will be from the group  //
+//          //specified in this setting. If "" then a random group is picked.//
+//          // (Default value: "")                                           //
+//          "next_mapgroup"         "Group Name"                             //
+//            //Defined in "umc-randomcycle.smx"                             //
+//                                                                           //
+//          //Used as defaults if "min_players" or "max_players" is          //
+//          //not defined for a map in this group.                           //
+//          // (Default value: 0)                                            //
+//          "default_min_players"   "int >= 0"                               //
+//          // (Default value: Player limit of the server)                   //
+//          "default_max_players"   "int >= 0"                               //
+//            //Defined in "umc-playerlimits.smx"                            //
+//                                                                           //
+//          //Used as defaults if "min_time" or "max_time" is not defined    //
+//          //for a map in this group.                                       //
+//          // (Default value: "0000")                                       //
+//          "default_min_time"  "HHMM, where HH is the hour and MM is the    //
+//                               minute"                                     //
+//          // (Default value: "2359")                                       //
+//          "default_max_time"	    "HHMM"                                   //
+//            //Defined in "umc-timelimits.smx"                              //
+//                                                                           //
+//          //Used as default if "allow_every" is not defined for a map in   //
+//          //this group.                                                    //
+//          // (Default value: 0)                                            //
+//          "default_allow_every"   "int >= 0"                               //
+//            //Defined in "umc_postexclude.smx"                             //
+//                                                                           //
+//          //The command specified here is performed at the start of all    //
+//          //maps in this group.                                            //
+//          // (Default value: "")                                           //
+//          "command"   "any valid console command"                          //
+//            //Defined in "umc-mapcommands.smx"                             //
+//                                                                           //
+//          //Players need to have at least one admin flag specified in this //
+//          //string in order to nominate this map.                          //
+//          // (Default value: "")                                           //
+//          "nominate_flags"    "sequence of admin flags"                    //
+//            //Defined in "umc-nominate.smx"                                //
+//                                                                           //
+//          //Admins need to have at least one admin flag specified in this  //
+//          //string in order to see this map in the admin menu.             //
+//          // (Default value: "")                                           //
+//          "adminmenu_flags"   "sequence of admin flags"                    //
+//            //Defined in "umc-adminmenu.smx"                               //
+//                                                                           //
+//          "MAP-1" //Name of a map, must be a valid map.                    //
+//          {                                                                //
+//              //Text to display for this map in the vote. If left blank    //
+//              //or omitted, the map's name will be used instead.           //
+//              // (Default value: "{MAP}")                                  //
+//              "display"       "any value"                                  //
+//                //Defined in "umc-core.smx"                                //
+//                                                                           //
+//              //The weight of this map with reference to other maps        //
+//              //in this category. This number affect how likely the        //
+//              //map will appear in a vote, as well as how likely this      //
+//              //map will be chosen randomly (assuming this group has       //
+//              //already been chosen.)                                      //
+//              // (Default value: 1)                                        //
+//              "weight"        "float > 0"                                  //
+//                //Defined in "umc-weight.smx"                              //
+//                                                                           //
+//              //Overrides the option of the same name in the group level.  //
+//              // (Default value: "")                                       //
+//              "next_mapgroup"     "Group Name"                             //
+//                //Defined in "umc-randcycle.smx"                           //
+//                                                                           //
+//              //Defines the number of players required to be on the        //
+//              //server in order for this map to be used.                   //
+//              // (Default values: see "default_min_players" and            //
+//              //  "default_max_players")                                   //
+//              "min_players"   "int >= 0"                                   //
+//              "max_players"   "int >= 0"                                   //
+//                //Defined in "umc-playerlimits.smx"                        //
+//                                                                           //
+//              //Defines the minimum and maximum times that UMC will pick   //
+//              //this map to be played.                                     //
+//              "min_time"      "HHMM"                                       //
+//              "max_time"      "HHMM"                                       //
+//                //Defined in "umc-timelimits.smx"                          //
+//                                                                           //
+//              //Defines an amount of time in minutes that a map is to be   //
+//              //excluded from selection after it has been played.          //
+//              "allow_every"   "int >= 0"                                   //
+//                //Defined in "umc-postexclude.smx"                         //
+//                                                                           //
+//              //This command is performed at the start of this map. Note:  //
+//              //The command specified here is performed AFTER the one      //
+//              //specified for the group, and does not override it.         //
+//              // (Default value: "")                                       //
+//              "command"       "any valid console command"                  //
+//                //Defined in "umc-mapcommands.smx"                         //
+//                                                                           //
+//              //Players need to have at least one admin flag specified in  //
+//              //this string in order to nominate this map. This overrides  //
+//              //the option  specified by this group for this map.          //
+//              // (Default value: "")                                       //
+//              "nominate_flags"    "sequence of admin flags"                //
+//                //Defined in "umc-nominate.smx"                            //
+//                                                                           //
+//              //Admins need to have at least one admin flag specified in   //
+//              //this string in order to see this map in the admin menu.    //
+//              //This overrides the option specified by this group for this //
+//              //map.                                                       //
+//              // (Default value: "")                                       //
+//              "adminmenu_flags"   "sequence of admin flags"                //
+//                //Defined in "umc-adminmenu.smx"                           //
+//                                                                           //
+//              //When this map is nominated, it is associated with the group//
+//              //specified by this setting, overriding the group that it's  //
+//              //physically located in within this definition file. If blank//
+//              //it uses the group it's currently located in.               //
+//              // (Default value: "")                                       //
+//              "nominate_group"    "Group Name"                             //
+//                //Defined in "umc-core.smx"                                //
+//          }                                                                //
+//                                                                           //
+//          "MAP-2"                                                          //
+//          {                                                                //
+//              ...                                                          //
+//          }                                                                //
+//                                                                           //
+//          ...                                                              //
+//                                                                           //
+//          "MAP-N"                                                          //
+//          {                                                                //
+//              ...                                                          //
+//          }                                                                //
+//      }                                                                    //
+//                                                                           //
+//      "GROUPNAME-2"                                                        //
+//      {                                                                    //
+//          ...                                                              //
+//      }                                                                    //
+//                                                                           //
+//      ...                                                                  //
+//                                                                           //
+//      "GROUPNAME-N"                                                        //
+//      {                                                                    //
+//          ...                                                              //
+//      }                                                                    //
+// }                                                                         //
+//***************************************************************************//
+//*                      ^YOU MAY DELETE THIS SECTION^                      *//
+///////////////////////////////////////////////////////////////////////////////
+
+"umc_mapcycle"
+{
+
+	"僵尸感染"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_Zombie_Infection.cfg;tf_bot_quota 0"
+
+		"zi_atoll"
+		{
+			"display"	"Atoll"
+		}
+		"zi_devastation_final1"
+		{
+			"display"	"Devastation"
+		}
+		"zi_murky"
+		{
+			"display"	"Murky"
+		}
+		"zi_sanitarium"
+		{
+			"display"	"Sanitarium"
+		}
+		"zi_woods"
+		{
+			"display"	"Woods"
+		}
+	}
+
+	"超级僵尸要塞"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_SuperZombieFortress.cfg;tf_bot_quota 0"
+
+		szf_chillchain_a_ig			{}
+		szf_city_escape_b5_jugfix	{}
+		szf_experiment_v11_2_fix	{}
+		szf_junction_d10			{}
+		szf_minecraft_a2			{}
+		szf_isaac_v2_2				{}
+	}
+
+	"VSH[官方-社区地图]"
+	{
+		"maps_invote"		"4"
+		//"default_min_players"		"6"
+		//"default_max_players"		"33"
+		"command"					"exec Gameplay_Versus_Saxton_Hale.cfg;tf_bot_quota 0"
+
+		"vsh_distillery"
+		{
+			"display"	"Distillery"
+		}
+		"vsh_nucleus"
+		{
+			"display"	"Nucleus VSH"
+		}
+		"vsh_skirmish"
+		{
+			"display"	"Skirmish"
+		}
+		"vsh_tinyrock"
+		{
+			"display"	"Tiny Rock"
+		}
+	}
+
+	"死跑"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_Deathrun.cfg;tf_bot_quota 0"
+
+		"dr_4halls_v7" {}
+		"dr_ancient_memes_b4" {}
+		"dr_bank_v13" {}
+		"dr_bazinga_remake_b1b" {}
+		"dr_berlin_redux_v8a_fix3" {}
+		"dr_lazytown_xmas" {}
+		"dr_meme_factory_v1_fix2" {}
+		"dr_r60d_redux_fix4b" {}
+		"dr_sawmill_final" {}
+		"dr_winterhill_beta2_fix" {}
+		"dr_wintervalley_final_blw_fix2" {}
+		"dr_cocainum_v2_1_xmas_fix"		{}
+	}
+
+	"工程师大战僵尸"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_engiesVSzombies.cfg;tf_bot_quota 0"
+
+		"zs_viaduct_v11_fix" {}
+	}
+
+	"要塞战争"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_FortWars.cfg;tf_bot_quota 0"
+
+		"fw_3cp_a1" {}
+		"fw_bridge_a1" {}
+		"fw_cube_b8" {}
+		"fw_forts_a2" {}
+		"fw_gas_a2" {}
+		"fw_sewers_a3" {}
+		"fw_war_a1" {}
+	}
+
+	//"TF2Ware"
+	//{
+		//"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		//"command"			   "exec Gameplay_microtf2.cfg"
+
+		//"warioware_redux_v5c" {}
+	//}
+
+	"躲猫猫"
+	{
+		"maps_invote"		   "5"
+		"default_min_players"  "6"
+        "default_max_players"  "33"
+		"command"			   "exec Gameplay_PropHunt.cfg;tf_bot_quota 0"
+
+		"ph_007facility_a6" {}
+		"ph_basalt_a2" {}
+		"ph_buckethunt_event_c1" {}
+		"ph_campsite_a6" {}
+		"ph_canyon_a1" {}
+		"ph_cargo_b7" {}
+		"ph_cchotel_b3" {}
+		"ph_cliffface_b1" {}
+		"ph_devils_canyon_a1" {}
+		"ph_farm_a5" {}
+		"ph_goldtooth_a1" {}
+		"ph_grassland_a1" {}
+		"ph_hanger18_b7" {}
+		"ph_headquarters_b3" {}
+		"ph_lumberyard_a2" {}
+		"ph_manorgrounds_a4" {}
+		"ph_maze_a4" {}
+		"ph_mountain_a2" {}
+		"ph_northural_a2" {}
+		"ph_oasis_a1" {}
+		"ph_otherside_a1" {}
+		"ph_redstone_a2" {}
+		"ph_sawmill_a2" {}
+		"ph_snowworks_a3" {}
+		"ph_spookyharvest_a3" {}
+		"ph_timbertown_a3" {}
+		"ph_warehouse_b1" {}
+		"ph_watchtower_a1" {}
+	}
+
+	"要塞大乱斗"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_TF2_Super-Smash-Bros.cfg;tf_bot_quota 0"
+
+		"sb_citypeak_v1" {}
+		"sb_icee_day" {}
+	}
+
+	"暗鬼"
+	{
+		"maps_invote"		   "5"
+		//"default_min_players"  "6"
+        //"default_max_players"  "33"
+		"command"			   "exec Gameplay_Slender-Fortress.cfg;tf_bot_quota 0"
+
+		"slender_arizona_b1"	{}
+		"slender_an_endpoint_offices_v1a"	{}
+		"slender_bloodwood_r2a"	{}
+		"slender_broken_v2"	{}
+		"slender_sector_six_b2c"	{}
+		"slender_storage_zero_b2"	{}
+		"slender_quirkyplace_b4"	{}
+		"slender_lockers_b7a"	{}
+		"slender_elementary_b2d"	{}
+		"slender_dustbowl_b2a"	{}
+		"slender_noexit_b2c"	{}
+		"slender_cellars_b4c"	{}
+		"slender_claustrophobia_b2a"	{}
+		"slender_containmentbreach_v2a"	{}
+		"slender_frost_run_b4d"	{}
+		"slender_gutters_b2c"	{}
+		"slender_hellfire_b1c"	{}
+		"slender_lobbys_b1a"	{}
+		"slender_manor_final1"	{}
+		"slender_monophobia_reborn_b1b"	{}
+		"slender_scp_087_b_v3b"	{}
+		"slender_swarm_v2a"	{}
+		"slender_the_ward_b1a"	{}
+		"slender_alpha_complex_b1"	{}
+		"slender_underground_r1a"	{}
+		"slender_mountaincomplex_v2b"	{}
+		"slender_atomics_b5"	{}
+		"slender_aquatica_r3c"	{}
+	}
+}

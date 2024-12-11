@@ -1,0 +1,21 @@
+"Items"
+{
+    "{19d90882-7e85-b849-685d-d917d337b7ab}"
+    {
+        "name"                          "Calefactor"        
+        "inherits"                      "TF_WEAPON_SHOTGUN_PYRO"
+        "used_by_classes"
+        {
+            "pyro"                      "Secondary"
+        }
+        "attributes_game"
+        {
+            "Reload time increased"      "1.3"
+            "Set DamageType Ignite"      "10"
+            "weapon burn dmg increased"  "3.0"
+            "weapon burn time reduced"   "0.5"
+            "damage penalty"             "0.5" 
+            "set weapon model"           "models/weapons/c_models/c_calefactor/c_calefactor.mdl"         
+        }
+    }
+}

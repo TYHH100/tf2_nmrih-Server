@@ -1,0 +1,12 @@
+﻿"Phrases"
+{
+	"Suicide"
+	{
+		"en"			"{olive}%N {default}use command {green}!zs{default} to suicide!"
+		"es"			"{olive}%N {default}usa el comando {green}!zs{default} para suicidarte!"
+		"ru"			"{olive}%N{default}, используйте команду {green}!zs{default} для самоубийства!"
+		"zho"			"{olive}%N {default}使用指令 {green}!zs{default} 自殺了!"
+		"chi"			"{olive}%N {default}使用指令 {green}!zs{default} 自杀了!"
+		"hu"			"{olive}%N {default}használd a {green}!zs{default} parancsot az öngyilkossághoz!"
+	}
+}

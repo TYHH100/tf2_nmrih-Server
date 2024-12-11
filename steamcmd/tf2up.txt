@@ -1,0 +1,4 @@
+login anonymous
+force_install_dir /home/tf2server
+app_update 232250
+quit

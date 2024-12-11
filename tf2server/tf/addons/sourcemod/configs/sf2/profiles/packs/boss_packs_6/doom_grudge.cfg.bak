@@ -1,0 +1,124 @@
+"doom_grudge"
+{
+	"name" "Grudge"
+	
+	"speed" "400.0"
+	"speed_max" "450.0"
+	"walkspeed" "0.0"
+	"walkspeed_max" "0.0"
+	
+	"type" "2"
+	"acceleration" "9001.0"
+	"model" "models/estouls/factory/grudge.mdl"
+	"model_scale" "0.9"
+	"eye_pos" "0 0 72"
+	"mins" "-16 -16 0"
+	"maxs" "16 16 64"
+	"fov" "360"
+	
+	"enable_random_selection" "0"
+	
+	"customizable_outlines" "1"
+	"outline_color_r" "250"
+	"outline_color_g" "250"
+	"outline_color_b" "250"
+	
+	"normal_sound_hook" "1"
+	
+	"auto_chase_enabled" "1"
+	"auto_chase_sound_threshold" "1"
+	"auto_chase_sound_add" "1"
+	"auto_chase_sprinters" "1"
+	
+	"static_on_look" "0"
+	"static_on_radius" "1"
+	"static_rate" "0.9"
+	"static_rate_decay" "0.9"
+	"static_radius" "100.0"
+	
+	"wander_move" "0"
+	
+	"teleport_time_min" "8.0"
+	"teleport_time_max" "10.0"
+	"teleport_range_min" "700.0"
+	"teleport_range_max" "1400.0"
+	"teleport_target_rest_period" "9.0"
+	"teleport_target_persistency_period" "10.0"
+	"teleport_target_stress_min" "0.3"
+	"teleport_target_stress_max" "1.0"
+	"teleport_type" "2"
+	"teleport_target_ignore_chases" "1"
+	
+	"search_view_distance" "1000.0"
+	"hearing_range" "4000.0"
+	
+	"chase_duration" "25.0"
+	"chase_persistency_time_init" "10.0"
+	"chase_persistency_time_add_newtarget" "1.0"
+	"chase_persistency_time_add_visible_min" "0.1"
+	"chase_persistency_time_add_visible_max" "0.2"
+	"decap_ragdoll_on_kill" "1"
+	
+	"wake_radius" "9999.0"
+	
+	"attributes"
+	{
+		"always look at target"
+		{
+			"value" "1"
+		}
+		
+		"always look at target while chasing"
+		{
+			"value" "1"
+		}
+	}
+	
+	"idle_lifetime" "12.0"
+	
+	"mat_download"
+	{
+		"1" "materials/factory/grudge"
+	}
+	
+	"download"
+	{
+		"1" "materials/factory/grudge"
+	}
+	
+	"sound_chasingenemy"
+	{
+		"cooldown_min" "5.0"
+		"cooldown_max" "6.0"
+		
+		"paths"
+		{
+			"1" "slender/factory/grudgev2.wav"
+		}
+	}
+	
+	"sound_attackenemy"
+	{
+		"paths"
+		{
+			"1" "slender/factory/scream2v2.wav"
+		}
+	}
+	
+	"attacks"
+	{
+		"1"
+		{
+			"delay" "0.0"
+			"duration" "1.0"
+			"range" "90.0"
+			"begin_range" "100.0"
+			"damage" "1.0"
+			"damagetype" "128"
+			"punchvel" "0 0 0"
+			"spread" "90"
+			"cooldown" "1.5"
+			"disappear_upon_damaging" "1"
+		}
+	}
+}

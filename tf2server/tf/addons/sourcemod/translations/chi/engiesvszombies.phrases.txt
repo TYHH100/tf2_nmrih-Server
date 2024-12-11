@@ -1,0 +1,318 @@
+"Phrases"
+{
+	// 聊天信息
+	"#Chat_WelcomeMessage"
+	{
+		"chi"		"{immortal}[{darkorange}EVZ{immortal}] 欢迎来到工程师大战僵尸!\n聊天框输入 {darkorange}!evz{immortal} 了解更多信息."
+	}
+	"#Chat_ImbalancedRound"
+	{
+		"#format"	"{1:s}" // {red} or {green}
+		"chi"		"{1}僵尸将会获得额外的生命值,以确保回合开始时的游戏平衡."
+	}
+	"#Chat_ForceZombieStart"
+	{
+		"chi"		"{red}由于试图跳过以受感染者的身份玩游戏,您被强行设置为僵尸的团队."
+	}
+	"#Chat_KillComboCritCharged"
+	{
+		"chi"		"{immortal}武器被充能了!使用这种武器的下一次攻击将是 {darkorange}暴击{immortal}."
+	}
+
+	// 加入团队聊天消息
+	"#Chat_CantSwitchSetup"
+	{
+		"chi"		"{red}在准备期间,你不能切换到对方团队."
+	}
+	"#Chat_WillJoinZombieSetup"
+	{
+		"chi"		"{red}准备完成后,您将加入僵尸的团队."
+	}
+	"#Chat_CancelSetupEnd"
+	{
+		"chi"		"{green}准备期结束后,您将不再自动加入僵尸的团队."
+	}
+	"#Chat_CantJoinDuringSetup"
+	{
+		"chi"		"{red}暂时无法加入幸存者团队.准备期结束后,您将加入僵尸的团队."
+	}
+
+	// HUD信息
+	"#Hud_ZombiesReleased"
+	{
+		"chi"		"僵尸被释放,希望你们做好了准备!"
+	}
+	"#Hud_ZombiesBoosted"
+	{
+		"chi"		"僵尸属性增强"
+	}
+	"#Hud_ZombieSpawnArea"
+	{
+		"chi"		"警告: 僵尸在重生区是无敌的 就不要浪费子弹了"
+	}
+	"#Hud_BonusRound"
+	{
+		"chi"		"特殊回合"
+	}
+
+	// 菜单
+	"#Menu_MainTitle"
+	{
+		"chi"		"工程师 VS 僵尸"
+	}
+	"#Menu_MainOverview"
+	{
+		"chi"		"概述"
+	}
+	"#Menu_MainTeamSurvivor"
+	{
+		"chi"		"团队: 幸存者"
+	}
+	"#Menu_MainTeamZombie"
+	{
+		"chi"		"团队: 僵尸"
+	}
+	"#Menu_MainBalances"
+	{
+		"chi"		"武器平衡"
+	}
+	"#Menu_MainBonusRounds"
+	{
+		"chi"		"特殊回合数"
+	}
+	"#Menu_MainBack"
+	{
+		"chi"		"<- 返回"
+	}
+
+	"#Menu_Overview"
+	{
+		"chi"		"幸存者必须在僵尸的无尽攻击中幸存下来.\n僵尸需要共同努力才能打倒幸存者.\n当所有幸存者成为僵尸或计时器结束时,回合结束."
+	}
+	"#Menu_TeamSurvivor"
+	{
+		"chi"		"幸存者扮演的是工程师.\n他们只能建造补给器和传送器 (但是!没想到吧有例外)."
+	}
+	"#Menu_TeamZombie"
+	{
+		"chi"		"僵尸扮演的是医生(只允许使用近战).\n可以二段跳.\n回合计时器达到1分钟时,会获得属性提升."
+	}
+
+	// 聊天/菜单
+	"#Weapon_FrontierJustice"
+	{
+		"chi"		"边境裁决者"
+	}
+	"#Weapon_FrontierJustice_Desc"
+	{
+		"chi"		"{green}装弹速度: +50%%, 弹药数量: +10"
+	}
+
+	"#Weapon_Widowmaker"
+	{
+		"chi"		"寡妇制造者"
+	}
+	"#Weapon_Widowmaker_Desc"
+	{
+		"chi"		"{red}金属消耗: +30"
+	}
+
+	"#Weapon_Pomson"
+	{
+		"chi"		"歼灭者6000"
+	}
+	"#Weapon_Pomson_Desc"
+	{
+		"chi"		"{green}装弹速度: +10%%, 子弹速度: +40%%"
+	}
+
+	"#Weapon_RescueRanger"
+	{
+		"chi"		"火线救兵"
+	}
+	"#Weapon_RescueRanger_Desc"
+	{
+		"chi"		"{green}迷你步哨, {red}伤害: -40%%, 步哨射程: -35%%, 步哨伤害: -50%%, 步哨攻击速度: -95%%"
+	}
+
+	"#Weapon_PanicAttack"
+	{
+		"chi"		"恐慌打击"
+	}
+	"#Weapon_PanicAttack_Desc"
+	{
+		"chi"		"{green}装填速度: +30%%, 无精度下降, {red}部署时间: +50%%"
+	}
+
+	"#Weapon_Pistol"
+	{
+		"chi"		"手枪"
+	}
+	"#Weapon_Pistol_Desc"
+	{
+		"chi"		"{red}弹药数量: -82%%"
+	}
+
+	"#Weapon_ShortCircuit"
+	{
+		"chi"		"短路发射器"
+	}
+	"#Weapon_ShortCircuit_Desc"
+	{
+		"chi"		"{green}伤害: +100%%, {red}辅助攻击(M2)已禁用"
+	}
+
+	"#Weapon_Wrangler"
+	{
+		"chi"		"遥控手柄
+	}
+	"#Weapon_Wrangler_Desc"
+	{
+		"chi"		"{gray}手拿时: {green}10%% 移动速度加成 35%% 伤害抗性, {red}部署时间: +75%%"
+	}
+
+	"#Weapon_Wrench"
+	{
+		"chi"		"所有扳手(所有近战武器)"
+	}
+	"#Weapon_Wrench_Desc"
+	{
+		"chi"		"{green}生命上限: +5 点"
+	}
+
+	"#Weapon_SouthernHospitality"
+	{
+		"chi"		"南部的款待"
+	}
+	"#Weapon_SouthernHospitality_Desc"
+	{
+		"chi"		"{red}攻击速度: -15%%"
+	}
+
+	"#Weapon_EurekaEffect"
+	{
+		"chi"		"传送扳手"
+	}
+	"#Weapon_EurekaEffect_Desc"
+	{
+		"chi"		"{green}金属再生: +10, {red}传送被禁用"
+	}
+
+	"#Weapon_Gunslinger"
+	{
+		"chi"		"枪炮工之臂"
+	}
+	"#Weapon_Gunslinger_Desc"
+	{
+		"chi"		"{green}2次击杀后暴击, {red}取消原本的三下暴击, {red}生命上限: -25 点"
+	}
+
+	"#Weapon_Ubersaw"
+	{
+		"chi"		"过载充能锯"
+	}
+	"#Weapon_Ubersaw_Desc"
+	{
+		"chi"		"{green}击中时生命恢复: +16"
+	}
+
+	"#Weapon_Vitasaw"
+	{
+		"chi"		"维塔锯"
+	}
+	"#Weapon_Vitasaw_Desc"
+	{
+		"chi"		"{green}建筑伤害: +20%%, 无最大生命值负面效果{red}: 对玩家的伤害: -25%%"
+	}
+
+	"#Weapon_SolemnVow"
+	{
+		"chi"		"希波克拉底的塑像"
+	}
+	"#Weapon_SolemnVow_Desc"
+	{
+		"chi"		"{green}抗击退性: +50%%"
+	}
+
+	// 特殊回合
+	"#BonusRound_LowGravity"
+	{
+		"chi"		"低重力"
+	}
+	"#BonusRound_CuriousFeeling"
+	{
+		"chi"		"奇怪的感觉"
+	}
+	"#BonusRound_CuriousFeeling_Desc"
+	{
+		"chi"		"感觉有点卡通化"
+	}
+	"#BonusRound_NoDispensers"
+	{
+		"chi"		"补给器被我吃了"
+	}
+	"#BonusRound_NoDispensers_Desc"
+	{
+		"chi"		"没补给器, 但是有回血"
+	}
+	"#BonusRound_NoSetup"
+	{
+		"chi"		"无设置"
+	}
+	"#BonusRound_MurderousJoy"
+	{
+		"chi"		"杀人的快感"
+	}
+	"#BonusRound_MurderousJoy_Desc"
+	{
+		"chi"		"击杀后, 击杀者被迫嘲讽"
+	}
+	"#BonusRound_KevlarVests"
+	{
+		"chi"		"生化服"
+	}
+	"#BonusRound_KevlarVests_Desc"
+	{
+		"chi"		"幸存者现在可以在在低血量的时候\n可以帮你抵挡一次攻击并获的加速效果!"
+	}
+	"#BonusRound_KevlarVests_Message"
+	{
+		"chi"		"{immortal}你只能一次攻击!"
+	}
+	"#BonusRound_RandomCrits"
+	{
+		"chi"		"随机暴击"
+	}
+	"#BonusRound_MoveOrDie"
+	{
+		"chi"		"你长时间不动就死!"
+	}
+	"#BonusRound_TeamSwap"
+	{
+		"chi"		"团队互换"
+	}
+	"#BonusRound_TeamSwap_Desc"
+	{
+		"chi"		"和僵尸的出生点进行互换"
+	}
+		"#BonusRound_SilentEnemies"
+	{
+		"en"		"沉默的敌人[机翻]"
+	}
+	"#BonusRound_SilentEnemies_Desc"
+	{
+		"en"		"僵尸听不到你的声音!"
+	}
+	"#BonusRound_HitSelfOnMiss"
+	{
+		"en"		"所有玩家都是白痴"
+	}
+	"#BonusRound_HitSelfOnMiss_Desc"
+	{
+		"en"		"近战武器未击中:就会打动你自己 白痴."
+	}
+	"#BonusRound_AlwaysLoser"
+	{
+		"en"		"怯懦的战斗[机翻](不敢战斗)"
+	}
+}

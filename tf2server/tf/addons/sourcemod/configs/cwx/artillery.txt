@@ -1,0 +1,25 @@
+"Items"
+{
+    "{2a5380c9-90ea-0124-819d-5cfe9567d240}"
+    {
+        "name"                 "Artill Ery"
+        "inherits"             "TF_WEAPON_MINIGUN"
+        "used_by_classes"
+        {
+            "heavy"         "Primary"
+        }
+        "attributes_game"
+        {
+            "damage bonus"                        "3"
+            "weapon spread bonus"                 "0.50"
+            "crit kill will gib"                  "1"
+            "minigun no spin sounds"              "1"
+            "minigun spinup time increased"       "2"
+            "maxammo primary reduced"             "0.30"
+            "fire rate penalty"                   "2.5"
+            "aiming movespeed decreased"          "0.1"
+            "mod minigun can holster while spinning"    "1"
+            "set weapon model"                    "models/weapons/c_models/c_heavyartillery/c_heavyartillery.mdl"            
+        }
+    }
+}

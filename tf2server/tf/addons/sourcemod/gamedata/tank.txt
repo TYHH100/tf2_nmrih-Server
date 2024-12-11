@@ -1,0 +1,366 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"CTFGameRules::GameModeUsesUpgrades"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFGameRules20GameModeUsesUpgradesEv"
+				"windows"	"\x80\xB9\x2A\x2A\x2A\x2A\x00\x0F\x95\xC0\xC3\xCC\xCC\xCC\xCC\xCC"
+			}
+			"CPathTrack::InputPass"
+			{
+				"library"	"server"
+				"linux"		"@_ZN10CPathTrack9InputPassER11inputdata_t"
+				"windows"	"\x55\x8B\xEC\x8B\x45\x08\xD9\xEE\x56\x57\x51\x8B\xF9\xD9\x1C"
+			}
+			"CTFTankBoss::SetStartingPathTrackNode"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CTFTankBoss24SetStartingPathTrackNodeEPc"
+				"windows"	"\x55\x8B\xEC\x56\x6A\x00\x68\x2A\x2A\x2A\x2A\x68\x2A\x2A\x2A\x2A\x6A\x00\x6A\x00\x6A\x00"
+			}
+			"CBaseEntity::SetSize"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CBaseEntity7SetSizeERK6VectorS2_"
+				"windows"	"\x55\x8B\xEC\xFF\x75\x0C\xFF\x75\x08\x51\xE8\x2A\x2A\x2A\x2A\x83\xC4\x2A\x5D\xC2\x08\x00"
+			}
+			"ItemSystem"
+			{
+				"library"	"server"
+				"linux"		"@_Z10ItemSystemv"
+				"windows"	"\xA1\x2A\x2A\x2A\x2A\x85\xC0\x75\x2A\x56\x68\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x83\xC4\x04"
+			}
+			"CEconItemSchema::GetAttributeDefinition"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CEconItemSchema22GetAttributeDefinitionEi"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x53\x56\x8B\xD9\x8D\x4D\xBC\x57\xE8\x2A\x2A\x2A\x2A\x8B\x45\x08\x8D\x8B"
+			}
+			"CEconItemSchema::GetAttributeDefinitionByName"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CEconItemSchema28GetAttributeDefinitionByNameEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x14\x53\x8B\x5D\x08\x56\x57\x8B\xF9\x85\xDB\x75\x2A\x33\xC0\x5F\x5E\x5B"
+			}
+			"CAttributeList::SetRuntimeAttributeValue"
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CAttributeList24SetRuntimeAttributeValueEPK28CEconItemAttributeDefinitionf"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x10\x33\xC0\x53\x8B\xD9\x56\x57\x8B\x7D\x08\x8B\x53\x10\x85\xD2\x7E\x2A\x8B\x4B\x04"
+			}
+			"CAttributeList::RemoveAttribute"
+			{
+				"library"	"server"
+				"linux"		"@_ZN14CAttributeList15RemoveAttributeEPK28CEconItemAttributeDefinition"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\xD9\x56\x33\xF6\x8B\x43\x2A\x89\x45\x2A\x85\xC0\x7E\x2A\x57\x33\xFF"
+			}
+			"CTFPlayer::PlaySpecificSequence"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer20PlaySpecificSequenceEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x30\x53\x56\x8B\x75\x08\x57\x56\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x8B\xD8\x83\xFB\xFF\x74\x2A\x8B\x35\x2A\x2A\x2A\x2A\x8B\xCE\x8B\x16\xFF\x52\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x53\x6A\x13\x8B\x01\xFF\x50"
+			}
+			"CTFPlayer::GetEquippedWearableForLoadoutSlot"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer33GetEquippedWearableForLoadoutSlotEi"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x2A\x8B\xC1\x53\x56\x33\xF6\x89\x45\xF8\x8B\x88\x2A\x2A\x2A\x2A\x57\x89\x4D\xFC"
+			}
+			"CTFPlayer::GetMaxHealth"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer12GetMaxHealthEv"
+				"windows"	"\x56\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x6A\x01\x6A\x00\x56\x68\x2A\x2A\x2A\x2A\x50\xE8"
+			}
+			"CTFPlayer::GetMaxAmmo"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10GetMaxAmmoEii"
+				"windows"	"\x55\x8B\xEC\x8B\x45\x0C\x56\x57\x8B\xF9\x83\xF8\xFF\x75\x2A\xFF\xB7\x2A\x2A\x2A\x2A\xEB\x01\x50\xE8"
+			}
+			"CBaseTrigger::PointIsWithin"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CBaseTrigger13PointIsWithinERK6Vector"
+				"windows"	"\x53\x8B\xDC\x83\xEC\x2A\x83\xE4\x2A\x83\xC4\x2A\x55\x8B\x6B\x2A\x89\x6C\x2A\x2A\x8B\xEC\x81\xEC\x2A\x2A\x2A\x2A\x8B\x43\x2A\x56\x50\x8B\xF1"
+			}
+			"CBaseObject::DoQuickBuild"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CBaseObject12DoQuickBuildEb"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x8B\xF9\x80\xBF\x2A\x2A\x2A\x2A\x00\x74\x2A\x8B\x07\xFF\x90"
+			}
+			"CTFPlayer::Taunt"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer5TauntE8taunts_ti"
+				"windows"	"\x55\x8B\xEC\x81\xEC\xD4\x00\x00\x00\x53\x56\x57\x8B\xF9\xE8"
+			}
+			"CTFPlayerShared::RecalculateChargeEffects"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared24RecalculateChargeEffectsEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x38\x53\x56\x57\x8B\xF9\xC7\x45\xCC\x00\x00\x00\x00\x89\x7D\xFC"
+			}
+			"CTFPlayerShared::Heal"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared4HealEP11CBaseEntityfffbP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x28\x53\x56\x8B\x75\x08\x0F\x57\xC0\x57\x56\x8B\xF9"
+			}
+			"CTFPlayerShared::FindHealerIndex"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared15FindHealerIndexEP11CBaseEntity"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x8B\xB9\xA0\x01\x00\x00\x33\xD2\x85\xFF\x7E\x2A\x8B\xB1\x2A\x2A\x2A\x2A\x8B\x5D\x08"
+			}
+			"CTFPlayerShared::StopHealing"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared11StopHealingEP11CBaseEntity"
+				"windows"	"\x55\x8B\xEC\x51\x56\xFF\x75\x08\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x8B\xC8\x83\xF9\xFF\x75\x2A\xD9\xEE\x5E\x8B\xE5\x5D\xC2"
+			}
+			"CTFGameStats::Event_LevelInit"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFGameStats15Event_LevelInitEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x60\x53\x8B\xD9\x56\x57\x8B\x73\x74\x85\xF6\x74"
+			}
+			"CTFGameStats::IncrementStat"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFGameStats13IncrementStatEP9CTFPlayer12TFStatType_ti"
+				"windows"	"\x55\x8B\xEC\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A\x85\xC9\x74\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\xA1\x2A\x2A\x2A\x2A\x83\xB8\x2A\x2A\x2A\x2A\x04\x75"
+			}
+			"CTFDroppedWeapon::Create"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTFDroppedWeapon6CreateEP9CTFPlayerRK6VectorRK6QAnglePKcPK13CEconItemView"
+				"windows"	"\x55\x8B\xEC\x51\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x74\x2A\x33\xC0\x8B\xE5\x5D\xC3"
+			}
+			"CTFPlayer::PickupWeaponFromOther"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer21PickupWeaponFromOtherEP16CTFDroppedWeapon"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x2A\x56\x8B\x75\x08\x57\x8B\xF9\x81\xC6\x2A\x2A\x2A\x2A\x75\x2A\x5F\x32\xC0\x5E"
+			}
+			"PassServerEntityFilter"
+			{
+				"library"	"server"
+				"linux"		"@_Z22PassServerEntityFilterPK13IHandleEntityS1_"
+				"windows"	"\x55\x8B\xEC\x56\x8B\x75\x0C\x85\xF6\x75\x2A\xB0\x01\x5E\x5D\xC3"
+			}
+			"CTFPlayerShared::CanRecieveMedigunChargeEffect"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK15CTFPlayerShared29CanRecieveMedigunChargeEffectE20medigun_charge_types"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x8B\xF9\xB3\x01\x8B\x87\x2A\x2A\x2A\x2A\x8B\x90\x2A\x2A\x2A\x2A\x83\xFA\xFF"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x83\x3D\x2A\x2A\x2A\x2A\x00\x56\x8B\xF1\x75\x2A\xD9\xEE\x5E\x8B\xE5\x5D\xC2\x04\x00\x8B\x86"
+			}
+			"CHeadlessHatmanAttack::IsPotentiallyChaseable"
+			{
+				"library"	"server"
+				"linux"		"@_ZN21CHeadlessHatmanAttack22IsPotentiallyChaseableEP15CHeadlessHatmanP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x14\x56\x8B\x75\x0C\x89\x4D\xFC\x85\xF6\x75\x2A\x32\xC0\x5E\x8B\xE5\x5D\xC2\x08\x00"
+			}
+			"Patch_PhysicsSimulate"
+			{
+				"library"	"server"
+				"linux"		"\xE8\x2A\x2A\x2A\x2A\xE9\x2A\x2A\x2A\x2A\x83\x3D\x2A\x2A\x2A\x2A\x00\xC7\x45\xE0\x00\x00\x00\x00\xC7\x45\xD8\x00\x00\x00\x00\xC7\x45\xDC\x00\x00\x00\x00\x0F\x85\x2A\x2A\x2A\x2A\x90\x8D\xB4\x26\x00\x00\x00\x00\xC6\x45\x84\x00"
+				"windows"	"\xFF\x15\x2A\x2A\x2A\x2A\x83\xC4\x0C\x5F\x5E\x8B\xE5\x5D\xC3"
+			}
+			"Patch_UpgradeHistory"
+			{
+				"library"	"server"
+				"windows"	"\xFF\x90\x2A\x2A\x2A\x2A\x8B\x0D\x2A\x2A\x2A\x2A\x85\xC9\x0F\x84\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x84\xC0"
+			}
+			"Patch_Knockback"
+			{
+				"library"	"server"
+				"linux"		"\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x89\x1C\x24\xE8\x2A\x2A\x2A\x2A\x83\xF8\x03\x75\x2A\x8B\x45\x0C\x8B\x0D\x2A\x2A\x2A\x2A\x8B\x40"
+				"windows"	"\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x8B\xCF\xE8\x2A\x2A\x2A\x2A\x83\xF8\x03\x75\x2A\x8B\xCB\xE8"
+			}
+			"Patch_FlagTouchBonk"
+			{
+				"library"	"server"
+				"linux"		"\xC7\x44\x24\x04\x0E\x00\x00\x00\x89\x3C\x24\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x85\x2A\x2A\x2A\x2A\xC7\x44\x24\x08\x00\x00\x00\x00\xC7\x44\x24\x04\x00\x00\x00\x00"
+				"windows"	"\x6A\x0E\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x85\x2A\x2A\x2A\x2A\x6A\x00\x6A\x00\x8B\xCB"
+			}
+			"Patch_FlagTouchUber"
+			{
+				"library"	"server"
+				"linux"		"\x89\x3C\x24\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x83\xBB\x2A\x2A\x2A\x2A\x06\x0F\x85"
+				"windows"	"\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\x83\xBF\x2A\x2A\x2A\x2A\x06\x0F\x85"
+			}
+			"Patch_FlagTauntBonk"
+			{
+				"library"	"server"
+				"linux"		"\x85\xC0\x75\x2A\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x0F\x85\x2A\x2A\x2A\x2A\x8B\x86\x2A\x2A\x2A\x2A\x8B\x0D\x2A\x2A\x2A\x2A\x83\xF8\xFF"
+				"windows"	"\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x75\x2A\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x84\xC0\x0F\x85"
+			}
+			"Patch_FlagDropBonk"
+			{
+				"library"	"server"
+				"linux"		"\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x0F\x85\x2A\x2A\x2A\x2A\xC7\x44\x24\x04\x00\x00\x00\x00\x89\x1C\x24"
+				"windows"	"\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\xA1\x2A\x2A\x2A\x2A\x80\xB8\x2A\x2A\x2A\x2A\x00\x74\x2A\x8B\xCF\xE8"
+			}
+		}
+		"Addresses"
+		{
+			"Patch_PhysicsSimulate"
+			{
+				"signature"	"Patch_PhysicsSimulate"
+			}
+			"Patch_UpgradeHistory"
+			{
+				"signature"	"Patch_UpgradeHistory"
+			}
+			"Patch_Knockback"
+			{
+				"signature"	"Patch_Knockback"
+			}
+			"Patch_FlagTouchBonk"
+			{
+				"signature"	"Patch_FlagTouchBonk"
+			}
+			"Patch_FlagTouchUber"
+			{
+				"signature"	"Patch_FlagTouchUber"
+			}
+			"Patch_FlagTauntBonk"
+			{
+				"signature"	"Patch_FlagTauntBonk"
+			}
+			"Patch_FlagDropBonk"
+			{
+				"signature"	"Patch_FlagDropBonk"
+			}
+		}
+		"Offsets"
+		{
+			"Patch_PhysicsSimulate"
+			{
+				"linux"		"5"
+				"windows"	"6"
+			}
+			"Patch_UpgradeHistory"
+			{
+				"windows"	"20"
+			}
+			"Patch_Knockback"
+			{
+				"linux"		"7"
+				"windows"	"7"
+			}
+			"Payload_Knockback"
+			{
+				"linux"		"113" // SHORT JNO
+				"windows"	"113" // SHORT JNO
+			}
+			"Patch_FlagTouchBonk"
+			{
+				"linux"		"19"
+				"windows"	"12"
+			}
+			"Payload_FlagTouchBonk"
+			{
+				"linux"		"128" // NEAR JO
+				"windows"	"128" // NEAR JO
+			}
+			"Patch_FlagTouchUber"
+			{
+				"linux"		"10"
+				"windows"	"9"
+			}
+			"Payload_FlagTouchUber"
+			{
+				"linux"		"113" // SHORT JNO
+				"windows"	"113" // SHORT JNO
+			}
+			"Patch_FlagTauntBonk"
+			{
+				"linux"		"17"
+				"windows"	"12"
+			}
+			"Payload_FlagTauntBonk"
+			{
+				"linux"		"129" // NEAR JNO
+				"windows"	"113" // SHORT JNO
+			}
+			"Patch_FlagDropBonk"
+			{
+				"linux"		"7"
+				"windows"	"7"
+			}
+			"Payload_FlagDropBonk"
+			{
+				"linux"		"113" // SHORT JNO
+				"windows"	"113" // SHORT JNO
+			}
+			"CBaseEntity::GetBaseEntity"
+			{
+				"linux"		"6"
+				"windows"	"5"
+			}
+			"CBaseEntity::ShouldTransmit"
+			{
+				"linux"		"21"
+				"windows"	"20"
+			}
+			"CBaseEntity::PhysicsSolidMaskForEntity"
+			{
+				"linux"		"174"
+				"windows"	"173"
+			}
+			"CCaptureFlag::PickUp"
+			{
+				"linux"		"269"
+				"windows"	"231"
+			}
+			"CBasePlayer::EquipWearable"
+			{
+				"linux"		"439"
+				"windows"	"438"
+			}
+			"CBasePlayer::RemoveWearable"
+			{
+				"linux"		"440"
+				"windows"	"439"
+			}
+			"CObjectTeleporter::TeleporterReceive"
+			{
+				"linux"		"418"
+				"windows"	"404"
+			}
+			"CTFWeaponBase::SendWeaponAnim"
+			{
+				"linux"		"255"
+				"windows"	"249"
+			}
+			"CTFWeaponBase::GetMaxClip1"
+			{
+				"linux"		"330"
+				"windows"	"324"
+			}
+			"CAttributeManager::OnAttributeValuesChanged"
+			{
+				"linux"		"14"
+				"windows"	"13"
+			}
+			"CMonsterResource::SetBossHealthPercentage"
+			{
+				"linux"		"200"
+				"windows"	"199"
+			}
+		}
+	}
+}

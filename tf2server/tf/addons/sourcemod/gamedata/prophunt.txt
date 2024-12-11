@@ -1,0 +1,313 @@
+/*
+ * Copyright (C) 2021  Mikusch
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+"Games"
+{
+	"tf"
+	{
+		"Keys"
+		{
+			"CTFWeaponBase_BaseOffset"
+			{
+				"linux"		"m_flEffectBarRegenTime"
+				"windows"	"m_flEffectBarRegenTime"
+			}
+		}
+		"Signatures"
+		{
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"linux"		"@_ZN9CTFPlayer22GetMaxHealthForBuffingEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x53\x56\x57\x8B\xF9\xFF\xB7\xC8\x22\x00\x00"
+			}
+			"CTFProjectile_GrapplingHook::HookTarget"
+			{
+				"linux"		"@_ZN27CTFProjectile_GrapplingHook10HookTargetEP11CBaseEntity"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x2C\x57\x8B\xF9\x8B\x87\x10\x02\x00\x00"
+			}
+			"CTFPlayerShared::Heal"
+			{
+				"linux"		"@_ZN15CTFPlayerShared4HealEP11CBaseEntityfffbP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x0C\x53\x56\x8B\x75\x08\x8B\xD9\x57\x0F\x57\xC0"
+			}
+			"CTFPistol_ScoutPrimary::Push"
+			{
+				"linux"		"@_ZN22CTFPistol_ScoutPrimary4PushEv"
+				"windows"	"\x53\x8B\xDC\x83\xEC\x08\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x04\x89\x6C\x24\x04\x8B\xEC\x81\xEC\x68\x01\x00\x00\x56\x8B\xC1"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFSpellBook::CastSelfHeal"
+			{
+				"linux"		"@_ZN12CTFSpellBook12CastSelfHealEP9CTFPlayer"
+				"windows"	"\x53\x8B\xDC\x83\xEC\x08\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x04\x89\x6C\x24\x04\x8B\xEC\x81\xEC\xA8\x02\x00\x00\x56\x8B\x73\x08\x57\x8B\x86\x3C\x01\x00\x00\xC1\xE8\x0B"
+			}
+			"AI_CriteriaSet::FindCriterionIndex"
+			{
+				"linux"		"@_ZNK14AI_CriteriaSet18FindCriterionIndexEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x56\x57\xFF\x75\x08"
+			}
+			"AI_CriteriaSet::RemoveCriteria"
+			{
+				"linux"		"@_ZN14AI_CriteriaSet14RemoveCriteriaEPKc"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x48\x56\x57\xFF\x75\x08"
+			}
+		}
+		"Offsets"
+		{
+			"CTeamplayRules::SetSwitchTeams"
+			{
+				"linux"		"167"
+				"windows"	"166"
+			}
+			"CBaseEntity::Spawn"
+			{
+				"linux"		"25"
+				"windows"	"24"
+			}
+			"CBaseEntity::TakeHealth"
+			{
+				"linux"		"67"
+				"windows"	"66"
+			}
+			"CBaseEntity::ModifyOrAppendCriteria"
+			{
+				"linux"		"124"
+				"windows"	"123"
+			}
+			"CBaseEntity::GetDamageType"
+			{
+				"linux"		"134"
+				"windows"	"133"
+			}
+			"CTFPlayer::InitClass"
+			{
+				"linux"		"495"
+				"windows"	"488"
+			}
+			"CTFWeaponBaseGun::FireProjectile"
+			{
+				"linux"		"477"
+				"windows"	"470"
+			}
+			"CTFWeaponBaseGun::GetProjectileDamage"
+			{
+				"linux"		"492"
+				"windows"	"485"
+			}
+			"CTFWeaponBaseMelee::Smack"
+			{
+				"linux"		"477"
+				"windows"	"470"
+			}
+			"CTFWeaponBaseMelee::GetMeleeDamage"
+			{
+				"linux"		"481"
+				"windows"	"474"
+			}
+			"CTFScatterGun::HasKnockback"
+			{
+				"linux"		"498"
+				"windows"	"491"
+			}
+			"CTFProjectile_Jar::GetDamage"
+			{
+				"linux"		"135"
+				"windows"	"134"
+			}
+			"CTFWeaponBase::m_iWeaponMode"
+			{
+				"linux"		"4"
+				"windows"	"4"
+			}
+			"CTFWeaponBase::m_pWeaponInfo"
+			{
+				"linux"		"16"
+				"windows"	"16"
+			}
+			"sizeof(WeaponData_t)"
+			{
+				"linux"		"58"
+				"windows"	"58"
+			}
+			"WeaponData_t::m_nDamage"
+			{
+				"linux"		"1784"
+				"windows"	"1784"
+			}
+			"WeaponData_t::m_nBulletsPerShot"
+			{
+				"linux"		"1788"
+				"windows"	"1788"
+			}
+			"WeaponData_t::m_flTimeFireDelay"
+			{
+				"linux"		"1804"
+				"windows"	"1804"
+			}
+		}
+		"Functions"
+		{
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"signature"	"CTFPlayer::GetMaxHealthForBuffing"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CTFProjectile_GrapplingHook::HookTarget"
+			{
+				"signature"	"CTFProjectile_GrapplingHook::HookTarget"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"pOther"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayerShared::Heal"
+			{
+				"signature"	"CTFPlayerShared::Heal"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"address"
+				"arguments"
+				{
+					"pHealer"
+					{
+						"type"	"cbaseentity"
+					}
+					"flAmount"
+					{
+						"type"	"float"
+					}
+					"flOverhealBonus"
+					{
+						"type"	"float"
+					}
+					"flOverhealDecayMult"
+					{
+						"type"	"float"
+					}
+					"bDispenserHeal"
+					{
+						"type"	"bool"
+					}
+					"pHealScorer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPistol_ScoutPrimary::Push"
+			{
+				"signature"	"CTFPistol_ScoutPrimary::Push"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"signature"	"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+				"callconv"	"thiscall"
+				"return"	"float"
+				"this"		"entity"
+				"arguments"
+				{
+					"bIgnoreSpecialAbility"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CBaseEntity::Spawn"
+			{
+				"offset"	"CBaseEntity::Spawn"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CBaseEntity::TakeHealth"
+			{
+				"offset"	"CBaseEntity::TakeHealth"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"flHealth"
+					{
+						"type"	"float"
+					}
+					"bitsDamageType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CBaseEntity::ModifyOrAppendCriteria"
+			{
+				"offset"	"CBaseEntity::ModifyOrAppendCriteria"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"criteriaSet"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFWeaponBaseGun::FireProjectile"
+			{
+				"offset"	"CTFWeaponBaseGun::FireProjectile"
+				"hooktype"	"entity"
+				"return"	"cbaseentity"
+				"this"		"entity"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFWeaponBaseMelee::Smack"
+			{
+				"offset"	"CTFWeaponBaseMelee::Smack"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFScatterGun::HasKnockback"
+			{
+				"offset"	"CTFScatterGun::HasKnockback"
+				"hooktype"	"entity"
+				"return"	"bool"
+				"this"		"entity"
+			}
+		}
+	}
+}

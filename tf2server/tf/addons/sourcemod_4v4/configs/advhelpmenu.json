@@ -1,0 +1,287 @@
+{
+	"advhelpmenu": 
+	[
+		{
+			"帮助菜单|Help Menu": 
+			{
+				"exit": "true",
+				"type": "menu",
+				"shortcut": "!h|/h|!H|/H|!help|/help",
+				"maplist_name": "List of Maps|地图列表",
+				"@type": "text 文本,menu 菜单,motd,maplist 地图列表",
+				"@exit": "true,false",
+				"@shortcut": "触发指令|作为隔开",
+				"@flags": "权限等级https://wiki.alliedmods.net/Adding_Admins_(SourceMod)/zh#.E6.9D.83.E9.99.90.E7.AD.89.E7.BA.A7",
+				"@cmd": "指令",
+				"@url": "网址",
+				"data": 
+				[				
+					{
+						"Pass Time 4v4允许使用的武器":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"士兵":
+									{
+										"exit": "true",
+										"type": "menu",
+										"data":
+										[
+											{
+												"主武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"黑匣子":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"原配(雷神之锤,以及带有计数器 or 连杀 or 节日)":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"副武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"炮艇":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"踏步靴":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"近战武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"除了鞭子,其他都可以":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											}
+										]			
+									}
+								},
+								{
+									"爆破手":
+									{
+										"exit": "true",
+										"type": "menu",
+										"data":
+										[
+											{
+												"主武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"原配(带有计数器 or 连杀 or 节日)":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"阿里巴巴的尖头靴(海盗头子的假腿)":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"铁弹发射器":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"副武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"辉煌护盾":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"近战武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"原配":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"木柄手榴弹":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"苏格兰颅骨切割者":
+															{
+																"type": "text"
+															}
+														},
+														{
+															"摩尔巨剑":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											}
+										]			
+									}
+								},
+								{
+									"医生":
+									{
+										"exit": "true",
+										"type": "menu",
+										"data":
+										[
+											{
+												"主武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"十字军之弩":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"副武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"原配(带有计数器 or 连杀 or 节日)":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											},
+											{
+												"近战武器":
+												{
+													"exit": "true",
+													"type": "menu",
+													"data":
+													[
+														{
+															"所有近战武器均可携带":
+															{
+																"type": "text"
+															}
+														}
+													]
+												}
+											}
+										]			
+									}
+								},
+								{
+									"查看白名单网页(访问速度比较慢,请耐心等待)":
+									{
+										"type": "motd",
+										"url":  "https://whitelist.tf/passtimetf"
+									}
+								}
+							]
+						}
+					},
+					{
+						"服务器网站|Server Web":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"博客|blog":
+									{
+										"type": "motd",
+										"url":  "https://blog.tyhh10.xyz"
+									}
+								},
+								{
+									"SourceBans++ Web":
+									{
+										"type": "motd",
+										"url":  "https://bans.tyhh10.xyz:58092"
+									}
+								},
+								{
+									"HLX:CE Web":
+									{
+										"type": "motd",
+										"url":  "https://stats.tyhh10.xyz/hlstats.php?game=pass"
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

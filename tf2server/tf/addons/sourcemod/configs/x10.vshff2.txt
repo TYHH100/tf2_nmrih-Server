@@ -1,0 +1,337 @@
+"vshff2"
+{
+	"4"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"194"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"638"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"665"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"727"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"794"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"803"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"883"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"892"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"901"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"910"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"959"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"968"
+	{
+		"damage bonus" "0.1" //+10% Damage
+	}
+	"16"
+	{
+		"maxammo secondary increased" "10.0" //10x ammo
+	}
+	"203"
+	{
+		"maxammo secondary increased" "10.0" //10x ammo
+	}
+	"17"
+	{
+		"add uber charge on hit" "0.01"
+		"lunchbox adds minicrits" "1"
+		"fire rate bonus HIDDEN" "0.1"
+	}
+	"204"
+	{
+		"add uber charge on hit" "0.01"
+		"lunchbox adds minicrits" "1"
+		"fire rate bonus HIDDEN" "0.1"
+	}
+	"411"
+	{
+		"add uber charge on hit" "0.01"
+		"lunchbox adds minicrits" "1"
+		"fire rate bonus HIDDEN" "0.1"
+	}
+	"998"
+	{
+		"add uber charge on hit" "0.01"
+		"lunchbox adds minicrits" "1"
+		"fire rate bonus HIDDEN" "0.1"
+	}
+	"18"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"205"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"513"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"658"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"800"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"809"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"889"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"898"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"907"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"916"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"965"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"974"
+	{
+		"rocket jump damage reduction" "0.5" //-50% Self Damage while rocket jumping
+		"maxammo primary increased" "10" //10x ammo
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"21"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"208"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"659"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"798"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"807"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"887"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"896"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"905"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"914"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"963"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"972"
+	{
+		"mult airblast refire time" ".1" //10x airblast rate
+	}
+	"39"
+	{
+		"blast dmg to self increased" "1.33" //VSH
+		"lunchbox adds minicrits" "1.0" //VSH
+		"self dmg push force increased" "3.2" //VSH
+	}
+	"43" //GRU
+	{
+		"critboost on kill" "0"
+		"fire rate penalty" "0"
+		"move speed bonus" "4"
+		"damage penalty" "0"
+		"provide on active" "1"
+		"lunchbox adds maxhealth bonus" "2"
+		"active health degen" "-70" //getting high... literally
+		"attach particle effect static" "2" //Flaming bits
+	}
+	"45"
+	{
+		"fire rate bonus" "0" //100% faster firing speed
+		"bullets per shot bonus" "3" //200% more pellets
+		"damage penalty" "0.5" //50% less damage (compensation for having 2 shots)
+		"clip size penalty" "0.2" //1 Shot
+		"apply z velocity on damage" "30" //bonus vertical knockback, nerfed for VSH/FF2
+		"apply look velocity on damage" "30" //bonus horizontal knockback, nerfed for VSH/FF2
+	}
+	"46"
+	{
+		"effect bar recharge rate increased" "0.90" //-10% Recharge Rate, nerfed for VSH/FF2
+	}
+	"127"
+	{
+		"Blast radius decreased" "0.01" //-99% Explosive Radius
+		"Projectile speed increased" "2.6" //+160% Projectile Speed
+		"damage bonus" "3.5" //+250% Damage
+		"mod mini-crit airborne deploy" "99999.0" //minicrit airborne targets
+		"minicrits become crits" "1.0" //no idea
+	}
+	"133"
+	{
+		"rocket jump damage reduction" "0.05" //-95% self damage while rocket jumping
+	}
+	"214" //Powerjack
+	{
+		"heal on kill" "150" //+150 Health on Kill
+		"dmg from melee increased" "1.4" //+40% Melee vulnerability while out
+		"dmg taken from bullets increased" "2" //+100% Bullet vulnerability
+		"move speed bonus" "1.2" //+120% Walk Speed
+		"provide on active" "0" //remove on active only
+		"dmg taken increased" "1" //remove damage increase
+	}
+	"220" //Shortstop
+	{
+		"reload time increased hidden" "1" //Old Reload speed
+		"max health additive bonus" "250" //+250 Health
+		"damage force increase hidden"	"9"	//Big damage force increase
+		"airblast vulnerability multiplier hidden"	"9"	//Big airblast vulnerability increase
+		"healing received bonus"	"1.2"	//Super healing bonus while active
+		"move speed penalty" "0.80" //-20% Move Speed on Wearer, nerf because shortstop+madmilk=insane
+	}
+	"226"
+	{
+		"increase buff duration HIDDEN" "2" //nerfing this, way too op
+	}
+	"228"
+	{
+		"heal on hit for rapidfire" "150" //+150 Health on hit
+		"clip size penalty" "0.25" //-75% Clip Size
+		"mod mini-crit airborne deploy" "99999.0" //Minicrit airborne targets
+	}
+	"239"
+	{
+		"move speed bonus" "4"
+		"damage penalty" "0"
+		"provide on active" "1"
+		"lunchbox adds maxhealth bonus" "2"
+		"active health degen" "-70" //getting high... literally
+		"attach particle effect static" "2" //Flaming bits
+	}
+	"305" //Crusader's Crossbow
+	{
+		"Reload time decreased" "0.5" //+50% reload speed
+		"add uber charge on hit" "0.1"
+		"damage bonus" "1.2"
+	}
+	"1079" //Festive Crusader's Crossbow
+	{
+		"crit kill will gib"	"1"	//Just putting a dummy stat in here to keep the crossbow's place until a better fix is devised.
+		"Reload time decreased" "0.5" //+50% reload speed
+		"override projectile type" "23" //Fire Candy Canes
+		"damage bonus" "1.2"
+	}
+	"354"
+	{
+		"increase buff duration HIDDEN" "2" //10x duration = impossible for hale to kill
+	}
+	"414"
+	{
+		"Projectile speed increased" "5" //+400% projectile speed
+		"damage bonus" "3" //+200% Damage Bonus
+		"centerfire projectile" "1" //Center Fire
+		"clip size penalty" "0.25" //-75% Clip Size
+		"fire rate penalty" "2" //-10% Firing Rate
+		"mod mini-crit airborne deploy" "99999.0" //minicrit airborne targets
+	}
+	"415"
+	{
+		"clip size penalty" "0.2" //-80% clip size
+		"mod mini-crit airborne deploy" "30" //mini crit airborne targets 30 seconds after being drawn
+		"deploy time decreased" "0" //100% faster weapon switch
+		"minicrits become crits" "1" //Crits when it should Minicrit
+		"mod mini-crit airborne deploy" "99999.0" //minicrit airborne targets
+	}
+	"449" //Winger
+	{
+		"damage bonus" "2.5" //+150% Damage
+		"clip size penalty" "0.18" //-82% clip size
+		"increased jump height from weapon" "1.25" //+25% jump height while active
+	}
+	"528"
+	{
+		"mod ammo per shot" "50" //customing to using 50 ammo, after vsh testing
+	}
+	"741"
+	{
+		"mult airblast refire time" ".1"
+	}
+	"773"
+	{
+		"max health additive bonus" "150" //+150 Health
+		"fire rate penalty" "3.5" //-250% Firing Rate
+		"dmg taken from fire increased" "6" //+500% Fire vulnerability
+		"move speed penalty" "0.85" //-15% Move Speed on Wearer
+	}
+}

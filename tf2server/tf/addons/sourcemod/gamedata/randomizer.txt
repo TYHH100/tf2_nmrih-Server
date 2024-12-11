@@ -1,0 +1,944 @@
+"Games"
+{
+	"tf"
+	{
+		"Keys"
+		{
+			"PatchReplace_IsPlayerClass"	//Given class check, this patch makes it always return true
+			{
+				// \xB8\x01\x00\x00\x00                            mov     eax, 1
+				// \xC3                                            retn
+				"linux"		"\xB8\x01\x00\x00\x00\xC3"
+				
+				// \xB8\x01\x00\x00\x00                            mov     eax, 1
+				// \x90                                            nop
+				"windows"	"\xB8\x01\x00\x00\x00\x90"
+			}
+			
+			"PatchSearch_Speed01"
+			{
+				"linux"		"\x83\xFF\x2A\x0F"
+				"windows"	"\x83\x7D\xEC\x2A"
+			}
+			
+			"PatchSearch_Speed02"
+			{
+				"windows"	"\x83\xF8\x2A"
+			}
+			
+			"PatchCount_Speed"	"6"		// How many patches we should expect from searches, errors out if found different amount of it
+			"PatchBits_Speed"	"1800"	// How many bits to read from start to function to collect address
+			"PatchWildcard_Speed"	"\x01\x04\x05\x06"	// List of possible values from \x2A wildcard to consider it valid and replace it
+		}
+		"Addresses"
+		{
+			"PatchSig_IsPlayerClass"
+			{
+				"signature" "PatchSig_IsPlayerClass"
+				"linux"
+				{
+					"offset"	"10"
+				}
+				"windows"
+				{
+					"offset"	"3"	//Start is pushed back by 3 to make good unique sig
+				}
+			}
+		}
+		"Signatures"
+		{
+			"PatchSig_IsPlayerClass"	//CTFPlayer::IsPlayerClass
+			{
+				"linux"		"@_ZNK9CTFPlayer13IsPlayerClassEi"
+				"windows"	"\x8B\x40\x04\x3B\x45\x08"
+			}
+			"CTFPlayer::GiveAmmo"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer8GiveAmmoEiib11EAmmoSource"
+				"windows"	"\x55\x8B\xEC\x53\x56\x8B\x75\x08\x8B\xD9\x57\x8B\x7D\x0C\x89\x75\x0C"
+			}
+			"CTFPlayer::GetMaxAmmo"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10GetMaxAmmoEii"
+				"windows"	"\x55\x8B\xEC\x8B\x45\x0C\x53\x8B\xD9"
+			}
+			"CTFPlayer::Taunt"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer5TauntE8taunts_ti"
+				"windows"	"\x55\x8B\xEC\x81\xEC\xD4\x00\x00\x00\x53\x56\x57\x8B\xF9\xE8"
+			}
+			"CTFPlayer::CanAirDash"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer10CanAirDashEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x53\x57\x8B\xF9\x8B\x87\xB4\x1B\x00\x00"
+			}
+			"CTFPlayer::AddObject"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer9AddObjectEP11CBaseObject"
+				"windows"	"\x55\x8B\xEC\x51\x53\x56\x57\x8B\x7D\x08\x8B\xD9\x85\xFF\x74\x2A\x8B\x07\x8B\xCF\xFF\x50\x08\x8B\x00\xEB\x2A\x83\xC8\xFF\x33\xF6\x89\x45\xFC\x39\xB3\x44\x23\x00\x00"
+			}
+			"CTFPlayer::RemoveObject"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer12RemoveObjectEP11CBaseObject"
+				"windows"	"\x55\x8B\xEC\x56\x57\x8B\xF9\x8B\xB7\x44\x23\x00\x00"
+			}
+			"CTFPlayer::Weapon_GetWeaponByType"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer22Weapon_GetWeaponByTypeEi"
+				"windows"	"\x55\x8B\xEC\x53\x56\x57\x33\xF6"
+			}
+			"CTFPlayer::DoClassSpecialSkill"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer19DoClassSpecialSkillEv"
+				"windows"	"\x56\x8B\xF1\x8B\x06\x8B\x80\x0C\x01\x00\x00\xFF\xD0\x84\xC0\x0F\x84\x2A\x2A\x2A\x2A\xF7\x86\xB4\x1B\x00\x00\x00\x00\x04\x00"
+			}
+			"CTFPlayer::EndClassSpecialSkill"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer20EndClassSpecialSkillEv"
+				"windows"	"\x56\x8B\xF1\x8B\x06\x8B\x80\x0C\x01\x00\x00\xFF\xD0\x84\xC0\x75\x2A\x5E\xC3"
+			}
+			"CTFPlayer::GetChargeEffectBeingProvided"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer28GetChargeEffectBeingProvidedEv"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x8D\x86\xC4\x22\x00\x00"
+			}
+			"CTFPlayer::GetLoadoutItem"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer14GetLoadoutItemEiib"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x10\x53\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer22GetMaxHealthForBuffingEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x53\x56\x57\x8B\xF9\xFF\xB7\xC8\x22\x00\x00"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::TakeHealth"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10TakeHealthEfi"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x6A\x1F"
+			}
+			"CTFPlayer::CheckBlockBackstab"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer18CheckBlockBackstabEPS_"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x14\x53\x56\x57\x8B\xF9\x8D\x8F\xE0\x1A\x00\x00"
+			}
+			"CTFPlayer::CanPickupBuilding"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer17CanPickupBuildingEP11CBaseObject"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x53\x56\x57\x8B\x7D\x08\x8B\xD9\x85\xFF"
+			}
+			"CTFPlayer::DropRune"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer8DropRuneEbi"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x0C\x53\x56\x8B\xF1\x57\x8D\x8E\xE0\x1A\x00\x00"
+			}
+			"CTFPlayerClassShared::CanBuildObject"
+			{
+				"library"	"server"
+				"linux"		"@_ZN20CTFPlayerClassShared14CanBuildObjectEi"
+				"windows"	"\x55\x8B\xEC\x53\x56\xFF\x71\x04"
+			}
+			"CEconEntity::UpdateModelToClass"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CEconEntity18UpdateModelToClassEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x0C\x53\x56\x8B\x35\x2A\x2A\x2A\x2A\x8B\xD9"
+			}
+			"CTFKnife::DisguiseOnKill"
+			{
+				"library"	"server"
+				"linux"		"@_ZN8CTFKnife14DisguiseOnKillEv"
+				"windows"	"\x55\x8B\xEC\x51\x56\x8B\xF1\x8B\x96\x28\x08\x00\x00"
+			}
+			"CTFLunchBox::ApplyBiteEffects"
+			{
+				"library"	"server"
+				"linux"		"@_ZN11CTFLunchBox16ApplyBiteEffectsEP9CTFPlayer"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\xD9\x56\x57\x6A\x01"
+			}
+			"CTFSpellBook::RollNewSpell"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFSpellBook12RollNewSpellEib"
+				"windows"	"\x55\x8B\xEC\x56\x8B\xF1\x83\xBE\x24\x08\x00\x00\x00"
+			}
+			"CTFGameStats::Event_PlayerFiredWeapon"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFGameStats23Event_PlayerFiredWeaponEP9CTFPlayerb"
+				"windows"	"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x56\x8B\x75\x08\x57\x83\xB8\xCC\x03\x00\x00\x04"
+			}
+			"CTFPlayerShared::UpdateRageBuffsAndRage"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared22UpdateRageBuffsAndRageEv"
+				"windows"	"\x55\x8B\xEC\x51\xF3\x0F\x10\x05\x2A\x2A\x2A\x2A\x56\x8B\xF1\x57"
+			}
+			"CTFPlayerShared::ModifyRage"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared10ModifyRageEf"
+				"windows"	"\x55\x8B\xEC\xF3\x0F\x10\x45\x08\x83\xEC\x08"
+			}
+			"CTFPlayerShared::ActivateRageBuff"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared16ActivateRageBuffEP11CBaseEntityi"
+				"windows"	"\x55\x8B\xEC\x51\xF3\x0F\x10\x05\x2A\x2A\x2A\x2A\x56\x8B\xF1\x57"
+			}
+			"CTFPlayerShared::SetCarryingRuneType"
+			{
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared19SetCarryingRuneTypeE11RuneTypes_t"
+				"windows"	"\x55\x8B\xEC\x51\x53\x8B\x5D\x08\x56\x57\x8B\xF9\x83\xFB\xFF"
+			}
+			"CTFGameRules::ApplyOnDamageModifyRules"
+			{
+				"library"	"server"
+				"linux"		"@_ZN12CTFGameRules24ApplyOnDamageModifyRulesER15CTakeDamageInfoP11CBaseEntityb"
+				"windows"	"\x55\x8B\xEC\x81\xEC\xD4\x00\x00\x00\x53\x8B\x5D\x0C"
+			}
+			"HandleRageGain"
+			{
+				"library"	"server"
+				"linux"		"@_Z14HandleRageGainP9CTFPlayerjff"
+				"windows"	"\x55\x8B\xEC\x56\x8B\x75\x08\x85\xF6\x0F\x84\x2A\x2A\x2A\x2A\x53"
+			}
+			"CEconItemView::operator="
+			{
+				"library"	"server"
+				"linux"		"@_ZN13CEconItemViewaSERKS_"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x53\x56\x8B\xF1\x57\x8B\x7D\x08\x8D\x5E\x18"
+			}
+		}
+		"Offsets"
+		{
+			"CBaseEntity::GetBaseEntity"
+			{
+				"linux"		"6"
+				"windows"	"5"
+			}
+			"CBaseEntity::Event_Killed"
+			{
+				"linux"		"69"
+				"windows"	"68"
+			}
+			"CBaseEntity::Event_KilledOther"
+			{
+				"linux"		"70"
+				"windows"	"69"
+			}
+			"CBaseEntity::GetMaxHealth"
+			{
+				"linux"		"123"
+				"windows"	"122"
+			}
+			"CEconEntity::TranslateViewmodelHandActivityInternal"
+			{
+				"linux"		"235"
+				"windows"	"229"
+			}
+			"CBaseCombatWeapon::SecondaryAttack"
+			{
+				"linux"		"293"
+				"windows"	"287"
+			}
+			"CTFWeaponBase::GetEffectBarAmmo"
+			{
+				"linux"		"469"
+				"windows"	"462"
+			}
+			"CTFWeaponBaseMelee::Smack"
+			{
+				"linux"		"477"
+				"windows"	"470"
+			}
+			"CTFWeaponBaseMelee::Swing"
+			{
+				"linux"		"486"
+				"windows"	"479"
+			}
+			"CTFSword::GetSwordSpeedMod"
+			{
+				"linux"		"492"
+				"windows"	"484"
+			}
+			"CTFSword::GetSwordHealthMod"
+			{
+				"linux"		"493"
+				"windows"	"485"
+			}
+			"CBaseObject::Killed"
+			{
+				"linux"		"356"
+				"windows"	"355"
+			}
+			"CBaseObject::CanBeUpgraded"
+			{
+				"linux"		"383"
+				"windows"	"382"
+			}
+			"CBasePlayer::ForceRespawn"
+			{
+				"linux"		"337"
+				"windows"	"336"
+			}
+			"CBasePlayer::ClientCommand"
+			{
+				"linux"		"380"
+				"windows"	"379"
+			}
+			"CBasePlayer::EquipWearable"
+			{
+				"linux"		"439"
+				"windows"	"438"
+			}
+			"CBaseCombatCharacter::GetAmmoCount"
+			{
+				"linux"		"266"
+				"windows"	"265"
+			}
+			"CBaseCombatCharacter::Weapon_CanSwitchTo"
+			{
+				"linux"		"277"
+				"windows"	"276"
+			}
+			"CBaseMultiplayerPlayer::SpeakConceptIfAllowed"
+			{
+				"linux"		"473"
+				"windows"	"472"
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"linux"		"493"
+				"windows"	"486"
+			}
+			"CTFPlayer::InitClass"
+			{
+				"linux"		"495"
+				"windows"	"488"
+			}
+			"CGameRules::FrameUpdatePostEntityThink"
+			{
+				"linux"		"16"
+				"windows"	"15"
+			}
+			"CTakeDamageInfo::m_bitsDamageType"
+			{
+				"linux"		"60"
+				"windows"	"60"
+			}
+			"CTakeDamageInfo::m_iDamageCustom"
+			{
+				"linux"		"64"
+				"windows"	"64"
+			}
+		}
+		"Functions"
+		{
+			"CTFPlayer::GiveAmmo"
+			{
+				"signature"	"CTFPlayer::GiveAmmo"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"iCount"
+					{
+						"type"	"int"
+					}
+					"iAmmoIndex"
+					{
+						"type"	"int"
+					}
+					"bSuppressSound"
+					{
+						"type"	"bool"
+					}
+					"eAmmoSource"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::GetMaxAmmo"
+			{
+				"signature"	"CTFPlayer::GetMaxAmmo"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"iAmmoIndex"
+					{
+						"type"	"int"
+					}
+					"iClassNumber"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::Taunt"
+			{
+				"signature"	"CTFPlayer::Taunt"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"taunts_t"
+					{
+						"type"	"int"
+					}
+					"int"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::CanAirDash"
+			{
+				"signature"	"CTFPlayer::CanAirDash"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+			}
+			"CTFPlayer::Weapon_GetWeaponByType"
+			{
+				"signature"	"CTFPlayer::Weapon_GetWeaponByType"
+				"callconv"	"thiscall"
+				"return"	"cbaseentity"
+				"this"		"entity"
+				"arguments"
+				{
+					"iType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::DoClassSpecialSkill"
+			{
+				"signature"	"CTFPlayer::DoClassSpecialSkill"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+			}
+			"CTFPlayer::EndClassSpecialSkill"
+			{
+				"signature"	"CTFPlayer::EndClassSpecialSkill"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+			}
+			"CTFPlayer::GetChargeEffectBeingProvided"
+			{
+				"signature"	"CTFPlayer::GetChargeEffectBeingProvided"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"signature"	"CTFPlayer::GetMaxHealthForBuffing"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"signature"	"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+				"callconv"	"thiscall"
+				"return"	"float"
+				"this"		"entity"
+				"arguments"
+				{
+					"bIgnoreSpecialAbility"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayer::TakeHealth"
+			{
+				"signature"	"CTFPlayer::TakeHealth"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"flHealth"
+					{
+						"type"	"float"
+					}
+					"bitsDamageType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::CheckBlockBackstab"
+			{
+				"signature"	"CTFPlayer::CheckBlockBackstab"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pTFAttacker"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayer::CanPickupBuilding"
+			{
+				"signature"	"CTFPlayer::CanPickupBuilding"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pPickupObject"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFPlayer::DropRune"
+			{
+				"signature"	"CTFPlayer::DropRune"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"bApplyForce"
+					{
+						"type"	"bool"
+					}
+					"nTeam"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayerClassShared::CanBuildObject"
+			{
+				"signature"	"CTFPlayerClassShared::CanBuildObject"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"address"
+				"arguments"
+				{
+					"iObjectType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CEconEntity::UpdateModelToClass"
+			{
+				"signature" "CEconEntity::UpdateModelToClass"
+				"callconv" "thiscall"
+				"return" "void"
+				"this" "entity"
+			}
+			"CTFKnife::DisguiseOnKill"
+			{
+				"signature" "CTFKnife::DisguiseOnKill"
+				"callconv" "thiscall"
+				"return" "void"
+				"this" "entity"
+			}
+			"CTFLunchBox::ApplyBiteEffects"
+			{
+				"signature" "CTFLunchBox::ApplyBiteEffects"
+				"callconv" "thiscall"
+				"return" "void"
+				"this" "entity"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFGameStats::Event_PlayerFiredWeapon"
+			{
+				"signature"	"CTFGameStats::Event_PlayerFiredWeapon"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"address"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+					"bCritical"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayerShared::UpdateRageBuffsAndRage"
+			{
+				"signature"	"CTFPlayerShared::UpdateRageBuffsAndRage"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"address"
+			}
+			"CTFPlayerShared::ModifyRage"
+			{
+				"signature"	"CTFPlayerShared::ModifyRage"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"address"
+				"arguments"
+				{
+					"flDelta"
+					{
+						"type"	"float"
+					}
+				}
+			}
+			"CTFPlayerShared::ActivateRageBuff"
+			{
+				"signature"	"CTFPlayerShared::ActivateRageBuff"
+				"callconv"	"thiscall"
+				"return"	"void"
+				"this"		"address"
+				"arguments"
+				{
+					"pItem"
+					{
+						"type"	"cbaseentity"
+					}
+					"iBuffType"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFGameRules::ApplyOnDamageModifyRules"
+			{
+				"signature"	"CTFGameRules::ApplyOnDamageModifyRules"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"address"
+				"arguments"
+				{
+					"info"
+					{
+						"type"	"objectptr"
+					}
+					"pVictimBaseEntity"
+					{
+						"type"	"cbaseentity"
+					}
+					"bAllowDamage"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"HandleRageGain"
+			{
+				"signature"	"HandleRageGain"
+				"callconv"	"cdecl"
+				"return"	"void"
+				"this"		"ignore"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+					"iRequiredBuffFlags"
+					{
+						"type"	"int"
+					}
+					"flDamage"
+					{
+						"type"	"float"
+					}
+					"fInverseRageGainScale"
+					{
+						"type"	"float"
+					}
+				}
+			}
+			"CBaseEntity::Event_Killed"
+			{
+				"offset"	"CBaseEntity::Event_Killed"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"info"
+					{
+						"type"    "objectptr"
+					}
+				}
+			}
+			"CBaseEntity::Event_KilledOther"
+			{
+				"offset"	"CBaseEntity::Event_KilledOther"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"pVictim"
+					{
+						"type"	"cbaseentity"
+					}
+					"info"
+					{
+						"type"    "objectptr"
+					}
+				}
+			}
+			"CEconEntity::TranslateViewmodelHandActivityInternal"
+			{
+				"offset"	"CEconEntity::TranslateViewmodelHandActivityInternal"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"actBase"
+					{
+						"type"    "int"
+					}
+				}
+			}
+			"CBaseCombatWeapon::SecondaryAttack"
+			{
+				"offset"	"CBaseCombatWeapon::SecondaryAttack"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFWeaponBase::GetEffectBarAmmo"
+			{
+				"offset"	"CTFWeaponBase::GetEffectBarAmmo"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CTFWeaponBaseMelee::Smack"
+			{
+				"offset"	"CTFWeaponBaseMelee::Smack"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CTFWeaponBaseMelee::Swing"
+			{
+				"offset"	"CTFWeaponBaseMelee::Swing"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFSword::GetSwordSpeedMod"
+			{
+				"offset"	"CTFSword::GetSwordSpeedMod"
+				"hooktype"	"entity"
+				"return"	"float"
+				"this"		"entity"
+			}
+			"CTFSword::GetSwordHealthMod"
+			{
+				"offset"	"CTFSword::GetSwordHealthMod"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+			}
+			"CBaseObject::Killed"
+			{
+				"offset"	"CBaseObject::Killed"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"linux"
+				{
+					"arguments"
+					{
+						"info"
+						{
+							"type"    "objectptr"
+						}
+					}
+				}
+			}
+			"CBaseObject::CanBeUpgraded"
+			{
+				"offset"	"CBaseObject::CanBeUpgraded"
+				"hooktype"	"entity"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CBasePlayer::ForceRespawn"
+			{
+				"offset"	"CBasePlayer::ForceRespawn"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CBasePlayer::ClientCommand"
+			{
+				"offset"	"CBasePlayer::ClientCommand"
+				"hooktype"	"entity"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"pArgs"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}
+			"CBasePlayer::EquipWearable"
+			{
+				"offset"	"CBasePlayer::EquipWearable"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"pItem"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CBaseCombatCharacter::GetAmmoCount"
+			{
+				"offset"	"CBaseCombatCharacter::GetAmmoCount"
+				"hooktype"	"entity"
+				"return"	"int"
+				"this"		"entity"
+				"arguments"
+				{
+					"iAmmoIndex"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CBaseMultiplayerPlayer::SpeakConceptIfAllowed"
+			{
+				"offset"	"CBaseMultiplayerPlayer::SpeakConceptIfAllowed"
+				"hooktype"	"entity"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"iConcept"
+					{
+						"type"	"int"
+					}
+					"modifiers"
+					{
+						"type"	"charptr"
+					}
+					"pszOutResponseChosen"
+					{
+						"type"	"charptr"
+					}
+					"bufsize"
+					{
+						"type"	"int"
+					}
+					"filter"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"offset"	"CTFPlayer::GiveNamedItem"
+				"hooktype"	"entity"
+				"return"	"cbaseentity"
+				"this"		"entity"
+				"arguments"
+				{
+					"pszName"
+					{
+						"type"	"charptr"
+					}
+					"iSubType"
+					{
+						"type"	"int"
+					}
+					"pItem"
+					{
+						"type"	"objectptr"
+					}
+					"b"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayer::InitClass"
+			{
+				"offset"	"CTFPlayer::InitClass"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+			}
+			"CGameRules::FrameUpdatePostEntityThink"
+			{
+				"offset"	"CGameRules::FrameUpdatePostEntityThink"
+				"hooktype"	"gamerules"
+				"return"	"void"
+				"this"		"ignore"
+			}
+		}
+	}
+}

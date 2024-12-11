@@ -1,0 +1,22 @@
+"Items"
+{
+    "{63c9ec4f-1380-9ac1-2e1a-8cc0975105f1}"
+    {
+        "name"                  "Super Shotguns"
+        "inherits"              "The Force-a-Nature"
+        "used_by_classes"
+        {
+            "scout"             "Primary"
+        }
+        "attributes_game"
+        {
+            // +
+            "damage bonus"      "2"
+            "bullets per shot bonus"        "0.1"
+            //-
+
+            //model
+            "set weapon model"   "models/weapons/c_models/c_soda_popper/c_soda_popper.mdl"
+        }
+    }
+}

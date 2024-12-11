@@ -1,0 +1,230 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"CTFPlayer::GetEquippedWearableForLoadoutSlot"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer33GetEquippedWearableForLoadoutSlotEi"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x8B\xC1\x53\x56\x33\xF6"
+			}
+			"CTFPlayer::PlaySpecificSequence"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer20PlaySpecificSequenceEPKc"
+				"windows"	"\x55\x8B\xEC\x53\x56\x8B\x75\x08\x57\x56\x8B\xF9"
+			}
+			"CTFPlayer::GetLoadoutItem"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer14GetLoadoutItemEiib"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x10\x53\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::TeamFortress_SetSpeed"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer21TeamFortress_SetSpeedEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x28\xA1\x2A\x2A\x2A\x2A\x56"
+			}
+			"CTFWeaponBaseMelee::DoSwingTraceInternal"
+			{
+				"linux"		"@_ZN18CTFWeaponBaseMelee20DoSwingTraceInternalER10CGameTracebP10CUtlVectorIS0_10CUtlMemoryIS0_iEE"
+				"windows"	"\x53\x8B\xDC\x83\xEC\x08\x83\xE4\xF0\x83\xC4\x04\x55\x8B\x6B\x04\x89\x6C\x24\x04\x8B\xEC\x81\xEC\x38\x05\x00\x00"
+			}
+		}
+		"Offsets"
+		{
+			"CTeamplayRules::GetCaptureValueForPlayer"
+			{
+				"linux"		"158"
+				"windows"	"157"
+			}
+			"CTeamplayRules::TeamMayCapturePoint"
+			{
+				"linux"		"159"
+				"windows"	"158"
+			}
+			"CTeamplayRules::SetWinningTeam"
+			{
+				"linux"		"165"
+				"windows"	"164"
+			}
+			"CTeamplayRoundBasedRules::RoundRespawn"
+			{
+				"linux"		"231"
+				"windows"	"229"
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"linux"		"493"
+				"windows"	"486"
+			}
+			"CTFJar::TossJarThink"
+			{
+				"linux"		"498"
+				"windows"	"491"
+			}
+			"CBaseEntity::GetVelocity"
+			{
+				"linux" 	"147"
+				"windows" 	"146"
+			}
+			"CBaseEntity::GetDefaultItemChargeMeterValue"
+			{
+				"linux"		"197"
+				"windows"	"196"
+			}
+			"CEconItemView::m_iItemDefinitionIndex"
+			{
+				"linux"		"4"
+				"windows"	"4"
+			}
+		}
+		"Functions"
+		{
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"signature"	"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+				"callconv"	"thiscall"
+				"return"	"float"
+				"this"		"entity"
+				"arguments"
+				{
+					"bIgnoreSpecialAbility"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFWeaponBaseMelee::DoSwingTraceInternal"
+			{
+				"signature"	"CTFWeaponBaseMelee::DoSwingTraceInternal"
+				"callconv"	"thiscall"
+				"return"	"bool"
+				"this"		"entity"
+				"arguments"
+				{
+					"trace"
+					{
+						"type"	"objectptr"
+					}
+					"bCleave"
+					{
+						"type"	"bool"
+					}
+					"pTargetTraceVector"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}
+			"CTeamplayRules::GetCaptureValueForPlayer"
+			{
+				"offset"	"CTeamplayRules::GetCaptureValueForPlayer"
+				"hooktype"	"gamerules"
+				"return"	"int"
+				"this"		"ignore"
+				"arguments"
+				{
+					"pPlayer"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTeamplayRules::TeamMayCapturePoint"
+			{
+				"offset"	"CTeamplayRules::TeamMayCapturePoint"
+				"hooktype"	"gamerules"
+				"return"	"bool"
+				"this"		"ignore"
+				"arguments"
+				{
+					"iTeam"
+					{
+						"type"	"int"
+					}
+					"iPointIndex"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CTeamplayRules::SetWinningTeam"
+			{
+				"offset"	"CTeamplayRules::SetWinningTeam"
+				"hooktype"	"gamerules"
+				"return"	"void"
+				"this"		"ignore"
+				"arguments"
+				{
+					"team"
+					{
+						"type"	"int"
+					}
+					"iWinReason"
+					{
+						"type"	"int"
+					}
+					"bForceMapReset"
+					{
+						"type"	"bool"
+					}
+					"bSwitchTeams"
+					{
+						"type"	"bool"
+					}
+					"bDontAddScore"
+					{
+						"type"	"bool"
+					}
+					"bFinal"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTeamplayRoundBasedRules::RoundRespawn"
+			{
+				"offset"	"CTeamplayRoundBasedRules::RoundRespawn"
+				"hooktype"	"gamerules"
+				"return"	"void"
+				"this"		"ignore"
+			}
+			"CTFPlayer::GiveNamedItem"
+			{
+				"offset"	"CTFPlayer::GiveNamedItem"
+				"hooktype"	"entity"
+				"return"	"cbaseentity"
+				"this"		"entity"
+				"arguments"
+				{
+					"pszName"
+					{
+						"type"	"charptr"
+					}
+					"iSubType"
+					{
+						"type"	"int"
+					}
+					"pScriptItem"
+					{
+						"type"	"objectptr"
+					}
+					"bForce"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,68 @@
+// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+// The message supports the following variables: {currentmap}, {nextmap}, {sm_nextmap} , {date}, {time}, {time24} and {timeleft}. Next to that you can print the value of any cvar by enclosing the name with {}, for example {mp_friendlyfire}. Use \n for newlines, which works with center, chat, hint and menu messages.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{plum}欢迎来 {mediumslateblue}{hostname} {plum}服务器进行游玩:3\n{cornsilk}|帮助|{plum}输入{steelblue}!h{plum}获取帮助\n{cornsilk}|模式帮助|{plum}补给柜=升级台"
+    }
+	"2"
+	{
+		"chat"		"{cornsilk}|当前广告配置|{olive}advertisements.txt"
+	}
+	"3"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}当前时间{mediumslateblue}{time24}\n{plum}当前地图{mediumslateblue}{currentmap}\n{plum}Next Map{mediumslateblue}{nextmap}"
+	}
+	"4"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}如需要更换模式,输入{steelblue}!votemenu{plum} or {steelblue}modertv\n{plum}更换地图,输入{steelblue}rtv\n{cornsilk}{plum}预订地图,输入{steelblue}nominate"
+	}
+	"5"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}欢迎加入我们的聊天群{olive}854622646\n{cornsilk}Discord{plum} discord.gg/ukEFxcFFv7"
+		"hint"		"QQ群854622646"
+	}
+	"6"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}如果对当前模式有不理解的,可以访问 {olive}blog.tyhh10.xyz\n{plum}访问之后在最顶上点击归档可以查看到相关文章(还没开始写)\n{plum}或者输入{steelblue}!motd{plum}打开网页"
+	}
+	"7"
+	{
+		"chat"		"{cornsilk}|资源下载|{plum}[摸鱼馆]主资源包(2024-8-10)\n{plum}123云盘{olive}https://www.123pan.com/s/JgFrVv-W26KA.html"
+	}
+	"8"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}服务器在北京,所以说某些地方的延迟会爆炸,请谅解"
+	}
+	"9"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}输入{steelblue}hlx{plum}查看统计信息"
+		"hint"		"输入hlx查看统计信息"
+	}
+	"10"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}遇到外挂/机器人等...,使用{steelblue}!votemenu{plum}投票踢出/Ban\n或者使用{steelblue}!report{plum}提交举报|注意假如你举报自己的话,也会被处理"
+		"hint"		"!report提交举报"
+	}
+}
+""
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}"
+	}

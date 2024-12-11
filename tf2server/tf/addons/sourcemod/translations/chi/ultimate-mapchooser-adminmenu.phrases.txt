@@ -1,0 +1,230 @@
+//Translation Phrases for the UMC Admin Menu module.
+
+"Phrases"
+{
+    "AM Stop Vote"
+    {
+        "chi"    "停止当前UMC投票"
+    }
+
+    "AM Start Vote"
+    {
+        "chi"    "开始一次地图投票"
+    }
+
+    "AM Vote Type"
+    {
+        "chi"    "选择投票种类"
+    }
+
+    "Maps"
+    {
+        "chi"    "地图"
+    }
+
+    "Groups"
+    {
+        "chi"    "组"
+    }
+
+    "Tiered"
+    {
+        "chi"    "级别"
+    }
+
+    "AM Populate Vote"
+    {
+        "chi"    "添加地图投票"
+    }
+
+    "AM Vote Settings"
+    {
+        "chi"    "投票设置"
+    }
+
+    "AM-VS Defaults"
+    {
+        "chi"    "使用默认"
+    }
+
+    "Manually Choose"
+    {
+        "chi"    "手动选择"
+    }
+
+    "AM Scramble Menu"
+    {
+        "chi"    "打乱投票菜单？"
+    }
+
+    "Default Yes"
+    {
+        "chi"    "是（默认）"
+    }
+
+    "Default No"
+    {
+        "chi"    "否（默认）"
+    }
+
+    "AM Threshold Menu"
+    {
+        "chi"    "设置投票门槛"
+    }
+
+    "AM Threshold Menu Message 1"
+    {
+        "chi"    "聊天输入你想要的门槛"
+    }
+
+    "AM Threshold Menu Message 2"
+    {
+        "chi"    "设置投票需要的 [0 到 100]."
+    }
+
+    "Default"
+    {
+        "chi"    "默认"
+    }
+
+    "Previously Entered"
+    {
+        "chi"    "先前输入的"
+    }
+
+    "AM Fail Action Menu"
+    {
+        "chi"    "设置失败行动"
+    }
+
+    "Do Nothing"
+    {
+        "chi"    "什么也不做"
+    }
+
+    "Perform Runoff Vote"
+    {
+        "chi"    "进行决选投票"
+    }
+
+    "Default Do Nothing"
+    {
+        "chi"    "什么也不做（默认）"
+    }
+
+    "Default Perform Runoff Vote"
+    {
+        "chi"    "进行决选投票（默认）"
+    }
+
+    "AM Max Runoff Menu"
+    {
+        "chi"    "设置决选投票最大值"
+    }
+
+    "AM Max Runoff Menu Message 1"
+    {
+        "chi"    "聊天输入你想设置的最大值"
+    }
+
+    "AM Max Runoff Menu Message 2"
+    {
+        "chi"    "给投票 (>= 0)。"
+    }
+
+    "AM Max Runoff Menu Message 3"
+    {
+        //Note to translators:  keep the leading space in this phrase.
+        "chi"    " 0 = 无限制"
+    }
+
+    "AM Runoff Fail Action Menu"
+    {
+        "chi"    "设置决选失败行动"
+    }
+
+    "Accept Winner"
+    {
+        "chi"    "接受胜者"
+    }
+
+    "Default Accept Winner"
+    {
+        "chi"    "接受胜者（默认）"
+    }
+
+    "AM Extend Menu"
+    {
+        "chi"    "增加延长地图选项？"
+    }
+
+    "AM Don't Change Menu"
+    {
+        "chi"    "增加不要改变选项？"
+    }
+
+    "AM Admin Flag Menu"
+    {
+        "chi"    "让投票可用于..."
+    }
+
+    "Everyone"
+    {
+        "chi"    "所有人"
+    }
+
+    "Admins Only"
+    {
+        "chi"    "仅限管理员"
+    }
+
+    "AM Change When Menu"
+    {
+        "chi"    "何时更换地图？"
+    }
+
+    "Now"
+    {
+        "chi"    "现在"
+    }
+
+    "End of Round"
+    {
+        "chi"    "回合结束"
+    }
+
+    "End of Map"
+    {
+        "chi"    "地图结束"
+    }
+
+    "Select A Map"
+    {
+        "chi"    "选择一个地图"
+    }
+
+    "Select A Group"
+    {
+        "chi"    "选择一个组"
+    }
+
+    "Auto Select"
+    {
+        "chi"    "自动选择"
+    }
+
+    "Manual Select"
+    {
+        "chi"    "手动选择"
+    }
+
+    "AM Change Map"
+    {
+        "chi"    "更换地图"
+    }
+
+    "AM Set Next Map"
+    {
+        "chi"    "设置下一地图"
+    }
+}

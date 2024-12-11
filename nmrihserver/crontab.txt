@@ -1,0 +1,8 @@
+00 3 * * * cd /home/rcon && ./rcon -a 127.0.0.1:27040 -p rcon密码 "sm_say_se Update Workshop Map" #发送更新地图消息
+00 3 * * * cd /home/rcon && ./rcon -a 127.0.0.1:27040 -p rcon密码 "workshop_download_collection 3331986654" #从创意工坊合集中下载地图
+59 3 * * * cd /home/rcon && ./rcon -a 127.0.0.1:27040 -p rcon密码 "sm_say_se Restart Server" #发送重启消息
+59 3 * * * cd /home/nmrihserver && ./nmrih_off.sh #关闭服务器
+00 4 * * * cd /home/nmrihserver && ./nmrih_on.sh #启动服务器
+#rcon需要这个
+#https://github.com/gorcon/rcon-cli
+#当然改成跟启动和关闭服务器脚本一样也没问题

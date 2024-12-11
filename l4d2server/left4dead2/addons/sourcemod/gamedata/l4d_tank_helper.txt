@@ -1,0 +1,46 @@
+"Games"
+{
+	"left4dead" // Credit: Psykotikism, Shadowysn, BHaType
+	{
+		"Offsets"
+		{
+			"NextBotPointer"
+			{
+				"windows"	"71"
+				"linux"		"72"
+			}
+			"GetLocomotion"
+			{
+				"windows"	"42"
+				"linux"		"43"
+			}
+			"Jump"
+			{
+				"windows"	"43"
+				"linux"		"44"
+			}
+		}
+	}
+	
+	"left4dead2" //credit: ProdigySim, Shadowysn, BHaType
+	{
+		"Offsets"
+		{
+			"NextBotPointer"
+			{
+				"windows"	"81"
+				"linux"		"82"
+			}
+			"GetLocomotion"
+			{
+				"windows"	"47"
+				"linux"		"48"
+			}
+			"Jump"
+			{
+				"windows"	"48"
+				"linux"		"49"
+			}
+		}
+	}
+}

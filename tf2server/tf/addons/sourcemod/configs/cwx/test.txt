@@ -1,0 +1,48 @@
+"Items"
+{
+    "{eb46f6e2-7efe-1770-bd61-c796e2d8a1b0}"
+    {
+        "name"              "Test_1"
+        "inherits"          "Upgradeable TF_WEAPON_PISTOL"
+        "used_by_classes"
+        {
+            "scout"             "Secondary"
+            "engineer"          "Secondary"
+        }
+        "attributes_game"
+        {
+            "set weapon model"                  "models/weapons/c_models/c_emo/c_emo.mdl"
+        }
+    }
+    "{6de9284f-42af-68d4-02d2-4a94382d25a5}"
+    {
+        "name"              "Test_2"
+        "inherits"          "TF_WEAPON_SMG"
+        "used_by_classes"
+        {
+            "sniper"            "Secondary"
+        }
+        "attributes_game"
+        {
+            "set weapon model"                  "models/weapons/c_models/c_ak47/c_ak47.mdl"
+        }
+    }
+    "{78e3769d-7b76-bcc9-b351-19d3e8d6ae00}"
+    {
+        "name"                               "Test_3"
+        "inherits"                           "The Air Strike"
+        "used_by_classes"
+        {
+            "soldier"                        "Primary"
+        }
+        "attributes_game"
+        {
+            "maxammo primary increased"                     "3"      
+            "mod projectile heat follow crosshair"          "1"
+            "mod projectile heat no predict target speed"   "1"
+            "extra damage on hit"                           "1"
+            "last shot crits"                               "1"
+            "explosive bullets"                             "100" 
+        }
+    }
+}

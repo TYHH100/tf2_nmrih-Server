@@ -1,0 +1,124 @@
+//Download Only (no precaching)
+
+materials/backpack/weapons/c_models/c_gatling_gun
+materials/models/weapons/c_items
+materials/models/workshop/player/items/engineer
+materials/models/workshop/player/items/sniper/western_set/rifle/rifle.vmt
+materials/models/workshop/player/items/sniper/western_set/rifle/rifle.vtf
+materials/models/workshop/player/items/sniper/western_set/rifle/scope.vmt
+materials/models/workshop/player/items/sniper/western_set/rifle/scope.vtf
+
+
+// weapons
+materials/models/weapons/c_models/c_revolver
+materials/models/weapons/tfgo/pist_revolver
+materials/models/weapons
+
+materials/console/models
+
+// M4
+materials/console/models/weapons/c_items/c_smg.vmt
+materials/console/models/weapons/c_items/c_smg.vtf
+
+// Super Shotguns
+materials/console/models/weapons/v_supershotgun_mercenary
+
+// Touhou Reimu for Soldier (team colored)
+models/player
+
+// weapons
+sound/weapons/artillery_shoot.wav
+sound/weapons
+
+// weapons
+models/weapons/c_models/c_calefactor
+models/weapons/c_models/c_heavyartillery
+models/weapons/c_models/c_highnoon
+models/weapons/c_models/c_trenchgun
+models/weapons/c_models/c_viewfinder
+models/weapons/c_models/c_m4
+models/weapons/c_models/c_soda_popper
+models/weapons/c_models/c_r8
+
+// Touhou Reimu for Soldier (team colored)
+models/player/reimu.dx80.vtx
+models/player/reimu.dx90.vtx
+models/player/reimu.mdl
+models/player/reimu.phy
+models/player/reimu.sw.vtx
+models/player/reimu.vvd
+
+// Plutia (Hyperdimension Neptunia)
+models/freak_fortress_2/hyperdimension_r3/plutia
+models/freak_fortress_2/hyperdimension_r3/iris
+materials/freak_fortress_2/hyperdimension_r3/iris
+materials/freak_fortress_2/hyperdimension_r3/plutia
+materials/freak_fortress_2/neptunia
+
+// Doremy Sweet (Touhou LoLK)
+models/freak_fortress_2/touhou_lolk/doremy
+materials/freak_fortress_2/touhou_lolk/doremy
+
+// blackrockshooter
+models/custom/player/blackrockshootermaterials/freak_fortress_2/flandre
+
+materials/models/custom/player/blackrockshooter
+
+// Doremy_Sweet_Alliedmodders_v1.1
+models/freak_fortress_2/touhou_lolk/doremy
+materials/freak_fortress_2/touhou_lolk/doremy
+
+// Ryuko Matoi Updated
+models/freak_fortress_2/ryuko
+materials/freak_fortress_2/ryuko
+materials/models/anfrien/2017/kill_la_kill/scissor_blade
+
+// Scarlet Sistersmodels/custom/player/megumin
+models/freak_fortress_2/newflandre
+models/freak_fortress_2/newremilia
+models/freak_fortress_2/remilia
+materials/freak_fortress_2/flandre
+materials/freak_fortress_2/newremilia
+aterials/touhou/remilia
+
+// Black Rock Shooter
+models/custom/player/blackrockshooter
+materials/models/custom/player/blackrockshooter
+
+// Megumin
+models/custom/player/megumin
+materials/models/custom/player/megumin
+
+// Sora Updated
+models/freak_fortress_2/orangejuice
+materials/freak_fortress_2/orangesora
+
+// sagiri_izumi
+models/custom/player/sagiri_izumi
+materials/models/custom/player/sagiri_izumi
+
+// Suguri 2nd
+models/freak_fortress_2/orangejuice
+materials/freak_fortress_2/orangesora
+
+// Genji
+materials/models/overwatch/genji
+models/player/genji
+
+// aqua
+models/custom/player/aqua
+materials/models/custom/player/aqua
+
+// akatsuki
+materials/models/custom/player/akatsuki
+models/custom/player/akatsuki
+
+// Eldritch Abomination DR MEI
+models/player/eadrmel.dx80.vtx
+models/player/eadrmel.dx90.vtx
+models/player/eadrmel.mdl
+models/player/eadrmel.phy
+models/player/eadrmel.sw.vtx
+models/player/eadrmel.vvd
+materials/models/player/medic
+

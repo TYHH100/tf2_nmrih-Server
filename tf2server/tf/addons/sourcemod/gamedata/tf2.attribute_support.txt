@@ -1,0 +1,457 @@
+"Games"
+{
+	"tf"
+	{
+		"Functions"
+		{
+			"CBaseCombatWeapon::SendWeaponAnim()"
+			{
+				"offset"		"CBaseCombatWeapon::SendWeaponAnim()"
+				"hooktype"		"entity"
+				"return"		"bool"
+				"this"			"entity"
+				"arguments"
+				{
+					"activity"
+					{
+						"type"	"int"
+					}
+				}
+			}
+			"CBaseEntity::GetDamage()"
+			{
+				"offset"		"CBaseEntity::GetDamage()"
+				"hooktype"		"entity"
+				"return"		"float"
+				"this"			"entity"
+			}
+			"CBaseGrenade::GetDamageRadius()"
+			{
+				"offset"		"CBaseGrenade::GetDamageRadius()"
+				"hooktype"		"entity"
+				"return"		"float"
+				"this"			"entity"
+			}
+			"CTFBaseRocket::Explode()"
+			{
+				"offset"		"CTFBaseRocket::Explode()"
+				"hooktype"		"entity"
+				"return"		"void"
+				"this"			"entity"
+				"arguments"
+				{
+					"trace"
+					{
+						"type"	"int"
+					}
+					"target"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFGrenadePipebombProjectile::Detonate()"
+			{
+				"signature"		"CTFGrenadePipebombProjectile::Detonate()"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"void"
+			}
+			"CTFPlayer::Regenerate()"
+			{
+				"signature"		"CTFPlayer::Regenerate()"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"void"
+				"arguments"
+				{
+					"refill_health_ammo"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayer::CanAirDash()"
+			{
+				"signature"		"CTFPlayer::CanAirDash()"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"bool"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed().HXj78K8CTTI"
+			{
+				"signature"		"CTFPlayer::TeamFortress_CalculateMaxSpeed()"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"float"
+				"arguments"
+				{
+					"ignore_special_ability"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayerShared::ApplyAttributeToPlayer()"
+			{
+				"signature"		"CTFPlayerShared::ApplyAttributeToPlayer()"
+				"callconv"		"thiscall"
+				"this"			"address"
+				"return"		"void"
+				"arguments"
+				{
+					"name"
+					{
+						"type"	"charptr"
+					}
+					"value"
+					{
+						"type"	"float"
+					}
+				}
+			}
+			"CTFPlayerShared::RemoveAttributeFromPlayer()"
+			{
+				"signature"		"CTFPlayerShared::RemoveAttributeFromPlayer()"
+				"callconv"		"thiscall"
+				"this"			"address"
+				"return"		"void"
+				"arguments"
+				{
+					"name"
+					{
+						"type"	"charptr"
+					}
+				}
+			}
+			"CTFWeaponBase::GetInitialAfterburnDuration()"
+			{
+				"offset"		"CTFWeaponBase::GetInitialAfterburnDuration()"
+				"hooktype"		"entity"
+				"return"		"float"
+				"this"			"entity"
+			}
+			"CTFWeaponBase::IsViewModelFlipped()"
+			{
+				"signature"		"CTFWeaponBase::IsViewModelFlipped()"
+				"callconv"		"thiscall"
+				"this"			"entity"
+				"return"		"bool"
+			}
+			"CTFWeaponBaseGun::FireJar()"
+			{
+				"offset"		"CTFWeaponBaseGun::FireJar()"
+				"hooktype"		"entity"
+				"return"		"bool"
+				"this"			"entity"
+				"arguments"
+				{
+					"player"
+					{
+						"type"	"cbaseentity"
+					}
+				}
+			}
+			"CTFWeaponBaseGun::GetProjectileSpeed()"
+			{
+				"offset"		"CTFWeaponBaseGun::GetProjectileSpeed()"
+				"hooktype"		"entity"
+				"return"		"float"
+				"this"			"entity"
+			}
+			"CTFWeaponBaseGun::ZoomIn()"
+			{
+				"signature"		"CTFWeaponBaseGun::ZoomIn()"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"entity"
+			}
+			"CTFWeaponBaseGrenadeProj::InitGrenade(int float)"
+			{
+				"signature"		"CTFWeaponBaseGrenadeProj::InitGrenade(int float)"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"entity"
+				"arguments"
+				{
+					"velocity"
+					{
+						"type"	"vectorptr"
+					}
+					"ang_vel"
+					{
+						"type"	"vectorptr"
+					}
+					"owner"
+					{
+						"type"	"cbaseentity"
+					}
+					"damage"
+					{
+						"type"	"int"
+					}
+					"radius"
+					{
+						"type"	"float"
+					}
+				}
+			}
+			"CTFWeaponBaseMelee::OnSwingHit()"
+			{
+				"signature"		"CTFWeaponBaseMelee::OnSwingHit()"
+				"callconv"		"thiscall"
+				"return"		"bool"
+				"this"			"entity"
+				"arguments"
+				{
+					"trace"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}
+			"CTFPlayer::Event_Killed().EfE70Msax8M"
+			{
+				"signature"		"CTFPlayer::Event_Killed().EfE70Msax8M"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"entity"
+				"arguments"
+				{
+					"info"
+					{
+						"type"	"objectptr"
+					}
+				}
+			}
+			"CTFPlayer::CreateRagdollEntity()"
+			{
+				"signature"		"CTFPlayer::CreateRagdollEntity()"
+				"callconv"		"thiscall"
+				"return"		"void"
+				"this"			"entity"
+				"arguments"
+				{
+					"gib"
+					{
+						"type"	"bool"
+					}
+					"burning"
+					{
+						"type"	"bool"
+					}
+					"electrocuted"
+					{
+						"type"	"bool"
+					}
+					"onground"
+					{
+						"type"	"bool"
+					}
+					"cloaked"
+					{
+						"type"	"bool"
+					}
+					"gold_ragdoll"
+					{
+						"type"	"bool"
+					}
+					"ice_ragdoll"
+					{
+						"type"	"bool"
+					}
+					"become_ash"
+					{
+						"type"	"bool"
+					}
+					"damagecustom"
+					{
+						"type"	"int"
+					}
+					"crit_on_hard_hit"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+		}
+		"MemPatches"
+		{
+			"CTFPlayer::CanAirDash()::PatchRequiredDeployTime"
+			{
+				"signature"		"CTFPlayer::CanAirDash()"
+				"linux"
+				{
+					"offset"	"B6h"
+				}
+				"windows"
+				{
+					"offset"	"A2h"
+				}
+				"verify"	"\xF3\x0F\x10\x2A\x2A\x2A\x2A\x2A"
+				"patch"		"\xF3\x0F\x10\x00\x00\x00\x00\x00"
+				"preserve"	"\xFF\xFF\xFF\xFF\xFF\xFF\xFF\xFF"
+			}
+		}
+		"Offsets"
+		{
+			"CBaseCombatWeapon::IsBaseCombatWeapon()"
+			{
+				"windows"	"91"
+				"linux"		"92"
+			}
+			"CBaseCombatWeapon::SendWeaponAnim()"
+			{
+				"windows"	"249"
+				"linux"		"255"
+			}
+			"CBaseEntity::GetDamage()"
+			{
+				"windows"		"134"
+				"linux"			"135"
+			}
+			"CBaseGrenade::GetDamageRadius()"
+			{
+				"windows"	"241"
+				"linux"		"242"
+			}
+			"CBasePlayer::Weapon_ShootPosition()"
+			{
+				"windows"	"275"
+				"linux"		"276"
+			}
+			"CTFBaseRocket::Explode()"
+			{
+				"windows"	"239"
+				"linux"		"240"
+			}
+			"CTFWeaponBase::GetInitialAfterburnDuration()"
+			{
+				"windows"	"456"
+				"linux"		"463"
+			}
+			"CTFWeaponBase::GetAfterburnRateOnHit()"
+			{
+				"windows"	"457"
+				"linux"		"464"
+			}
+			"CTFWeaponBase::InternalGetEffectBarRechargeTime()"
+			{
+				"windows"	"463"
+				"linux"		"470"
+			}
+			"CTFWeaponBaseGrenadeProj::InitGrenade(int float)"
+			{
+				"windows"	"243"
+				"linux"		"245"
+			}
+			"CTFWeaponBaseGun::FireJar()"
+			{
+				"windows"	"476"
+				"linux"		"483"
+			}
+			"CTFWeaponBaseGun::GetProjectileSpeed()"
+			{
+				"windows"	"481"
+				"linux"		"488"
+			}
+			
+			"CGameTrace::m_pEnt"
+			{
+				"windows"	"76"
+				"linux"		"76"
+			}
+			"CTakeDamageInfo::m_hWeapon"
+			{
+				"windows"	"44"
+				"linux"		"44"
+			}
+		}
+		"Signatures"
+		{
+			"CTFGrenadePipebombProjectile::Detonate()"
+			{
+				// semi-unique x-ref to string 'stickybomb_fizzle_time'
+				// function does not contain 'grenade_no_bounce' (that's VPhysicsCollision)
+				"library"	"server"
+				"linux"		"@_ZN28CTFGrenadePipebombProjectile8DetonateEv"
+				"windows"	"\x55\x8B\xEC\xA1\x2A\x2A\x2A\x2A\x83\xEC\x20\xF3\x0F\x10\x40\x0C"
+			}
+			"CTFPlayer::Regenerate()"
+			{
+				// unique x-ref to string 'player_regenerate'
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer10RegenerateEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x5C\x53\x56\x57\x8B\xF9\x8B\x07"
+			}
+			"CTFPlayer::CanAirDash()"
+			{
+				// unique x-ref to string 'set_scout_doublejump_disabled'
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer10CanAirDashEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x53\x57\x8B\xF9\x8B\x87\x2A\x2A\x00\x00\xA9\x00\x00\x04\x00"
+			}
+			"CTFPlayer::Event_Killed().EfE70Msax8M"
+			{
+				// unique x-ref to string 'mvm_sniper_headshot_currency'
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer12Event_KilledERK15CTakeDamageInfo"
+				"windows"	"\x55\x8B\xEC\x81\xEC\x2A\x02\x00\x00\x53\x56\x8B\x75\x08\x8B\xD9\x57"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed()"
+			{
+				// contains unique string "mult_player_aiming_movespeed"
+				"library"	"server"
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayerShared::ApplyAttributeToPlayer()"
+			{
+				// we use this to avoid stomping on the signature for CTFPlayer::AddCustomAttribute
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared22ApplyAttributeToPlayerEPKcf"
+				"windows"	"\x55\x8B\xEC\x56\xFF\x75\x08\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x8B\xC8\xE8\x2A\x2A\x2A\x2A\x85\xC0\x74\x2A\x8B\x8E\x2A\x01\x00\x00\xD9\x45\x0C"
+			}
+			"CTFPlayerShared::RemoveAttributeFromPlayer()"
+			{
+				// we use this to avoid stomping on the signature for CTFPlayer::RemoveCustomAttribute
+				// really should've been backported to 1.10 fgsfds
+				"library"	"server"
+				"linux"		"@_ZN15CTFPlayerShared25RemoveAttributeFromPlayerEPKc"
+				"windows"	"\x55\x8B\xEC\x56\xFF\x75\x08\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x8B\xC8\xE8\x2A\x2A\x2A\x2A\x85\xC0\x74\x2A\x8B\x8E\x8C\x2A\x00\x00\x81\xC1\x84\x12\x00\x00"
+			}
+			"CTFWeaponBase::IsViewModelFlipped()"
+			{
+				// unique bytes '8B 16 8B CE 8B 92 ? ? ? ? FF D2 84 C0 74 ? 8A 87 ? ? ? ?' on Windows
+				"library"	"server"
+				"linux"		"@_ZN13CTFWeaponBase18IsViewModelFlippedEv"
+				"windows"	"\x56\x57\x6A\x00\x68\x2A\x2A\x2A\x2A\x68\x2A\x2A\x2A\x2A\x6A\x00\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x50\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x83\xC4\x14\x85\xF6\x74\x2A\x8B\x16"
+			}
+			"CTFWeaponBaseGrenadeProj::InitGrenade(int float)"
+			{
+				// unique instance where 3EE66666h gets moved to 'ebp' on Windows
+				"library"	"server"
+				"linux"		"@_ZN24CTFWeaponBaseGrenadeProj11InitGrenadeERK6VectorS2_P20CBaseCombatCharacterif"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x53\x56\x8B\xF1\x57\x6A\x00"
+			}
+			"CTFWeaponBaseGun::ZoomIn()"
+			{
+				"library"	"server"
+				"linux"		"@_ZN16CTFWeaponBaseGun6ZoomInEv"
+				"windows"	"\x56\x57\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x8B\xF0\x85\xF6\x74\x2A\x8B\x16\x8B\xCE\xFF\xB7\x2A\x2A\x00\x00"
+			}
+			"CTFWeaponBaseMelee::OnSwingHit()"
+			{
+				"library"	"server"
+				"linux"		"@_ZN18CTFWeaponBaseMelee10OnSwingHitER10CGameTrace"
+				"windows"	"\x55\x8B\xEC\x81\xEC\x50\x01\x00\x00\x53\x56\x57\x8B\xD9"
+			}
+			"CTFPlayer::CreateRagdollEntity()"
+			{
+				"library"	"server"
+				"linux"		"@_ZN9CTFPlayer19CreateRagdollEntityEbbbbbbbbib"
+				"windows"	"\x2A\x2A\x2A\x2A\x2A\x2A\x53\x56\x57\x8B\xF9\x8B\x8F\x8C\x12\x00\x00"
+			}
+		}
+	}
+}

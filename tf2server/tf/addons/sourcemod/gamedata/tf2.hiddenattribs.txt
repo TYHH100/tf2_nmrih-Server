@@ -1,0 +1,71 @@
+"Games"
+{
+	/* Team Fortress 2 */
+	"tf"
+	{
+		"Addresses"
+		{
+			"addr_g_pFullFileSystem"
+			{
+				"linux"
+				{
+					"signature" "g_pFullFileSystem"
+					"read"	"0"
+				}
+				"windows"
+				{
+					"signature" "CTFMapsWorkshop::Refresh"
+					"read"	"12"
+					"read"	"0"
+				}
+			}
+		}
+		"Signatures"
+		{
+			"GetItemSchema"
+			{
+				"library"			"server"
+				"windows"			"\xE8\x2A\x2A\x2A\x2A\x83\xC0\x04\xC3"
+				"linux"				"@_Z13GetItemSchemav"
+				"mac"				"@_Z13GetItemSchemav"
+			}
+
+			"CEconItemSchema::BInitAttributes"
+			{
+				"library"			"server"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x74\x53\x56\x8B\xD9"
+				"linux"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
+				"mac"				"@_ZN15CEconItemSchema15BInitAttributesEP9KeyValuesP10CUtlVectorI10CUtlString10CUtlMemoryIS3_iEE"
+			}
+
+			"g_pFullFileSystem"
+			{
+				"library"			"engine"
+				"linux"				"@g_pFullFileSystem"
+				"mac"				"@g_pFullFileSystem"
+			}
+
+			"ReadEncryptedKVFile"
+			{
+				"library"			"server"
+				"windows"			"\x55\x8B\xEC\x81\xEC\x04\x02\x00\x00\xB8"
+				"linux"				"@_Z19ReadEncryptedKVFileP11IFileSystemPKcPKhb"
+				"mac"				"@_Z19ReadEncryptedKVFileP11IFileSystemPKcPKhb"
+			}
+
+			"CTFMapsWorkshop::Refresh"
+			{
+				"library"			"server"
+				"windows"			"\x55\x8B\xEC\x83\xEC\x2C\x53\x57\x8B\xF9\x8B\x0D"
+			}
+
+			"KeyValues::deleteThis"
+			{
+				"library"			"server"
+				"windows"			"\x56\x8B\xF1\x85\xF6\x74\x2A\xE8"
+				"linux"				"@_ZN9KeyValues10deleteThisEv"
+				"mac"				"@_ZN9KeyValues10deleteThisEv"
+			}
+        }
+    }
+}

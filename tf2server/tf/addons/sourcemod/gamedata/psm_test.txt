@@ -1,0 +1,61 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+		{
+			"CTFPlayer::GetLoadoutItem"
+			{
+				"linux"		"@_ZN9CTFPlayer14GetLoadoutItemEiib"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x10\x53\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+		}
+		"Offsets"
+		{
+			"CBaseEntity::SetModel"
+			{
+				"linux"		"27"
+				"windows"	"26"
+			}
+		}
+		"Functions"
+		{
+			"CTFPlayer::GetLoadoutItem"
+			{
+				"signature"		"CTFPlayer::GetLoadoutItem"
+				"callconv"		"thiscall"
+				"return"		"int"
+				"this"			"entity"
+				"arguments"
+				{
+					"iClass"
+					{
+						"type"	"int"
+					}
+					"iSlot"
+					{
+						"type"	"int"
+					}
+					"bReportWhitelistFails"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CBaseEntity::SetModel"
+			{
+				"offset"	"CBaseEntity::SetModel"
+				"hooktype"	"entity"
+				"return"	"void"
+				"this"		"entity"
+				"arguments"
+				{
+					"szModelName"
+					{
+						"type"	"charptr"
+					}
+				}
+			}
+		}
+	}
+}

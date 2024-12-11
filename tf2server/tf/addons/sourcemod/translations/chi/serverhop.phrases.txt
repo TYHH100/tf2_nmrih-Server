@@ -1,0 +1,21 @@
+﻿"Phrases"
+{
+	"SelectServer"
+	{
+		"chi"		"选择要加入的服务器 ..."
+	}
+	"AboutToJoinServer"
+	{
+		"chi"		"二次确认,加入服务器 ..."
+	}
+	"HopNotification"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"{1} 已经跑路到 {2} !"
+	}
+	"Advert"
+	{
+		"#format"	"{1:s},{2:s}"
+		"chi"		"{1} [输入 {2} 加入服务器]"
+	}
+}

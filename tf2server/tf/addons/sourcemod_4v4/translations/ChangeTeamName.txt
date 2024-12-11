@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"ArgdDisqualification"
+	{		
+		"en"			"{green}[CTN]{default} The current instruction is incorrectly used！The correct usage is: !ctn xxxx"
+		"chi"			"{green}[CTN]{default} 当前指令使用错误！正确用法为：!ctn xxxx"
+	}
+	"ChangeTeam"
+	{		
+		"#format"		"{1:N},{2:s}"
+		"en"			"{green}[CTN]{default} Player {green}{1} {default} has changed the team name to: {green}{2}{default}"
+		"chi"			"{green}[CTN]{default} 玩家 {green}{1} {default}已修改队伍名字为：{green}{2}{default}"
+	}
+	"CheckTeamName"
+	{		
+		"en"			"{green}[CTN]{default} The current team name is not changed! Please enter {green}!ctn{default} changed the team name!"
+		"chi"			"{green}[CTN]{default} 当前队伍名字未修改！请输入 {green}!ctn{default} 进行修改队伍名字！"
+	}
+}

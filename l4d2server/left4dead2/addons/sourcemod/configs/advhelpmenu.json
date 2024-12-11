@@ -1,0 +1,74 @@
+{
+	"advhelpmenu": 
+	[
+		{
+			"帮助菜单|Help Menu": 
+			{
+				"exit": "true",
+				"@exit": "true,false",
+
+				"type": "menu",
+				"@type": "text 文本,menu 菜单,motd,maplist 地图列表",
+
+				"shortcut": "!h|/h|!H|/H|!help|/help",
+				"@shortcut": "触发指令|作为隔开",
+
+				"maplist_name": "List of Maps|地图列表",
+				
+				"@flags": "权限等级https://wiki.alliedmods.net/Adding_Admins_(SourceMod)/zh#.E6.9D.83.E9.99.90.E7.AD.89.E7.BA.A7",
+				"@cmd": "指令",
+				"@url": "网址",
+				"data": 
+				[				
+					{
+						"指令|Commands":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"report 举报玩家":
+									{
+										"type": "text",
+										"cmd": 	"say /report"
+									}
+								},
+								{
+									"倒地或者被抓按住Ctrl自救":
+									{
+										"type": "text"
+									}
+								}
+							]
+						}
+					},
+					{
+						"服务器网站|Server Web":
+						{
+							"exit": "true",
+							"type": "menu",
+							"data":
+							[
+								{
+									"博客|blog":
+									{
+										"type": "motd",
+										"url":  "https://blog.tyhh10.xyz/archives/"
+									}
+								},
+								{
+									"SourceBans Web":
+									{
+										"type": "motd",
+										"url":  "https://bans.tyhh10.xyz/index.php?p=home"
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

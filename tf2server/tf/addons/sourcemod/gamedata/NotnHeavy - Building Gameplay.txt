@@ -1,0 +1,90 @@
+"Games"
+{
+	"tf"
+	{
+        "Offsets"
+        {
+            // aEngyDisposable db 'engy_disposable_sentries'
+            // go to pseudocode
+            // if ( !(unsigned __int8)sub_1048A110(dword_10A2CF88)
+            //     || a2 != 2
+            //     || !sub_10520E40(2, a3) // <---- THIS ONE!
+            //     || (v24 = 0, (v21 = sub_101DC7A0(0, "engy_disposable_sentries", (int)this, 0, 1)) == 0) )
+            // click on sub_10520E40
+            // go to first function in pseudocode of that function
+            // return this[2257];
+            // take 2257, subtract 3, times by 4
+            "CTFPlayer::m_aObjects"
+            {
+                "windows"   "9016"
+                "linux"     "9020"
+            }
+
+            "CBaseEntity::ChangeTeam()"
+            {
+                "windows"   "96"
+                "linux"     "97"
+            }
+
+            // literally just find the 0.5 lmao
+            "MemoryPatch::CTFLaserPointer::Deploy()"
+            {
+                "windows"   "34"
+                "linux"     "58"
+            }
+        }
+        "Signatures"
+        {
+            // offset aUpdatingPhysic ; "Updating physics on object in hierarchy"...
+            // go to pseudocode
+            //     if ( (unsigned __int8)sub_101FCC20() )
+            //     {
+            //         v10 = (const char *)sub_101EE830(this);
+            //         Warning("Ignoring unreasonable position (%f,%f,%f) from vphysics! (entity %s)\n", v16, v17, v18, v10);
+            //     }
+            // }
+            // else
+            // {
+            //     sub_101F8A00(&v16); // <---
+            // }
+            "CBaseEntity::SetAbsOrigin()"
+            {
+                "library"   "server"
+                "windows"   "\x55\x8B\xEC\x83\xEC\x40\x56\x8B\x75\x08\x57\x8B\xF9"
+                "linux"     "@_ZN11CBaseEntity12SetAbsOriginERK6Vector"
+            }
+
+            // offset aCreateLaserDot ; "CREATE_LASER_DOT"
+            "CTFLaserPointer::Deploy()"
+            {
+                "library"   "server"
+                "windows"   "\x56\x8B\xF1\xE8\x2A\x2A\x2A\x2A\x84\xC0\x74\x2A\xA1\x2A\x2A\x2A\x2A"
+                "linux"     "@_ZN15CTFLaserPointer6DeployEv"
+            }
+
+            // offset aBuildingSentry_13 ; "Building_Sentrygun.Disabled"
+            // go to pseudocode
+            // if ( !(unsigned __int8)CObjectSentrygun::FindTarget(this) && !(unsigned __int8)sub_104CB700(this) )
+            // {
+            //     if ( *(_BYTE *)(this + 2592) || *(_BYTE *)(this + 2608) || *(_DWORD *)(this + 2868) == 1 )
+            //     {
+            //         sub_1032C0D0("Building_Sentrygun.Disabled", LODWORD(v5), 0)
+            "CObjectSentrygun::FindTarget()"
+            {
+                "library"   "server"
+                "windows"   "\x55\x8B\xEC\x81\xEC\xD0\x00\x00\x00\x53\x56\x57"
+                "linux"     "@_ZN16CObjectSentrygun10FindTargetEv"
+            }
+        }
+        "Functions"
+        {
+            "CObjectSentrygun::FindTarget()"
+            {
+                "signature"     "CObjectSentrygun::FindTarget()"
+                "callconv"      "thiscall"
+                "return"        "bool"
+                "this"          "entity"
+            }
+        }
+    }
+}

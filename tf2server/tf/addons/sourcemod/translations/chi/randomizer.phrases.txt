@@ -1,0 +1,1049 @@
+"Phrases"
+{
+	"Controls_Stickybomb_Attack2"
+	{
+		"chi"		"按右键(M2)引爆"
+	}
+	
+	"Controls_Stickybomb_Reload"
+	{
+		"chi"		"按换弹键(默认R)引爆"
+	}
+	
+	"Controls_Stickybomb_Unable"
+	{
+		"chi"		"无法引爆"
+	}
+	
+	"Controls_Shield_Attack2"
+	{
+		"chi"		"按右键(M2)冲锋"
+	}	
+	
+	"Controls_Shield_Reload"
+	{
+		"chi"		"按换弹(默认R)冲锋"
+	}
+	
+	"Controls_Shield_Unable"
+	{
+		"chi"		"冲锋不可用"
+	}
+	
+	"Controls_Build_Attack2"
+	{
+		"chi"		"按右键(M2)建造"
+	}	
+	
+	"Controls_Build_Attack3"
+	{
+		"chi"		"按中键(M3)建造"
+	}
+	
+	"Controls_Build_Unable"
+	{
+		"chi"		"无法建造"
+	}
+	
+	"Controls_InvisWatch_Attack2"
+	{
+		"chi"		"按右键(M2)隐身"
+	}	
+	
+	"Controls_InvisWatch_Attack3"
+	{
+		"chi"		"按中键隐身"
+	}
+	
+	"Controls_InvisWatch_Unable"
+	{
+		"chi"		"无法隐身"
+	}
+	
+	"Huds_Title"
+	{
+		"chi"		"武器"
+	}
+	
+	"Huds_EffectBarRegenTime"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1} 秒"
+	}
+	
+	"Huds_Decapitations"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 猎头数"
+	}
+	
+	"Huds_Energy"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 能量"
+	}
+	
+	"Huds_RageMeter"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 愤怒"
+	}
+	
+	"Huds_RevengeCrits"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 复仇暴击"
+	}
+	
+	"Huds_HypeMeter"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 跳跃能量"
+	}
+	
+	"Huds_ItemChargeMeter"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％"
+	}
+	
+	"Huds_PipebombCount"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 粘弹数量"
+	}
+	
+	"Huds_ChargeBeginTime"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 冲锋"
+	}
+	
+	"Huds_ChargeMeter"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 冲锋"
+	}
+	
+	"Huds_Ammo"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{1} 金属"
+	}
+	
+	"Huds_ChargeLevel"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ Ubercharge"
+	}
+	
+	"Huds_ChargeResistType_Bullet"
+	{
+		"chi"		"抗性类型: 子弹"
+	}
+	
+	"Huds_ChargeResistType_Blast"
+	{
+		"chi"		"抗性类型: 爆炸"
+	}
+	
+	"Huds_ChargeResistType_Fire"
+	{
+		"chi"		"抗性类型: 火焰"
+	}
+	
+	"Huds_MinicritCharge"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1}％ 暴击"
+	}
+	
+	"Huds_KnifeMeltTimestamp"
+	{
+		"#format"	"{1:.0f}"
+		"chi"		"{1} 秒"
+	}
+	
+	"Huds_DisguiseTeam_Red"
+	{
+		"chi"		"红队"
+	}
+	
+	"Huds_DisguiseTeam_Blue"
+	{
+		"chi"		"蓝队"
+	}
+	
+	"Huds_DisguiseClass_Scout"
+	{
+		"chi"		"侦察兵"
+	}
+	
+	"Huds_DisguiseClass_Sniper"
+	{
+		"chi"		"狙击手"
+	}
+	
+	"Huds_DisguiseClass_Soldier"
+	{
+		"chi"		"士兵"
+	}
+	
+	"Huds_DisguiseClass_Demoman"
+	{
+		"chi"		"爆破手"
+	}
+	
+	"Huds_DisguiseClass_Medic"
+	{
+		"chi"		"医生"
+	}
+	
+	"Huds_DisguiseClass_Heavy"
+	{
+		"chi"		"机枪手"
+	}
+	
+	"Huds_DisguiseClass_Pyro"
+	{
+		"chi"		"火焰兵"
+	}
+	
+	"Huds_DisguiseClass_Spy"
+	{
+		"chi"		"间谍"
+	}
+	
+	"Huds_DisguiseClass_Engineer"
+	{
+		"chi"		"工程师"
+	}
+	
+	"Weapon_BASEJumper"
+	{
+		"chi"		"极限降落伞"
+	}
+	
+	"Weapon_Shotgun"
+	{
+		"chi"		"霰弹枪"
+	}
+	
+	"Weapon_PanicAttack"
+	{
+		"chi"		"恐慌打击"
+	}
+	
+	"Weapon_Pistol"
+	{
+		"chi"		"手枪"
+	}
+	
+	"Weapon_ReserveShooter"
+	{
+		"chi"		"预备役射手"
+	}
+	
+	"Weapon_PainTrain"
+	{
+		"chi"		"钉棍"
+	}
+	
+	"Weapon_HalfZatoichi"
+	{
+		"chi"		"座头市之刀"
+	}
+	
+	"Weapon_Scattergun"
+	{
+		"chi"		"猎枪"
+	}
+	
+	"Weapon_ForceANature"
+	{
+		"chi"		"自然之力"
+	}
+	
+	"Weapon_Shortstop"
+	{
+		"chi"		"游击手"
+	}
+	
+	"Weapon_SodaPopper"
+	{
+		"chi"		"苏打炮手"
+	}
+	
+	"Weapon_BabyFaceBlaster"
+	{
+		"chi"		"娃娃脸的冲击波"
+	}
+	
+	"Weapon_BackScatter"
+	{
+		"chi"		"恐慌打击"
+	}
+	
+	"Weapon_BonkAtomicPunch"
+	{
+		"chi"		"原子能饮料"
+	}
+	
+	"Weapon_CritaCola"
+	{
+		"chi"		"暴击可乐"
+	}
+	
+	"Weapon_MadMilk"
+	{
+		"chi"		"疯狂的牛奶"
+	}
+	
+	"Weapon_Winger"
+	{
+		"chi"		"边锋球员"
+	}
+	
+	"Weapon_PrettyBoyPocketPistol"
+	{
+		"chi"		"帅气男孩的袖珍手枪"
+	}
+	
+	"Weapon_FlyingGuillotine"
+	{
+		"chi"		"混混的菜刀"
+	}
+	
+	"Weapon_Bat"
+	{
+		"chi"		"短棍"
+	}
+	
+	"Weapon_Sandman"
+	{
+		"chi"		"睡魔"
+	}
+	
+	"Weapon_HolyMackerel"
+	{
+		"chi"		"圣灵鲭鱼"
+	}
+	
+	"Weapon_CandyCane"
+	{
+		"chi"		"糖果手杖"
+	}
+	
+	"Weapon_BostonBasher"
+	{
+		"chi"		"波士顿狼牙棒"
+	}
+	
+	"Weapon_SunonaStick"
+	{
+		"chi"		"符文剑"
+	}
+	
+	"Weapon_FanOWar"
+	{
+		"chi"		"军配扇"
+	}
+	
+	"Weapon_Atomizer"
+	{
+		"chi"		"原子能球棒"
+	}
+	
+	"Weapon_WrapAssassin"
+	{
+		"chi"		"包装纸杀手"
+	}
+	
+	"Weapon_RocketLauncher"
+	{
+		"chi"		"火箭发射器"
+	}
+	
+	"Weapon_DirectHit"
+	{
+		"chi"		"精确打击者"
+	}
+	
+	"Weapon_BlackBox"
+	{
+		"chi"		"黑匣子"
+	}
+	
+	"Weapon_RocketJumper"
+	{
+		"chi"		"火箭伞兵"
+	}
+	
+	"Weapon_LibertyLauncher"
+	{
+		"chi"		"自由推进炮"
+	}
+	
+	"Weapon_CowMangler5000"
+	{
+		"chi"		"绞牛机5000"
+	}
+	
+	"Weapon_Original"
+	{
+		"chi"		"正宗雷神之锤火箭发射器"
+	}
+	
+	"Weapon_BeggarBazooka"
+	{
+		"chi"		"乞丐的火箭筒"
+	}
+	
+	"Weapon_AirStrike"
+	{
+		"chi"		"空袭火箭筒"
+	}
+	
+	"Weapon_BuffBanner"
+	{
+		"chi"		"战旗"
+	}
+	
+	"Weapon_Gunboats"
+	{
+		"chi"		"炮艇"
+	}
+	
+	"Weapon_BattalionBackup"
+	{
+		"chi"		"军队的支援"
+	}
+	
+	"Weapon_Concheror"
+	{
+		"chi"		"征服者战旗"
+	}
+	
+	"Weapon_RighteousBison"
+	{
+		"chi"		"正义野牛"
+	}
+	
+	"Weapon_Mantreads"
+	{
+		"chi"		"踏步靴"
+	}
+	
+	"Weapon_Shovel"
+	{
+		"chi"		"铁锹"
+	}
+	
+	"Weapon_Equalizer"
+	{
+		"chi"		"十字镐"
+	}
+	
+	"Weapon_MarketGardener"
+	{
+		"chi"		"市场花园铁锹"
+	}
+	
+	"Weapon_DisciplinaryAction"
+	{
+		"chi"		"指挥官的军鞭"
+	}
+	
+	"Weapon_EscapePlan"
+	{
+		"chi"		"逃生计划镐"
+	}
+	
+	"Weapon_FlameThrower"
+	{
+		"chi"		"火焰喷射器"
+	}
+	
+	"Weapon_Backburner"
+	{
+		"chi"		"偷袭烈焰喷射器"
+	}
+	
+	"Weapon_Degreaser"
+	{
+		"chi"		"脱油剂"
+	}
+	
+	"Weapon_Phlogistinator"
+	{
+		"chi"		"燃素喷射器"
+	}
+	
+	"Weapon_DragonFury"
+	{
+		"chi"		"龙之怒焰"
+	}
+	
+	"Weapon_FlareGun"
+	{
+		"chi"		"信号枪"
+	}
+	
+	"Weapon_Detonator"
+	{
+		"chi"		"起爆者"
+	}
+	
+	"Weapon_Manmelter"
+	{
+		"chi"		"熔人枪"
+	}
+	
+	"Weapon_ScorchShot"
+	{
+		"chi"		"焦化枪"
+	}
+		
+	"Weapon_ThermalThruster"
+	{
+		"chi"		"热能推进器"
+	}
+	
+	"Weapon_GasPasser"
+	{
+		"chi"		"纵火者的油桶"
+	}
+	
+	"Weapon_FireAxe"
+	{
+		"chi"		"消防斧"
+	}
+	
+	"Weapon_Axtinguisher"
+	{
+		"chi"		"火焰战斧"
+	}
+	
+	"Weapon_Homewrecker"
+	{
+		"chi"		"拆迁者"
+	}
+	
+	"Weapon_Powerjack"
+	{
+		"chi"		"强力千斤顶"
+	}
+	
+	"Weapon_BackScratcher"
+	{
+		"chi"		"不求人"
+	}
+	
+	"Weapon_SharpenedVolcanoFragment"
+	{
+		"chi"		"熔岩战斧"
+	}
+	
+	"Weapon_ThirdDegree"
+	{
+		"chi"		"三度烧伤"
+	}
+	
+	"Weapon_NeonAnnihilator"
+	{
+		"chi"		"霓虹杀手"
+	}
+	
+	"Weapon_HotHand"
+	{
+		"chi"		"灼热之手"
+	}
+	
+	"Weapon_GrenadeLauncher"
+	{
+		"chi"		"榴弹发射器"
+	}
+	
+	"Weapon_LochnLoad"
+	{
+		"chi"		"双管榴弹发射器"
+	}
+	
+	"Weapon_AliBabaWeeBooties"
+	{
+		"chi"		"阿里巴巴的尖头靴"
+	}
+	
+	"Weapon_LooseCannon"
+	{
+		"chi"		"脱缰巨炮"
+	}
+	
+	"Weapon_IronBomber"
+	{
+		"chi"		"铁弹发射器"
+	}
+	
+	"Weapon_StickybombLauncher"
+	{
+		"chi"		"黏性炸弹发射器"
+	}
+	
+	"Weapon_ScottishResistance"
+	{
+		"chi"		"苏格兰防御者"
+	}
+	
+	"Weapon_CharginTarge"
+	{
+		"chi"		"冲锋盾"
+	}
+	
+	"Weapon_StickyJumper"
+	{
+		"chi"		"黏弹跳跃者"
+	}
+	
+	"Weapon_SplendidScreen"
+	{
+		"chi"		"辉煌护盾"
+	}
+	
+	"Weapon_TideTurner"
+	{
+		"chi"		"力挽狂澜"
+	}
+	
+	"Weapon_QuickiebombLauncher"
+	{
+		"chi"		"快速黏弹发射器"
+	}
+	
+	"Weapon_Bottle"
+	{
+		"chi"		"瓶子"
+	}
+	
+	"Weapon_Eyelander"
+	{
+		"chi"		"苏格兰长剑"
+	}
+	
+	"Weapon_ScotsmanSkullcutter"
+	{
+		"chi"		"苏格兰颅骨切割者"
+	}
+	
+	"Weapon_UllapoolCaber"
+	{
+		"chi"		"木柄手榴弹"
+	}
+	
+	"Weapon_ClaidheamhMor"
+	{
+		"chi"		"摩尔巨剑"
+	}
+	
+	"Weapon_PersianPersuader"
+	{
+		"chi"		"波斯弯刀"
+	}
+	
+	"Weapon_Minigun"
+	{
+		"chi"		"转轮机枪"
+	}
+	
+	"Weapon_Natascha"
+	{
+		"chi"		"娜塔莎转轮机枪"
+	}
+	
+	"Weapon_BrassBeast"
+	{
+		"chi"		"黄铜猛兽"
+	}
+	
+	"Weapon_Tomislav"
+	{
+		"chi"		"汤姆斯拉夫"
+	}
+	
+	"Weapon_HuoLongHeater"
+	{
+		"chi"		"火龙转轮机枪"
+	}
+	
+	"Weapon_Sandvich"
+	{
+		"chi"		"三明治"
+	}
+	
+	"Weapon_DalokohsBar"
+	{
+		"chi"		"达勒克斯巧克力块"
+	}
+	
+	"Weapon_BuffaloSteakSandvich"
+	{
+		"chi"		"水牛排三明治"
+	}
+	
+	"Weapon_FamilyBusiness"
+	{
+		"chi"		"家族运营枪"
+	}
+		
+	"Weapon_SecondBanana"
+	{
+		"chi"		"第二名的香蕉"
+	}
+	
+	"Weapon_Fists"
+	{
+		"chi"		"拳头"
+	}
+	
+	"Weapon_KillingGlovesofBoxing"
+	{
+		"chi"		"杀戮拳击手套"
+	}
+	
+	"Weapon_GlovesofRunningUrgently"
+	{
+		"chi"		"紧急逃跑手套"
+	}
+	
+	"Weapon_WarriorSpirit"
+	{
+		"chi"		"勇士之魂"
+	}
+	
+	"Weapon_FistsofSteel"
+	{
+		"chi"		"钢铁手套"
+	}
+	
+	"Weapon_EvictionNotice"
+	{
+		"chi"		"驱逐警告"
+	}
+	
+	"Weapon_HolidayPunch"
+	{
+		"chi"		"欢乐拳套"
+	}
+	
+	"Weapon_FrontierJustice"
+	{
+		"chi"		"边境裁决者"
+	}
+	
+	"Weapon_Widowmaker"
+	{
+		"chi"		"寡妇制造者"
+	}
+	
+	"Weapon_Pomson6000"
+	{
+		"chi"		"歼灭者6000"
+	}
+	
+	"Weapon_RescueRanger"
+	{
+		"chi"		"火线救兵"
+	}
+	
+	"Weapon_Wrangler"
+	{
+		"chi"		"遥控手柄"
+	}
+	
+	"Weapon_ShortCircuit"
+	{
+		"chi"		"短路发生器"
+	}
+	
+	"Weapon_Wrench"
+	{
+		"chi"		"扳手"
+	}
+	
+	"Weapon_Gunslinger"
+	{
+		"chi"		"枪炮工之臂"
+	}
+	
+	"Weapon_SouthernHospitality"
+	{
+		"chi"		"南部的款待"
+	}
+	
+	"Weapon_Jag"
+	{
+		"chi"		"尖齿扳手"
+	}
+	
+	"Weapon_EurekaEffect"
+	{
+		"chi"		"传送扳手"
+	}
+	
+	"Weapon_SyringeGun"
+	{
+		"chi"		"注射枪"
+	}
+	
+	"Weapon_Blutsauger"
+	{
+		"chi"		"吸血鬼针筒枪"
+	}
+	
+	"Weapon_CrusaderCrossbow"
+	{
+		"chi"		"十字军之弩"
+	}
+	
+	"Weapon_Overdose"
+	{
+		"chi"		"过载注射枪"
+	}
+	
+	"Weapon_MediGun"
+	{
+		"chi"		"医疗枪"
+	}
+	
+	"Weapon_Kritzkrieg"
+	{
+		"chi"		"闪电战医疗枪"
+	}
+	
+	"Weapon_QuickFix"
+	{
+		"chi"		"快速医疗枪"
+	}
+	
+	"Weapon_Vaccinator"
+	{
+		"chi"		"疫苗注射枪"
+	}
+	
+	"Weapon_Bonesaw"
+	{
+		"chi"		"骨锯"
+	}
+	
+	"Weapon_Ubersaw"
+	{
+		"chi"		"过载充能锯"
+	}
+	
+	"Weapon_VitaSaw"
+	{
+		"chi"		"维塔锯"
+	}
+	
+	"Weapon_Amputator"
+	{
+		"chi"		"器官切割器"
+	}
+	
+	"Weapon_SolemnVow"
+	{
+		"chi"		"希波克拉底的塑像"
+	}
+	
+	"Weapon_SniperRifle"
+	{
+		"chi"		"狙击步枪"
+	}
+	
+	"Weapon_Huntsman"
+	{
+		"chi"		"猎人短弓"
+	}
+	
+	"Weapon_SydneySleeper"
+	{
+		"chi"		"悉尼沉睡者"
+	}
+	
+	"Weapon_BazaarBargain"
+	{
+		"chi"		"市场还价者"
+	}
+	
+	"Weapon_Machina"
+	{
+		"chi"		"鬼械神狙"
+	}
+	
+	"Weapon_HitmanHeatmaker"
+	{
+		"chi"		"职业杀手的手感"
+	}
+	
+	"Weapon_Classic"
+	{
+		"chi"		"经典狙击步枪"
+	}
+	
+	"Weapon_SMG"
+	{
+		"chi"		"SMG"
+	}
+	
+	"Weapon_Razorback"
+	{
+		"chi"		"电击背脊盾"
+	}
+	
+	"Weapon_Jarate"
+	{
+		"chi"		"瓶手道"
+	}
+	
+	"Weapon_DarwinDangerShield"
+	{
+		"chi"		"达尔文的危险之盾"
+	}
+	
+	"Weapon_CozyCamper"
+	{
+		"chi"		"惬意蹲坑汉"
+	}
+	
+	"Weapon_CleanerCarbine"
+	{
+		"chi"		"扫荡者卡宾"
+	}
+	
+	"Weapon_Kukri"
+	{
+		"chi"		"反曲刀"
+	}
+	
+	"Weapon_TribalmanShiv"
+	{
+		"chi"		"部落者刮刀"
+	}
+	
+	"Weapon_Bushwacka"
+	{
+		"chi"		"灌木丛"
+	}
+	
+	"Weapon_Shahanshah"
+	{
+		"chi"		"诸王之王"
+	}
+	
+	"Weapon_Revolver"
+	{
+		"chi"		"左轮手枪"
+	}
+	
+	"Weapon_Ambassador"
+	{
+		"chi"		"大使手枪"
+	}
+	
+	"Weapon_LEtranger"
+	{
+		"chi"		"陌生人"
+	}
+	
+	"Weapon_Enforcer"
+	{
+		"chi"		"执法者"
+	}
+	
+	"Weapon_Diamondback"
+	{
+		"chi"		"菱背响尾蛇"
+	}
+	
+	"Weapon_Sapper"
+	{
+		"chi"		"电子工兵"
+	}
+	
+	"Weapon_RedTapeRecorder"
+	{
+		"chi"		"官僚式录音机"
+	}
+	
+	"Weapon_Knife"
+	{
+		"chi"		"刀子"
+	}
+	
+	"Weapon_YourEternalReward"
+	{
+		"chi"		"永生的回报"
+	}
+	
+	"Weapon_ConniverKunai"
+	{
+		"chi"		"密谋者的苦无"
+	}
+	
+	"Weapon_BigEarner"
+	{
+		"chi"		"暴利杀手"
+	}
+	
+	"Weapon_Spycicle"
+	{
+		"chi"		"神奇的冰柱"
+	}
+	
+	"Weapon_ConstructionPDA"
+	{
+		"chi"		"建造工具"
+	}
+	
+	"Weapon_DestructionPDA"
+	{
+		"chi"		"摧毁工具"
+	}
+	
+	"Weapon_Toolbox"
+	{
+		"chi"		"工具箱"
+	}
+	
+	"Weapon_DisguiseKit"
+	{
+		"chi"		"伪装工具"
+	}
+	
+	"Weapon_InvisWatch"
+	{
+		"chi"		"隐形手表"
+	}
+	
+	"Weapon_DeadRinger"
+	{
+		"chi"		"死亡之铃"
+	}
+	
+	"Weapon_CloakandDagger"
+	{
+		"chi"		"隐形刺客"
+	}
+	"Weapon_GoldFryingPan"
+	{
+		"chi"		"平底煎锅"
+	}
+	"Weapon_Award"
+	{
+		"chi"		"萨氏金像奖小金人"
+	}
+	"Weapon_Camera"
+	{
+		"chi"		"回忆制造者"
+	}
+}
+

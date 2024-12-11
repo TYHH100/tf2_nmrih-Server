@@ -1,0 +1,46 @@
+// Advertisements 2.1
+// by Tsunami
+//
+// Types
+// -----
+// center: Center message
+// chat: Chat message
+// hint: Hint message
+// menu: Menu message
+// top: Top message
+//
+// Flags (optional)
+// -----
+// Accepts flags of admins that will not see the advertisement.
+// When omitted everyone will see the advertisement.
+// When left empty only admins will see the advertisement.
+// The message supports the following variables: {currentmap}, {nextmap}, {sm_nextmap} , {date}, {time}, {time24} and {timeleft}. Next to that you can print the value of any cvar by enclosing the name with {}, for example {mp_friendlyfire}. Use \n for newlines, which works with center, chat, hint and menu messages.
+
+"Advertisements"
+{
+    "1"
+    {
+        "chat"		"{plum}欢迎来 {mediumslateblue}{hostname} {plum}服务器进行游玩:3\n{cornsilk}|帮助|{plum}输入{steelblue}!h{plum}获取帮助"
+    }
+	"2"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}当前时间{mediumslateblue}{time24}\n{plum}当前地图{mediumslateblue}{currentmap}"
+	}
+	"3"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}如需要结束pub,输入{steelblue}stop\n{plum}更换地图,输入{steelblue}rtv\n{cornsilk}{plum}预订地图,输入{steelblue}nominate"
+	}
+	"4"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}欢迎加入我们的聊天群{olive}854622646"
+		"hint"		"QQ群854622646"
+	}
+	"5"
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}服务器在北京,所以说某些地方的延迟会爆炸,请谅解"
+	}
+}
+""
+	{
+		"chat"		"{cornsilk}|循环信息|{plum}"
+	}

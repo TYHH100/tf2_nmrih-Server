@@ -1,0 +1,90 @@
+"Games"
+{
+	"tf"
+	{
+		"Offsets"
+		{
+			"CTeamplayRoundBasedRules::SetWinningTeam"
+			{
+				"linux"		"165"
+				"windows"	"164"
+			}
+		}
+		"Signatures"
+		{
+			"CTFPlayer::GetEquippedWearableForLoadoutSlot"
+			{
+				"linux"		"@_ZN9CTFPlayer33GetEquippedWearableForLoadoutSlotEi"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x08\x8B\xC1\x53\x56\x33\xF6"
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"linux"		"@_ZNK9CTFPlayer30TeamFortress_CalculateMaxSpeedEb"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x18\x56\x8B\xF1\x8B\x0D\x2A\x2A\x2A\x2A"
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"linux"		"@_ZN9CTFPlayer22GetMaxHealthForBuffingEv"
+				"windows"	"\x55\x8B\xEC\x83\xEC\x24\x53\x56\x57\x8B\xF9\xFF\xB7\xC8\x22\x00\x00"
+			}
+		}
+		"Functions"
+		{
+			"CTeamplayRoundBasedRules::SetWinningTeam"
+			{
+				"offset"	"CTeamplayRoundBasedRules::SetWinningTeam"
+				"hooktype"	"gamerules"
+				"return"	"void"
+				"this"		"ignore"
+				"arguments"
+				{
+					"team"
+					{
+						"type"	"int"
+					}
+					"iWinReason"
+					{
+						"type"	"int"
+					}
+					"bForceMapReset"
+					{
+						"type"	"bool"
+					}
+					"bSwitchTeams"
+					{
+						"type"	"bool"
+					}
+					"bDontAddScore"
+					{
+						"type"	"bool"
+					}
+					"bFinal"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+			{
+				"signature"	"CTFPlayer::TeamFortress_CalculateMaxSpeed"
+				"callconv"	"thiscall"
+				"return"	"float"
+				"this"		"entity"
+				"arguments"
+				{
+					"bIgnoreSpecialAbility"
+					{
+						"type"	"bool"
+					}
+				}
+			}
+			"CTFPlayer::GetMaxHealthForBuffing"
+			{
+				"signature"	"CTFPlayer::GetMaxHealthForBuffing"
+				"callconv"	"thiscall"
+				"return"	"int"
+				"this"		"entity"
+			}
+		}
+	}
+}

@@ -1,0 +1,36 @@
+sm plugins load_unlock
+sm plugins load p4sstime.smx
+sm plugins load jumpqol.smx
+sm plugins load bball_limit_players.smx
+sm plugins load ChangeTeamName.smx
+sm plugins unload mge.smx
+sm plugins load_lock
+
+sv_pure "0" // pugs are low stress and not super serious so we like to let people have their mods
+mp_winlimit      "10"    // sets server winlimit
+mp_timelimit     "0"    // unsets server timelimit
+mp_windifference "0"    // unsets windifference
+mp_maxrounds     "0"    // unsets maxrounds
+mp_tournament_whitelist "cfg/4v4/pt_pug_whitelist.txt" // our WL will usually be more updated than RGLs
+mp_tournament_restart
+tf_passtime_score_crit_sec "0"
+sv_alltalk "0"
+mp_tournament "1"
+motdfile "cfg/4v4/motd.txt"
+
+bball_limit_players "8"
+sm_pt_practice "1"
+
+tf_tournament_classlimit_demoman "2"
+tf_tournament_classlimit_engineer "0"
+tf_tournament_classlimit_heavy "0"
+tf_tournament_classlimit_medic "1"
+tf_tournament_classlimit_pyro "0"
+tf_tournament_classlimit_scout "0"
+tf_tournament_classlimit_sniper "0"
+tf_tournament_classlimit_soldier "2"
+tf_tournament_classlimit_spy "0"
+
+mapcyclefile "cfg/4v4/mapcycle_pass_4v4.txt"
+// 二次执行,保证地图池不会出错
+mapcyclefile "cfg/4v4/mapcycle_pass_4v4.txt"

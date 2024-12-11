@@ -1,0 +1,34 @@
+"CountryShow"
+{
+	// {PLAYERNAME}: 玩家名稱
+	// {STEAMID}: 玩家steam id
+	// {PLAYERCOUNTRY}: 玩家的國家
+	// {PLAYERCOUNTRYSHORT}: 玩家的國家短代號
+	// {PLAYERCOUNTRYSHORT3}: 玩家的國家短代號(多一些代號)
+	// {PLAYERCITY}: 玩家的城市
+	// {PLAYERREGION}: 玩家的地區(省,州)
+	// {PLAYERIP}: 玩家IP
+	// {PLAYERTYPE}: 玩家是否為管理員
+
+	// {default}: 白色
+	// {green}: 橘色
+	// {olive}: 綠色
+	// {lightgreen}: 淺綠色
+	// {red}: 紅色 - 特感隊伍要有人或bot在才會顯示紅色，否則顯示橘色
+	// {blue}: 藍色 - 人類隊伍要有人或bot在才會顯示藍色，否則顯示橘色
+	// {lightgreen}, {red}, {blue}，這三種顏色的其中兩種不可出現在同一句話裡
+
+	//除了管理員外所有人會看到的句子
+	"messages"
+	{
+		"playerjoin"		"{default}[{olive}CA{default}] {blue}玩家 {green}{PLAYERNAME} {blue}连接{default}. ({green}{PLAYERCOUNTRY}, {PLAYERREGION}, {PLAYERCITY}{default})"
+		"playerdisc"		"{default}[{olive}CA{default}] {red}玩家 {green}{PLAYERNAME} {red}断开{default}. ({green}{DISC_REASON}{default}丨{green}{PLAYERCOUNTRY}, {PLAYERREGION}, {PLAYERCITY}{default})"
+	}
+
+	//管理員會看到的句子
+	"messages_admin"
+	{
+		"playerjoin"		"{default}[{olive}CA{default}] {blue}玩家 {green}{PLAYERNAME} {blue}连接{default}. ({green}{PLAYERCOUNTRY}, {PLAYERREGION}, {PLAYERCITY}{default}) IP: {green}{PLAYERIP}{default} {olive}<ID:{STEAMID}>"
+		"playerdisc"		"{default}[{olive}CA{default}] {red}玩家 {green}{PLAYERNAME} {red}断开{default}. ({green}{DISC_REASON}{default}) IP: {green}{PLAYERIP}{default} {olive}<ID:{STEAMID}>"
+	}
+}
