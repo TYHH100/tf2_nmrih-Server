@@ -2,13 +2,13 @@
 #include <sdktools>
 #include <morecolors>
 
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.1"
 
 public Plugin:myinfo =  
 {
 	name = "say_se",
 	author = "",
-	description = "",
+	description = "用于对分组地图,发送相关文本",
 	version = PLUGIN_VERSION,
 	url = ""
 };
@@ -17,11 +17,12 @@ public OnPluginStart()
 {
 	RegServerCmd("sm_say_se",				sm_say_se);
 	RegServerCmd("sm_say_rc",				sm_say_rc);
-	RegServerCmd("sm_say_sechallenge",		sm_say_sechallenge);
-	RegServerCmd("sm_say_sepracticesabre",	sm_say_sepracticesabre);
+	RegServerCmd("sm_say_sechallenge",		sm_say_sechallenge); // 摸鱼馆UMC地图池中的挑战图分组
+	RegServerCmd("sm_say_sepracticesabre",	sm_say_sepracticesabre); // 摸鱼馆UMC地图池中的练刀图分组
 	RegServerCmd("sm_say_sepvp",			sm_say_sepvp);
 	RegServerCmd("sm_say_senmo",			sm_say_senmo);
 	RegServerCmd("sm_say_senms",			sm_say_senms);
+	RegServerCmd("sm_say_semg",				sm_say_semg);
 }
 
 public Action:sm_say_se(args)
@@ -82,12 +83,18 @@ public Action:sm_say_sepvp(args)
 
 public Action:sm_say_senmo(args)
 {
-	CPrintToChatAll("{blue}[Server]:{lime}任务地图{white},跟随任务完成地图.");
+	CPrintToChatAll("{blue}[Server]:{lime}任务图{white},跟随任务完成地图.");
 	return Plugin_Handled;
 }
 
 public Action:sm_say_senms(args)
 {
 	CPrintToChatAll("{blue}[Server]:{coral}防守图{white},看好据点!");
+	return Plugin_Handled;
+}
+
+public Action:sm_say_semg(args)
+{
+	CPrintToChatAll("{blue}[Server]:{hotpink}小游戏图{white},注意看作者的说明或其他观察熟练的玩家操作,进行游玩.\n如果服务器有对相关地图有玩法进行说明记得查看!");
 	return Plugin_Handled;
 }
