@@ -16,7 +16,7 @@
 #define CHAT_COLOR_PRIMARY		3
 #define CHAT_COLOR_SECONDARY	1
 
-//#define USE_HUD					1 // UNDONE
+#define USE_HUD					1 // UNDONE
 
 
 new Handle:nmp_dn_version = INVALID_HANDLE;
@@ -60,19 +60,19 @@ public Plugin:myinfo = {
 
 public OnPluginStart()
 {
-	nmp_dn_version = CreateConVar( "nmp_dn_version", PLUGIN_VERSION, "NoMorePlugins Death Notifications", FCVAR_PLUGIN|FCVAR_NOTIFY|FCVAR_REPLICATED|FCVAR_SPONLY );
+	nmp_dn_version = CreateConVar( "nmp_dn_version", PLUGIN_VERSION, "NoMorePlugins Death Notifications", FCVAR_NONE|FCVAR_NOTIFY|FCVAR_REPLICATED|FCVAR_SPONLY );
 	SetConVarString( nmp_dn_version, PLUGIN_VERSION );
 	HookConVarChange( nmp_dn_version, OnConVarChanged_Version );
 	
-	HookConVarChange( nmp_dn_enabled = CreateConVar( "nmp_dn_enabled", bEnabled ? "1" : "0", _, FCVAR_PLUGIN, true, 0.0, true, 1.0 ), OnConVarChanged );
-	HookConVarChange( nmp_dn_debug = CreateConVar( "nmp_dn_debug", "0", "Debug messages:\n0 - disabled,\n1 - server console only,\n2 - server console and logs.", FCVAR_PLUGIN, true, 0.0, true, 2.0 ), OnConVarChanged );
-	HookConVarChange( nmp_dn_teamattacks = CreateConVar( "nmp_dn_teamattacks", bTA ? "1" : "0", "Enable TeamAttack notifications.", FCVAR_PLUGIN, true, 0.0, true, 1.0 ), OnConVarChanged );
-	HookConVarChange( nmp_dn_hardcore = CreateConVar( "nmp_dn_hardcore", "1", "Obey sv_hardcore_survival:\n0 - print all notifications,\n1 - print team kills only,\n2 - don't print anything.", FCVAR_PLUGIN, true, 0.0, true, 2.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_enabled = CreateConVar( "nmp_dn_enabled", bEnabled ? "1" : "0", _, FCVAR_NONE, true, 0.0, true, 1.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_debug = CreateConVar( "nmp_dn_debug", "0", "Debug messages:\n0 - disabled,\n1 - server console only,\n2 - server console and logs.", FCVAR_NONE, true, 0.0, true, 2.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_teamattacks = CreateConVar( "nmp_dn_teamattacks", bTA ? "1" : "0", "Enable TeamAttack notifications.", FCVAR_NONE, true, 0.0, true, 1.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_hardcore = CreateConVar( "nmp_dn_hardcore", "1", "Obey sv_hardcore_survival:\n0 - print all notifications,\n1 - print team kills only,\n2 - don't print anything.", FCVAR_NONE, true, 0.0, true, 2.0 ), OnConVarChanged );
 	HookConVarChange( sv_hardcore_survival = FindConVar( "sv_hardcore_survival" ), OnConVarChanged );
 #if defined USE_HUD
-	HookConVarChange( nmp_dn_hud = CreateConVar( "nmp_dn_hud", bHUD ? "1" : "0", "Set 1 to print notifications in top right corner, otherwise - in chat.", FCVAR_PLUGIN, true, 0.0, true, 1.0 ), OnConVarChanged );
-	HookConVarChange( nmp_dn_hud_x = CreateConVar( "nmp_dn_hud_x", "1.0", _, FCVAR_PLUGIN, true, 0.0, true, 1.0 ), OnConVarChanged );
-	HookConVarChange( nmp_dn_hud_y = CreateConVar( "nmp_dn_hud_y", "0.0875", _, FCVAR_PLUGIN, true, 0.0, true, 1.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_hud = CreateConVar( "nmp_dn_hud", bHUD ? "0" : "0", "Set 1 to print notifications in top right corner, otherwise - in chat.", FCVAR_NONE, true, 0.0, true, 1.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_hud_x = CreateConVar( "nmp_dn_hud_x", "1.0", _, FCVAR_NONE, true, 0.0, true, 1.0 ), OnConVarChanged );
+	HookConVarChange( nmp_dn_hud_y = CreateConVar( "nmp_dn_hud_y", "0.0875", _, FCVAR_NONE, true, 0.0, true, 1.0 ), OnConVarChanged );
 #endif
 	
 	HookEvent( "player_spawn", Event_PlayerSpawn );
