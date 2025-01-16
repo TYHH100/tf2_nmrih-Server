@@ -2,6 +2,7 @@
 
 #include <sourcemod>
 #include <sdktools>
+#include <morecolors>
 
 #define PLUGIN_VERSION			"1.2-20181014"
 
@@ -152,7 +153,7 @@ public Event_PlayerHurt( Handle:hEvent, const String:szEventName[], bool:bDontBr
 		flLastTA = flCurTime;
 		PrintToServer( "%N 攻击了队友", iAClient );
 		if( !bDontBroadcast && ( !bHardcode || nHardcoreMode < 2 ) )
-			PrintToChatAll( "%c%N%c 攻击了队友", CHAT_COLOR_SECONDARY, iAClient, CHAT_COLOR_PRIMARY );
+			CPrintToChatAll( "{gold}[误伤]{white}%c%N%c 攻击了队友", CHAT_COLOR_SECONDARY, iAClient, CHAT_COLOR_PRIMARY );
 	}
 }
 
@@ -182,7 +183,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于尸变的队友.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于尸变的队友.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于尸变的队友.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				else if( StrContains( szWeapon, "_kidzombie", false ) > 0 )
 				{
@@ -191,7 +192,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于小孩僵尸.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于小孩僵尸.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于小孩僵尸.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				else if( StrContains( szWeapon, "zombie", false ) > 0 )
 				{
@@ -200,7 +201,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于僵尸.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于僵尸.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于僵尸.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				else
 				{
@@ -209,7 +210,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于NPC.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于NPC.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于NPC.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 			}
 			DebugMessage( "Death: '%N', NPC, '%s'", iVClient, szWeapon );
@@ -226,7 +227,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于感染.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于感染.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于感染.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				DebugMessage( "Death: '%N', infection, '%s'", iVClient, szWeapon );
 			}
@@ -239,7 +240,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 死于流血.", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 死于流血.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于流血.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				DebugMessage( "Death: '%N', blood loss, '%s'", iVClient, szWeapon );
 			}
@@ -252,7 +253,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 						PrintToHUDAll( "%N 告别，残酷的世界!", iVClient );
 					else
 #endif
-					PrintToChatAll( "%c玩家 %c%N%c 自杀或断开连接.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+					CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 自杀或断开连接.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 				}
 				DebugMessage( "Death: '%N', suicide, '%s'", iVClient, szWeapon );
 			}
@@ -266,7 +267,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 					PrintToHUDAll( "%N killed %N with %s", iAClient, iVClient, szWeapon );
 				else
 #endif
-				PrintToChatAll( "%c玩家 %c%N%c 死于 %c%N%c 之手.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iAClient, CHAT_COLOR_PRIMARY );
+				CPrintToChatAll( "{red}[误杀]{white}%c玩家 %c%N%c 死于 %c%N%c 之手.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iAClient, CHAT_COLOR_PRIMARY );
 			}
 			DebugMessage( "Death: '%N', '%N', '%s'", iVClient, iAClient, szWeapon );
 		}
@@ -279,7 +280,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 					PrintToHUDAll( "%N fell to a clumsy, painful death!", iVClient );
 				else
 #endif
-				PrintToChatAll( "%c玩家 %c%N%c 死于环境击杀.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+				CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死于环境击杀.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 			}
 			DebugMessage( "Death: '%N', world, '%s'", iVClient, szWeapon );
 		}
@@ -292,7 +293,7 @@ public Event_PlayerDeath( Handle:hEvent, const String:szEventName[], bool:bDontB
 					PrintToHUDAll( "%N dead.", iVClient );
 				else
 #endif
-				PrintToChatAll( "%c玩家 %c%N%c 死了.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
+				CPrintToChatAll( "{red}[死亡]{white}%c玩家 %c%N%c 死了.", CHAT_COLOR_PRIMARY, CHAT_COLOR_SECONDARY, iVClient, CHAT_COLOR_PRIMARY );
 			}
 			DebugMessage( "Death: '%N', #%d, '%s'", iVClient, iAttacker, szWeapon );
 		}
