@@ -103,9 +103,16 @@ HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hls
 
 需要搭配启动项
 ```Shell
+    仅限Linux
     -autoupdate //在游戏启动的时候自动检查更新
     -steam_dir /home/steamcmd //设置steamcmd文件路径
     -steamcmd_script /home/steamcmd/nmrih.txt //设置执行脚本或txt文件路径
+
+    txt 内容大致如下
+    login anonymous 
+    force_install_dir /home/nmrihserver //这里是游戏服务器的路径,如果文件路径有空格记得加双引号
+    app_update 317670 
+    quit
 ```
 
 ## [Invisible Weapons Fix](https://github.com/dysphie/nmrih-invisible-weapons-fix)
@@ -114,22 +121,32 @@ HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hls
 ## [Full Infinite Ammo](https://forums.alliedmods.net/showthread.php?p=2082039)
 提供无限备弹或弹夹、无限体力
 
+管理员指令
+- !fia			//
+- !rof			//
+- !stamina		//
+- !ni			//
+- !fia_reload	//
+
 ## [Hostname Waves & Objectives](https://forums.alliedmods.net/showthread.php?p=2280126)
 提供服务器名字后缀动态变化的当前任务或当前回合
+
+ConVar
+-
 
 ## [Clear map](https://forums.alliedmods.net/showthread.php?p=2284631)
 提供清理物品和僵尸的指令
 
 管理员指令
-- !clear
-- !nonpcs
-- !count
+- !clear     //清理所有物品和僵尸
+- !nonpcs    //清理所有僵尸
+- !count     //在聊天框输出僵尸和物品数量
 
 ## [HexTags](https://forums.alliedmods.net/showthread.php?p=2566623)
 可以给玩家名字前面加上前缀
 
 管理员指令
-- !reloadtags
+- !reloadtags //刷新配置文件
 
 需要插件[Chat-Processor](https://forums.alliedmods.net/showthread.php?p=2448733)
 
@@ -137,7 +154,7 @@ HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hls
 提供复活玩家清理僵尸等相关功能
 
 管理员指令
-- !rsp
+- !rsp //打开插件菜单
 
 ## [Fake sv_downloadurl to players](https://forums.alliedmods.net/showthread.php?p=1572227)
 为玩家提供虚假的返回链接
@@ -151,14 +168,21 @@ HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hls
 ## [Delay Command](https://forums.alliedmods.net/showthread.php?t=309101)
 用于延迟执行指令
 
+指令
+考虑到这个一般都是用于cfg以及相关自动化执行,所以这边不加感叹号了
+- sm_delaycmd 			//[时间(s)] [执行内容,如果要输出带空格的文本需要加""双引号]
+- sm_delaycmd_list		//
+- sm_delaycmd_cancel	//
+- sm_delaycmd_rcon		//
+
 ## [Custom Votes Redux - Modified](https://github.com/caxanga334/cvreduxmodified)
 提供一个自定义投票功能
 
 指令
-- !votemenu
+- !votemenu	//打开投票菜单
 
 管理员指令
-- !customvotes_reload
+- !customvotes_reload //刷新配置文件
 
 ## [SourceBans++](https://github.com/sbpp/sourcebans-pp/)
 提供多服务器管理
@@ -189,7 +213,7 @@ HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hls
 修改:插件添加了,玩家加入游戏聊天框提示!h
 
 管理员指令
-- !advhr
+- !advhr //刷新配置文件
 
 ## [AutoJoinGame](https://forums.alliedmods.net/showthread.php?p=2069806)
 自动跳过加入游戏
