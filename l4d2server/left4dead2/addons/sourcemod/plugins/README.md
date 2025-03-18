@@ -51,3 +51,10 @@
 HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hlstatsx-community-edition/src/master/sourcemod/scripting/hlstatsx.sp)
 
 用于向聊天框发送,带有相关前缀的消息
+
+## [L4D - L4D2 Silent sm_cvar](https://forums.alliedmods.net/showthread.php?p=2827055)
+用来静默执行一些cvar指令(不会在聊天框或服务器控制台中输出)
+
+管理员指令
+- !silentcvar
+- !silentresetcvar // 重置cvar
