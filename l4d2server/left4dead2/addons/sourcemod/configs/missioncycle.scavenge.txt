@@ -13,7 +13,3 @@ L4D2C12
 // 3-rd maps(Do not delete/modify this line!)
 L4D2C14
 L4D2C9
-Badwater
-upward
-Diescraper362VS
-suicideblitz2

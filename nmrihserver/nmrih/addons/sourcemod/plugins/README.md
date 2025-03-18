@@ -21,7 +21,7 @@
 代码来自[
 HLstatsX Community Edition|hlstatsx.sp](https://bitbucket.org/Maverick_of_UC/hlstatsx-community-edition/src/master/sourcemod/scripting/hlstatsx.sp)
 
-用于向聊天框发送,相关消息
+用于向聊天框发送,带有相关前缀的消息和预设好的文本
 
 ## [Backpack 2](https://github.com/dysphie/nmrih-backpack2?tab=readme-ov-file)
 提供也可以供玩家存储物品的背包(容器)
@@ -185,13 +185,13 @@ ConVar
 - !customvotes_reload //刷新配置文件
 
 ## [SourceBans++](https://github.com/sbpp/sourcebans-pp/)
-提供多服务器管理
+提供多服务器管理.
+例如添加管理员、发送rcon、添加ban.
 
-例如添加管理员、发送rcon、添加ban
-
-需要配置MySQL 5.6或MariaDB 10以及PHP 8.1或更高版本
+需要配置MySQL 5.6或MariaDB 10以及PHP 8.1或更高版本.
 
 假如Web是1.6.4
+
 需要配置PHP 5.6
 
 需要以及扩展PHP
@@ -202,14 +202,12 @@ ConVar
 - mysqli
 
 ## [Anti-Stuck](https://forums.alliedmods.net/showthread.php?p=2590950)
-可以让玩家脱离卡点
-
+可以让玩家脱离卡点.
 指令
 - !stuck
 
 ## [Advenced help menu](https://forums.alliedmods.net/showthread.php?p=2798458)
-提供可以打开的菜单
-
+提供可以打开的菜单.
 修改:插件添加了,玩家加入游戏聊天框提示!h
 
 管理员指令

@@ -193,7 +193,7 @@
 	"官方任务地图"
 	{
 		"maps_invote"   "7"
-		"command"		"sm_delaycmd 40 sm_say_senmo;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;sm_inf_stamina 0;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senmo;sm_execcfg nmo_umc.cfg"
 
 		"nmo_anxiety"
 		{
@@ -280,7 +280,7 @@
 	"官方生存地图"
 	{
 		"maps_invote"   "7"
-		"command"		"sm_delaycmd 40 sm_say_senms;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senms;sm_execcfg nms_umc.cfg"
 
 		"nms_arpley"
 		{
@@ -339,7 +339,7 @@
 	"创意工坊任务地图-1"
 	{
 		"maps_invote"	"7"
-		"command"		"sm_delaycmd 40 sm_say_senmo;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;sm_inf_stamina 0;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senmo;sm_execcfg nmo_umc.cfg"
 
 		"nmo_2012_t1_3"		{}
 		"nmo_3tunnel"		{}
@@ -432,7 +432,7 @@
 	"创意工坊任务地图-2"
 	{
 		"maps_invote"	"7"
-		"command"		"sm_delaycmd 40 sm_say_senmo;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;sm_inf_stamina 0;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senmo;sm_execcfg nmo_umc.cfg"
 
 		"nmo_collegiate_v3_final"	{}
 		"nmo_condemned_1094"	{}
@@ -520,7 +520,7 @@
 	"创意工坊任务地图-3"
 	{
 		"maps_invote"	"7"
-		"command"		"sm_delaycmd 40 sm_say_senmo;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;sm_inf_stamina 0;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senmo;sm_execcfg nmo_umc.cfg"
 
 		"nmo_fema_reverse"	{}
 		"nmo_flowingdisaster_b3_mcg_v3"	{}
@@ -614,13 +614,13 @@
 		"nmo_sewer_system_b2"	{}
 		"nmo_diaotu1_v4_3"
 		{
-		    "command"       "nmp_fia_stamina 150;sm_delaycmd 10 sv_difficulty casual"
+		    "command"       "sm_delaycmd 10 nmp_fia_stamina 150;sm_delaycmd 10 sv_difficulty casual"
 		}
 	}
 	"创意工坊任务地图-放工坊的新图"
 	{
 		"maps_invote"	"7"
-		"command"		"sm_delaycmd 40 sm_say_senmo;sm plugins unload disabled/weapon_menu_t.smx;sm plugins load weapon_menu.smx;nmrih-infinite-ammo_enable 0;sm plugins unload disabled/FutureExe.smx;sm plugins load nmp_deaths.smx;sm_inf_stamina 0;nmp_fia_for_all 0"
+		"command"		"sm_delaycmd 40 sm_say_senmo;sm_execcfg nmo_umc.cfg"
 
 		"nmo_cambalache_barrios"
 		{
@@ -630,7 +630,7 @@
 		"nmo_decimal_m1_v1_4"
 		{
 			"display"		"nmo_decimal_m1_v1_4|2024/10/5/下午5:01(启用无限体力)"
-			"command"		"nmp_fia_for_all 0;nmp_fia_stamina 150"
+			"command"		"sm_delaycmd 10 nmp_fia_for_all 0;sm_delaycmd 10 nmp_fia_stamina 150"
 		}
 		"nmo_raccooncitystreets"
 		{
@@ -676,7 +676,7 @@
 	"挑战图(一般指群友亲身经历难度高的地图)"
 	{
 	    "maps_invote"	"7"
-	    "command"		"sm_delaycmd 40 sm_say_sechallenge;nmp_fia_for_all 0;sm_inf_stamina 0"
+	    "command"		"sm_delaycmd 40 sm_say_sechallenge;sm_execcfg sechallenge_umc.cfg"
 	    
 	    "nmo_traphouse_v1_4_5"
 	    {
@@ -727,7 +727,7 @@
 	"练刀图(启用无限体力,难度:经典)"
 	{
 		"maps_invote"			"5"
-		"command"		"sm_delaycmd 40 sm_say_sepracticesabre;nmp_fia_for_all 0;nmp_fia_stamina 150;sm_delaycmd 10 sv_difficulty casual"
+		"command"		"sm_delaycmd 40 sm_say_sepracticesabre;sm_execcfg sepracticesabre_umc.cfg"
 
 		"nmo_doom"	{}
 		"nmo_tower_of_trials_v3_1" {}
@@ -739,7 +739,7 @@
 		"maps_invote"			"2"
 		"default_min_players"   "36"
 		"default_max_players"   "9" 
-		"command"				"sm_delaycmd 40 sm_say_sepvp;mp_friendlyfire 1;sm plugins load disabled/weapon_menu_t.smx;sm plugins unload weapon_menu.smx;sm plugins load disabled/FutureExe.smx;sm_future 3 'exec sm_count.cfg';sm plugins unload nmp_deaths.smx;nmp_fia_for_all 1"
+		"command"				"sm_delaycmd 40 sm_say_sepvp;sm_execcfg pvp_umc.cfg"
 
 		"pvp_transportship" {}
 		"pvp_de_dust_2"	{}

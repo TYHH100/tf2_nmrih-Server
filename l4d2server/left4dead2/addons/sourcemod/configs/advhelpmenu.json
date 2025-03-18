@@ -42,30 +42,6 @@
 								}
 							]
 						}
-					},
-					{
-						"服务器网站|Server Web":
-						{
-							"exit": "true",
-							"type": "menu",
-							"data":
-							[
-								{
-									"博客|blog":
-									{
-										"type": "motd",
-										"url":  "https://blog.tyhh10.xyz/archives/"
-									}
-								},
-								{
-									"SourceBans Web":
-									{
-										"type": "motd",
-										"url":  "https://bans.tyhh10.xyz/index.php?p=home"
-									}
-								}
-							]
-						}
 					}
 				]
 			}
