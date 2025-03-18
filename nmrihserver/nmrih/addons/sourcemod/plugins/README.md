@@ -186,9 +186,9 @@ ConVar
 
 ## [SourceBans++](https://github.com/sbpp/sourcebans-pp/)
 提供多服务器管理.
-例如添加管理员、发送rcon、添加ban.
+例如添加管理员、发送rcon、添加ban
 
-需要配置MySQL 5.6或MariaDB 10以及PHP 8.1或更高版本.
+需要配置MySQL 5.6或MariaDB 10以及PHP 8.1或更高版本
 
 假如Web是1.6.4
 
@@ -202,12 +202,12 @@ ConVar
 - mysqli
 
 ## [Anti-Stuck](https://forums.alliedmods.net/showthread.php?p=2590950)
-可以让玩家脱离卡点.
+可以让玩家脱离卡点
 指令
 - !stuck
 
 ## [Advenced help menu](https://forums.alliedmods.net/showthread.php?p=2798458)
-提供可以打开的菜单.
+提供可以打开的菜单
 修改:插件添加了,玩家加入游戏聊天框提示!h
 
 管理员指令
